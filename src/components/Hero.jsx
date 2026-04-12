@@ -21,7 +21,7 @@ const Hero = () => {
         <div className="hero-content">
           <div className="status-badge fade-in">
             <span className="dot-pulse"></span>
-            Available for internships
+            Available For New Opportunities
           </div>
           <p className="greeting">{greeting}, saya</p>
           <h1 className="name">Dhani Kartika Prihantyo</h1>
