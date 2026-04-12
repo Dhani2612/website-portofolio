@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
+import { AnimatePresence } from 'framer-motion';
 import Header from './components/Header';
 import LoadingScreen from './components/LoadingScreen';
 import Background from './components/Background';
@@ -9,6 +10,7 @@ import './index.css';
 import { Analytics } from "@vercel/analytics/react";
 
 function App() {
+  const location = useLocation();
   const [theme, setTheme] = useState('dark');
   const [isLoading, setIsLoading] = useState(true);
   const [showLoadingScreen, setShowLoadingScreen] = useState(true);
@@ -30,7 +32,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
+    <>
       <div className="app-container">
         {showLoadingScreen && (
           <LoadingScreen 
@@ -43,13 +45,15 @@ function App() {
         
         <Header theme={theme} toggleTheme={toggleTheme} />
         
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/project/:id" element={<ProjectDetail />} />
-        </Routes>
+        <AnimatePresence mode="wait">
+          <Routes location={location} key={location.pathname}>
+            <Route path="/" element={<Home />} />
+            <Route path="/project/:id" element={<ProjectDetail />} />
+          </Routes>
+        </AnimatePresence>
       </div>
       <Analytics />
-    </BrowserRouter>
+    </>
   );
 }
 

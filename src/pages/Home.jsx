@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import { motion } from 'framer-motion';
 import Hero from '../components/Hero';
 import Experience from '../components/Experience';
 import Portfolio from '../components/Portfolio';
@@ -19,12 +20,17 @@ const Home = () => {
   }, [location.state]);
 
   return (
-    <main>
+    <motion.main
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -20 }}
+      transition={{ duration: 0.3 }}
+    >
       <Hero />
       <Experience />
       <Portfolio />
       <Contact />
-    </main>
+    </motion.main>
   );
 };
 

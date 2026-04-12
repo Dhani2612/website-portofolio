@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
+import { motion } from 'framer-motion';
 import { FiArrowLeft, FiGithub, FiExternalLink, FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 import { projects } from '../data/projectsData';
 import './ProjectDetail.css';
@@ -18,10 +19,16 @@ const ProjectDetail = () => {
 
   if (!project) {
     return (
-      <div className="project-detail-not-found">
+      <motion.div 
+        className="project-detail-not-found"
+        initial={{ opacity: 0, scale: 0.9 }}
+        animate={{ opacity: 1, scale: 1 }}
+        exit={{ opacity: 0, scale: 0.9 }}
+        transition={{ duration: 0.3 }}
+      >
         <h2>Mohon maaf, Proyek ini tidak ditemukan!</h2>
         <button onClick={() => navigate('/')} className="btn btn-primary">Kembali ke Beranda</button>
-      </div>
+      </motion.div>
     );
   }
 
@@ -33,7 +40,13 @@ const ProjectDetail = () => {
   };
 
   return (
-    <div className="project-detail-page fade-in">
+    <motion.div 
+      className="project-detail-page fade-in"
+      initial={{ opacity: 0, x: 50 }}
+      animate={{ opacity: 1, x: 0 }}
+      exit={{ opacity: 0, x: -50 }}
+      transition={{ duration: 0.4 }}
+    >
       <div className="container">
 
         <button onClick={() => navigate('/')} className="back-btn">
@@ -120,7 +133,7 @@ const ProjectDetail = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
