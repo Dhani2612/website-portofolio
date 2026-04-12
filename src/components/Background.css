@@ -1,0 +1,85 @@
+.interactive-bg-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -10;
+  overflow: hidden;
+  background-color: var(--bg-color); /* Linked to index.css variable */
+  transition: background-color var(--transition-speed);
+}
+
+/* Flashlight / Glow Orb */
+.mouse-glow-orb {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background: radial-gradient(
+    circle 600px at var(--mouse-x, -1000px) var(--mouse-y, -1000px),
+    rgba(56, 189, 248, 0.08),
+    transparent 70%
+  );
+  z-index: 1;
+  transition: background 0.1s;
+}
+
+[data-theme='light'] .mouse-glow-orb {
+  background: radial-gradient(
+    circle 600px at var(--mouse-x, -1000px) var(--mouse-y, -1000px),
+    rgba(249, 115, 22, 0.08),
+    transparent 70%
+  );
+}
+
+/* Subtle Graph-Paper Grid Overlay */
+.bg-grid-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 50px 50px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  z-index: 0;
+}
+
+[data-theme='light'] .bg-grid-overlay {
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.02) 1px, transparent 1px);
+}
+
+/* Bintang-Bintang */
+.stars-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.star-node {
+  position: absolute;
+  background-color: #38bdf8;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #38bdf8, 0 0 20px #38bdf8;
+  animation: glowTwinkle 4s infinite alternate ease-in-out;
+}
+
+[data-theme='light'] .star-node {
+  background-color: #ea580c;
+  box-shadow: 0 0 10px #ea580c;
+}
+
+@keyframes glowTwinkle {
+  0% { transform: scale(1) translateY(0); opacity: 0.2; }
+  50% { opacity: 1; }
+  100% { transform: scale(1.5) translateY(-10px); opacity: 0.2; }
+}
