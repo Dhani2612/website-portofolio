@@ -6,6 +6,7 @@ import Background from './components/Background';
 import Home from './pages/Home';
 import ProjectDetail from './pages/ProjectDetail';
 import './index.css';
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   const [theme, setTheme] = useState('dark');
@@ -47,6 +48,7 @@ function App() {
           <Route path="/project/:id" element={<ProjectDetail />} />
         </Routes>
       </div>
+      <Analytics />
     </BrowserRouter>
   );
 }
