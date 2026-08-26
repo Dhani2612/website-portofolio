@@ -111,5 +111,26 @@ Di sisi kapabilitas backend, aplikasi ini meninggalkan pendekatan konvensional d
       "Modul spesifik untuk penetapan dan pelacakan 'Jatah Pupuk' (kuota individu)",
       "Antarmuka responsif dan teraksesibilitas baik menggunakan Tailwind CSS"
     ]
+  },
+  {
+    id: 6,
+    title: "Portal Desa | Padukuhan Karang",
+    desc: "Portal informasi resmi dan profil digital untuk Padukuhan Karang, menonjolkan potensi UMKM warga dan galeri kegiatan KKN.",
+    tags: ["React", "Tailwind CSS", "Vite", "Web"],
+    img: "/kknkarang1.png",
+    github: "#",
+    demo: "https://padukuhankarang.vercel.app/",
+    longDesc: `Proyek "Portal Desa Padukuhan Karang" ini saya rancang sebagai bentuk digitalisasi dan wujud pengabdian masyarakat saat menjalankan Kuliah Kerja Nyata (KKN) dari UPN "Veteran" Yogyakarta. Tujuan utamanya adalah untuk mengangkat potensi lokal desa ke ranah internet agar lebih mudah dijangkau dan dikenal publik luas.
+
+Lewat platform website ini, pengunjung dapat menjelajahi profil wilayah, melihat peta katalog UMKM unggulan milik warga (seperti kerajinan tangan dan kuliner lokal), serta menelusuri galeri dokumentasi program kerja yang telah kami jalankan bersama warga desa.
+
+Website ini saya kembangkan secara penuh menggunakan ekosistem React dan Vite, dipadukan dengan Tailwind CSS. Pendekatan ini memastikan tampilan antarmuka yang bersih, responsif di berbagai perangkat smartphone warga, serta memiliki performa muat halaman yang sangat gesit.`,
+    collages: ["/kknkarang1.png", "/kknkarang2.png"],
+    features: [
+      "Katalog promosi UMKM unggulan warga lokal",
+      "Profil sejarah, demografi, dan struktur organisasi padukuhan",
+      "Galeri arsip dokumentasi program kerja KKN UPNVY",
+      "Desain responsif yang sangat ringan diakses lewat perangkat mobile"
+    ]
   }
 ];
