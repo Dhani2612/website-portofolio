@@ -132,5 +132,26 @@ Website ini saya kembangkan secara penuh menggunakan ekosistem React dan Vite, d
       "Galeri arsip dokumentasi program kerja KKN UPNVY",
       "Desain responsif yang sangat ringan diakses lewat perangkat mobile"
     ]
+  },
+  {
+    id: 7,
+    title: "Sistem Buku Tamu Digital | Humas UPNYK",
+    desc: "Sistem informasi pencatatan dan manajemen data tamu yang berkunjung ke divisi Hubungan Masyarakat UPN \"Veteran\" Yogyakarta.",
+    tags: ["JavaScript", "Apps Script", "Web", "CMS"],
+    img: "/tamukermahum.png",
+    github: "#",
+    demo: "#",
+    longDesc: `Sistem Buku Tamu Digital ini saya kembangkan secara khusus selama bertugas sebagai Web & CMS Administrator di Divisi Hubungan Masyarakat (Humas) UPN "Veteran" Yogyakarta. Proyek ini lahir dari inisiatif untuk mendigitalisasi proses pencatatan kehadiran tamu yang sebelumnya masih mengandalkan buku catatan manual.
+
+Melalui aplikasi berbasis web ini, petugas maupun tamu dapat melakukan registrasi kedatangan dengan lebih cepat dan terstruktur. Sistem akan secara otomatis mencatat identitas, instansi asal, tujuan kunjungan, serta cap waktu (timestamp) secara akurat ke dalam basis data terpusat.
+
+Selain mempercepat alur operasional di meja resepsionis, digitalisasi ini sangat mempermudah divisi Humas dalam melakukan rekapitulasi pelaporan, pencarian arsip tamu masa lalu, dan analisis data kunjungan guna mendukung peningkatan layanan publik instansi.`,
+    collages: ["/tamukermahum.png", "/tamukermahum2.png"],
+    features: [
+      "Digitalisasi penuh untuk pencatatan buku tamu instansi resmi",
+      "Penyimpanan data terstruktur dengan pencatatan waktu otomatis (Timestamp)",
+      "Antarmuka pengisian formulir yang intuitif dan responsif",
+      "Sistem rekapitulasi data untuk mempermudah audit dan pelaporan"
+    ]
   }
 ];
