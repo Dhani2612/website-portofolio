@@ -44,7 +44,7 @@ const Experience = () => {
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
                   <span className="timeline-date">April 2026</span>
-                  <h4 className="timeline-role">Peserta, Ketua Tim</h4>
+                  <h4 className="timeline-role">TOP 800 Proposalist, Ketua Tim</h4>
                   <p className="timeline-company">PIDI - DIGDAYA X Hackathon 2026</p>
                   <p className="timeline-desc">Memimpin tim pengembang merancang "NusaLink AI", sebuah ekosistem remote-work untuk mengakselerasi ekspor talenta IT lokal ke pasar global. Mengonsep arsitektur platform yang mengintegrasikan Local Language Model (LLM) untuk penerjemahan komunikasi real-time dan Smart Contract Escrow (Blockchain) guna menekan biaya transaksi lintas negara hingga 0%.</p>
                 </div>
@@ -82,7 +82,6 @@ const Experience = () => {
             </div>
           </div>
 
-          {/* Bagian Organisasi (Kanan) */}
           <div className="timeline-column fade-in">
             <h3 className="column-title"><FiUsers /> Organisasi & Kepanitiaan</h3>
             <div className="timeline">
