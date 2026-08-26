@@ -43,6 +43,16 @@ const Experience = () => {
               <div className="timeline-item">
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
+                  <span className="timeline-date">Agustus 2026 - November 2026</span>
+                  <h4 className="timeline-role">Web & CMS Administrator</h4>
+                  <p className="timeline-company">Divisi Humas UPN "Veteran" Yogyakarta</p>
+                  <p className="timeline-desc">Sebagai Administrator Web & CMS untuk Hubungan Masyarakat (Humas) UPN "Veteran" Yogyakarta, saya menjembatani rekayasa perangkat lunak dengan manajemen informasi publik. Tanggung jawab utama saya meliputi pengembangan dan pemeliharaan sistem web yang dirancang khusus untuk mendukung operasional digital divisi ini. Saya secara aktif mengelola Content Management System (CMS) untuk mempublikasikan berita, artikel, dan pengumuman resmi, memastikan distribusi informasi yang tepat waktu. Selain itu, saya terus mengoptimalkan Antarmuka Pengguna (UI) situs web untuk memberikan pengalaman navigasi yang intuitif, responsif, dan mudah diakses bagi sivitas akademika maupun masyarakat umum.</p>
+                </div>
+              </div>
+
+              <div className="timeline-item">
+                <div className="timeline-dot"></div>
+                <div className="timeline-content">
                   <span className="timeline-date">April 2026</span>
                   <h4 className="timeline-role">TOP 800 Proposalist, Ketua Tim</h4>
                   <p className="timeline-company">PIDI - DIGDAYA X Hackathon 2026</p>
