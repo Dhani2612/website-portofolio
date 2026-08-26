@@ -89,6 +89,16 @@ const Experience = () => {
               <div className="timeline-item">
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
+                  <span className="timeline-date">Juli 2026</span>
+                  <h4 className="timeline-role">Koordinator Mahasiswa Kelompok KKN UPNYK 84.065</h4>
+                  <p className="timeline-company">LPPM UPN "Veteran" Yogyakarta</p>
+                  <p className="timeline-desc">Sebagai Koordinator Mahasiswa untuk program Kuliah Kerja Nyata (KKN), saya memimpin dan mengonsolidasikan tim mahasiswa multidisiplin untuk mengeksekusi inisiatif pemberdayaan masyarakat yang strategis. Saya bertindak sebagai penghubung utama yang menjembatani komunikasi antara perangkat desa, dosen pembimbing lapangan, dan anggota tim untuk mengarahkan serta menyelesaikan tantangan operasional di lapangan. Melalui koordinasi tim yang terstruktur dan manajemen proyek yang efektif, saya berhasil mengawasi pelaksanaan program kerja utama kami dari awal hingga akhir, memastikan upaya kolaboratif kami memberikan dampak positif yang langsung dan nyata bagi masyarakat setempat.</p>
+                </div>
+              </div>
+
+              <div className="timeline-item">
+                <div className="timeline-dot"></div>
+                <div className="timeline-content">
                   <span className="timeline-date">2024</span>
                   <h4 className="timeline-role">Speaker (Sekolah Kastrat)</h4>
                   <p className="timeline-company">HMTM UPN "Veteran" Yogyakarta</p>
