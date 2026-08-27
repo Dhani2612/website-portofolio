@@ -1,8 +1,14 @@
 import React, { useEffect, useState, useRef } from 'react';
+import { motion, useMotionValue, useSpring, useMotionTemplate } from 'framer-motion';
 import './Background.css';
 
 const Background = () => {
-  const [mousePos, setMousePos] = useState({ x: -1000, y: -1000 });
+  const mouseX = useMotionValue(-1000);
+  const mouseY = useMotionValue(-1000);
+  
+  const springX = useSpring(mouseX, { damping: 25, stiffness: 120 });
+  const springY = useSpring(mouseY, { damping: 25, stiffness: 120 });
+
   const [stars, setStars] = useState([]);
   const bgRef = useRef(null);
 
@@ -25,25 +31,24 @@ const Background = () => {
     generateStars();
 
     const handleMouseMove = (e) => {
-      requestAnimationFrame(() => {
-        setMousePos({ x: e.clientX, y: e.clientY });
-      });
+      mouseX.set(e.clientX);
+      mouseY.set(e.clientY);
     };
 
     window.addEventListener('mousemove', handleMouseMove);
     return () => window.removeEventListener('mousemove', handleMouseMove);
-  }, []);
+  }, [mouseX, mouseY]);
 
   return (
     <div className="interactive-bg-wrapper" ref={bgRef}>
       {/* Glow yang menempel pada mouse */}
-      <div 
+      <motion.div 
         className="mouse-glow-orb"
         style={{
-          '--mouse-x': `${mousePos.x}px`,
-          '--mouse-y': `${mousePos.y}px`
+          '--mouse-x': useMotionTemplate`${springX}px`,
+          '--mouse-y': useMotionTemplate`${springY}px`
         }}
-      ></div>
+      ></motion.div>
 
       {/* Pola Garis Grid Khas Developer */}
       <div className="bg-grid-overlay"></div>

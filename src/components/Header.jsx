@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { FiSun, FiMoon, FiMenu, FiX } from 'react-icons/fi';
+import { FiMenu, FiX, FiTerminal } from 'react-icons/fi';
 import './Header.css';
 
-const Header = ({ theme, toggleTheme }) => {
+const Header = ({ isTerminalOpen, setIsTerminalOpen }) => {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const navigate = useNavigate();
@@ -46,10 +46,15 @@ const Header = ({ theme, toggleTheme }) => {
         </nav>
 
         <div className="header-actions">
-          <button className="theme-toggle" onClick={toggleTheme} aria-label="Toggle Theme">
-            {theme === 'light' ? <FiMoon size={20} /> : <FiSun size={20} />}
-          </button>
-
+          {!isTerminalOpen && (
+            <button 
+              className="terminal-toggle-btn bounce" 
+              onClick={() => setIsTerminalOpen(true)}
+              title="Open Terminal"
+            >
+              <FiTerminal size={22} />
+            </button>
+          )}
           <button className="mobile-toggle" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
             {mobileMenuOpen ? <FiX size={24} /> : <FiMenu size={24} />}
           </button>

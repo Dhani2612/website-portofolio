@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FiInstagram, FiGithub, FiLinkedin, FiMail, FiSend } from 'react-icons/fi';
+import { motion } from 'framer-motion';
 import './Contact.css';
 
 const Contact = () => {
@@ -51,10 +52,16 @@ const Contact = () => {
         <h2 className="section-title">Hubungi <span>Saya</span></h2>
 
         <div className="contact-grid">
-          <div className="contact-info">
+          <motion.div 
+            className="contact-info"
+            initial={{ opacity: 0, x: -30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.6 }}
+          >
             <h3>Mari Berdiskusi & Berkolaborasi!</h3>
             <p className="contact-desc">
-              Saya secara aktif terbuka untuk mendiskusikan berbagai inovasi baru, peluang pekerjaan, atau jika Anda sekadar ingin menyapa. Kirimkan pesan melalui formulir terkait atau hubungi saya via media sosial.
+              Punya ide proyek, tawaran kolaborasi, atau sekadar ingin menyapa? Jangan ragu untuk mengirimkan pesan melalui formulir di samping atau hubungi saya via media sosial!
             </p>
 
             <div className="contact-email">
@@ -73,9 +80,15 @@ const Contact = () => {
                 <FiLinkedin />
               </a>
             </div>
-          </div>
+          </motion.div>
 
-          <div className="contact-form-container">
+          <motion.div 
+            className="contact-form-container"
+            initial={{ opacity: 0, x: 30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+          >
             <form onSubmit={handleSubmit} className="contact-form">
               <div className="form-group">
                 <label htmlFor="name">Nama</label>
@@ -85,7 +98,6 @@ const Contact = () => {
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
-                  placeholder="Masukkan nama Anda"
                   disabled={status.submitting}
                   required
                 />
@@ -98,7 +110,6 @@ const Contact = () => {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  placeholder="Masukkan email Anda"
                   disabled={status.submitting}
                   required
                 />
@@ -110,7 +121,6 @@ const Contact = () => {
                   name="message"
                   value={formData.message}
                   onChange={handleChange}
-                  placeholder="Tulis pesan Anda di sini"
                   rows="5"
                   disabled={status.submitting}
                   required
@@ -136,7 +146,7 @@ const Contact = () => {
                 )}
               </button>
             </form>
-          </div>
+          </motion.div>
         </div>
 
         <div className="footer-bottom">

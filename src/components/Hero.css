@@ -1,13 +1,16 @@
 .hero-container {
   display: grid;
-  grid-template-columns: 1.2fr 1fr;
-  gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
   align-items: center;
 }
 
 .hero-content {
   z-index: 2;
-  padding-left: 2rem;
+  justify-self: end; /* Ini yang akan merapatkan teks ke garis merah (tengah layar) */
+  width: 100%;
+  max-width: 600px;
+  padding-left: 0;
 }
 
 /* Status Badge */
@@ -64,11 +67,12 @@
 
 /* Name — bold editorial */
 .name {
-  font-size: 4.5rem;
+  font-size: 3.8rem;
   font-weight: 700;
   line-height: 1.05;
   margin-bottom: 0.6rem;
-  letter-spacing: -3px;
+  letter-spacing: -2px;
+  white-space: nowrap;
 }
 
 /* Signature — handwritten personal touch */
@@ -138,21 +142,22 @@
 /* Image Terminal */
 .hero-image {
   display: flex;
-  justify-content: center;
+  justify-content: center; /* Terminal lebih ke tengah/kanan dalam kolomnya */
   align-items: center;
   position: relative;
+  padding-left: 1rem;
 }
 
 .hero-terminal {
-  width: 360px;
-  background-color: rgba(15, 23, 42, 0.6);
+  width: 440px;
+  background-color: rgba(12, 12, 12, 0.7);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border-radius: 20px;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.08);
   transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 20px 40px rgba(0, 0, 0, 0.4);
 }
 
 [data-theme='light'] .hero-terminal {
@@ -162,73 +167,145 @@
 }
 
 .hero-terminal:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 30px 80px rgba(37, 99, 235, 0.12);
+  transform: translateY(-4px);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 24px 48px rgba(0, 0, 0, 0.5);
 }
 
-.terminal-header {
+/* Maximized State */
+.hero-terminal.maximized {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw !important;
+  height: 100vh !important;
+  z-index: 9999;
+  border-radius: 0;
+  transform: none !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-terminal.maximized .terminal-cli-body {
+  height: 100%;
+  flex-grow: 1;
+}
+
+.terminal-cli-body {
+  width: 100%;
+  height: 300px;
+  padding: 1rem;
+  font-family: 'Cascadia Code', 'Consolas', 'Courier New', monospace;
+  font-size: 0.85rem;
+  color: #cccccc;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background-color: transparent;
+  /* Hide scrollbar */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.terminal-cli-body::-webkit-scrollbar {
+  display: none;
+}
+
+[data-theme='light'] .terminal-cli-body {
+  color: #333333;
+}
+
+.cli-line {
+  white-space: pre-wrap;
+  line-height: 1.5;
+  margin-bottom: 0.3rem;
+}
+
+.cli-command {
+  color: #f1fa8c; /* Yellow for command */
+  font-weight: 600;
+}
+
+.cli-output {
+  color: #e2e8f0;
+  margin-bottom: 0.25rem;
+}
+
+/* Rich Text Output Styles */
+.cli-response {
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.cli-info {
+  color: #8be9fd; /* Cyan */
+}
+
+.cli-table {
+  border-collapse: collapse;
+}
+
+.cli-table td {
+  padding: 0.1rem 1rem 0.1rem 0;
+  vertical-align: top;
+}
+
+.cli-cmd-name {
+  color: #50fa7b; /* Green */
+  font-weight: 600;
+}
+
+.cli-highlight {
+  color: #bd93f9; /* Purple */
+  font-weight: bold;
+}
+
+.cli-skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.cli-skill {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 0.1rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  color: #f8f8f2;
+}
+
+.cli-link {
+  color: #8be9fd;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.cli-error {
+  color: #ff5555; /* Red */
+}
+
+.cli-input-line {
   display: flex;
   align-items: center;
-  padding: 0.75rem 1rem;
-  background-color: rgba(22, 27, 34, 0.8);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-  position: relative;
+  gap: 0.4rem;
+  margin-top: 0.25rem;
 }
 
-[data-theme='light'] .terminal-header {
-  background-color: rgba(241, 245, 249, 0.9);
-  border-bottom-color: rgba(0, 0, 0, 0.04);
+.cli-prompt {
+  color: #50fa7b; /* Green for PowerShell */
+  font-weight: 600;
+  white-space: nowrap;
 }
 
-.terminal-dots {
-  display: flex;
-  gap: 6px;
-}
-
-.t-dot {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-}
-
-.t-dot.red {
-  background-color: #ff5f56;
-}
-
-.t-dot.yellow {
-  background-color: #ffbd2e;
-}
-
-.t-dot.green {
-  background-color: #27c93f;
-}
-
-.terminal-title {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  font-family: var(--font-body);
-  font-size: 0.8rem;
-  font-weight: 500;
-  color: #64748b;
-  letter-spacing: 0.5px;
-}
-
-.terminal-image-body {
-  width: 100%;
-  aspect-ratio: 1/1;
-  overflow: hidden;
-}
-
-.hero-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.hero-terminal:hover .hero-img {
-  transform: scale(1.04);
+.cli-input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #e2e8f0;
+  font-family: inherit;
+  font-size: inherit;
+  flex-grow: 1;
 }
 
 /* Responsive */
@@ -267,6 +344,6 @@
   }
 
   .hero-terminal {
-    width: 280px;
+    width: 340px;
   }
 }

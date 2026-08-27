@@ -6,7 +6,7 @@ import Experience from '../components/Experience';
 import Portfolio from '../components/Portfolio';
 import Contact from '../components/Contact';
 
-const Home = () => {
+const Home = ({ isTerminalOpen, setIsTerminalOpen }) => {
   const location = useLocation();
 
   useEffect(() => {
@@ -26,7 +26,7 @@ const Home = () => {
       exit={{ opacity: 0, y: -20 }}
       transition={{ duration: 0.3 }}
     >
-      <Hero />
+      <Hero isTerminalOpen={isTerminalOpen} setIsTerminalOpen={setIsTerminalOpen} />
       <Experience />
       <Portfolio />
       <Contact />

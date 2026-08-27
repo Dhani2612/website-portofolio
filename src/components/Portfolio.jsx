@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect, useCallback } from 'react';
 import { Link } from 'react-router-dom';
+import { motion, AnimatePresence } from 'framer-motion';
 import { FiExternalLink, FiAward, FiCode, FiLayers } from 'react-icons/fi';
 import { FaPython, FaReact, FaNodeJs, FaDatabase, FaHtml5, FaCss3Alt, FaGitAlt } from 'react-icons/fa';
 import { 
@@ -33,29 +34,45 @@ const ProjectCard = ({ project }) => {
   }, []);
 
   return (
-    <div
+    <motion.div
       className="project-card"
       onMouseEnter={startSlideshow}
       onMouseLeave={stopSlideshow}
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: "-50px" }}
+      transition={{ duration: 0.5 }}
     >
-      <div className="project-img">
-        <img src={images[imgIndex]} alt={project.title} />
-      </div>
-      <div className="project-info">
-        <h3>{project.title}</h3>
-        <p>{project.desc}</p>
-        <div className="project-tags">
-          {project.tags.map(tag => (
-            <span key={tag}>{tag}</span>
-          ))}
+      <div className="project-img-wrapper">
+        <AnimatePresence mode="wait">
+          <motion.img 
+            key={imgIndex}
+            src={images[imgIndex]} 
+            alt={project.title} 
+            className="project-img-cover" 
+            initial={{ opacity: 0.8 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0.8 }}
+            transition={{ duration: 0.3 }}
+          />
+        </AnimatePresence>
+        <div className="project-overlay">
+          <div className="project-overlay-content">
+            <h3>{project.title}</h3>
+            <p>{project.desc}</p>
+            <div className="project-tags">
+              {project.tags.slice(0, 3).map(tag => (
+                <span key={tag}>{tag}</span>
+              ))}
+              {project.tags.length > 3 && <span>+{project.tags.length - 3}</span>}
+            </div>
+            <Link to={`/project/${project.id}`} className="btn btn-primary btn-sm project-link">
+              <FiExternalLink /> Detail Proyek
+            </Link>
+          </div>
         </div>
-        <div className="project-links">
-          <Link to={`/project/${project.id}`} className="btn btn-primary btn-sm" style={{ width: '100%', textAlign: 'center', justifyContent: 'center' }}>
-            <FiExternalLink style={{ marginRight: '8px' }} /> Lihat Selengkapnya
-          </Link>
-        </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

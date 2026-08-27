@@ -1,5 +1,6 @@
 import React from 'react';
 import { FiBriefcase, FiUsers } from 'react-icons/fi';
+import { motion } from 'framer-motion';
 import './Experience.css';
 
 const Experience = () => {
@@ -8,185 +9,297 @@ const Experience = () => {
       <div className="container">
         <h2 className="section-title">Pengalaman & <span>Pendidikan</span></h2>
 
-        {/* Bagian Pendidikan bergaya Editor Kode */}
-        <div className="education-banner fade-in">
-          <div className="edu-terminal">
-            <div className="terminal-header">
-              <div className="terminal-dots">
-                <span className="t-dot red"></span>
-                <span className="t-dot yellow"></span>
-                <span className="t-dot green"></span>
-              </div>
-              <span className="terminal-title">education.json</span>
+        {/* Bagian Pendidikan bergaya Kartu Glassmorphism */}
+        <motion.div 
+          className="education-banner"
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.6 }}
+        >
+          <div className="edu-card">
+            <div className="edu-card-header">
+              <span className="edu-badge">Status: Mahasiswa Aktif</span>
             </div>
-            <div className="terminal-body body-flex">
+            <div className="edu-card-body body-flex">
               <div className="edu-logo-wrapper">
                 <img src="/LogoUPN.png" alt="Logo UPN Veteran Yogyakarta" />
               </div>
-              <pre>
-                <code>{`{
-  "major": "Informatika",
-  "university": "Universitas Pembangunan Nasional Veteran Yogyakarta",
-  "period": "2023 - Present",
-  "status": "Active Student"
-}`}</code>
-              </pre>
+              <div className="edu-details">
+                <h3 className="edu-major">Informatika</h3>
+                <p className="edu-univ">Universitas Pembangunan Nasional "Veteran" Yogyakarta</p>
+                <p className="edu-period">2023 - Sekarang</p>
+              </div>
             </div>
           </div>
-        </div>
+        </motion.div>
 
         <div className="experience-grid">
           {/* Bagian Pengalaman Magang (Kiri) */}
-          <div className="timeline-column fade-in">
+          <div className="timeline-column">
             <h3 className="column-title"><FiBriefcase /> Profesional & Magang</h3>
             <div className="timeline">
-              <div className="timeline-item">
+              <motion.div 
+                className="timeline-item"
+                initial={{ opacity: 0, x: -30 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.5, delay: 0.1 }}
+              >
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
                   <span className="timeline-date">Agustus 2026 - November 2026</span>
                   <h4 className="timeline-role">Web & CMS Administrator</h4>
                   <p className="timeline-company">Divisi Humas UPN "Veteran" Yogyakarta</p>
-                  <p className="timeline-desc">Sebagai Administrator Web & CMS untuk Hubungan Masyarakat (Humas) UPN "Veteran" Yogyakarta, saya menjembatani rekayasa perangkat lunak dengan manajemen informasi publik. Tanggung jawab utama saya meliputi pengembangan dan pemeliharaan sistem web yang dirancang khusus untuk mendukung operasional digital divisi ini. Saya secara aktif mengelola Content Management System (CMS) untuk mempublikasikan berita, artikel, dan pengumuman resmi, memastikan distribusi informasi yang tepat waktu. Selain itu, saya terus mengoptimalkan Antarmuka Pengguna (UI) situs web untuk memberikan pengalaman navigasi yang intuitif, responsif, dan mudah diakses bagi sivitas akademika maupun masyarakat umum.</p>
+                  <p className="timeline-desc">
+                    • Mengelola dan memelihara sistem web Hubungan Masyarakat (Humas) UPN "Veteran" Yogyakarta.<br/>
+                    • Bertanggung jawab atas Content Management System (CMS) untuk publikasi berita resmi kampus.<br/>
+                    • Mengoptimalkan UI/UX situs web secara berkala agar lebih responsif dan mudah diakses oleh sivitas akademika.
+                  </p>
                 </div>
-              </div>
+              </motion.div>
 
-              <div className="timeline-item">
+              <motion.div 
+                className="timeline-item"
+                initial={{ opacity: 0, x: -30 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.5, delay: 0.2 }}
+              >
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
                   <span className="timeline-date">April 2026</span>
                   <h4 className="timeline-role">TOP 800 Proposalist, Ketua Tim</h4>
                   <p className="timeline-company">PIDI - DIGDAYA X Hackathon 2026</p>
-                  <p className="timeline-desc">Memimpin tim pengembang merancang "NusaLink AI", sebuah ekosistem remote-work untuk mengakselerasi ekspor talenta IT lokal ke pasar global. Mengonsep arsitektur platform yang mengintegrasikan Local Language Model (LLM) untuk penerjemahan komunikasi real-time dan Smart Contract Escrow (Blockchain) guna menekan biaya transaksi lintas negara hingga 0%.</p>
+                  <p className="timeline-desc">
+                    • Memimpin tim merancang prototipe "NusaLink AI", platform remote-work bagi talenta IT lokal.<br/>
+                    • Mengonsep arsitektur yang memanfaatkan Local Language Model (LLM) untuk penerjemahan real-time.<br/>
+                    • Mengintegrasikan konsep Smart Contract untuk mengefisiensikan biaya transaksi lintas negara.
+                  </p>
                 </div>
-              </div>
+              </motion.div>
 
-              <div className="timeline-item">
+              <motion.div 
+                className="timeline-item"
+                initial={{ opacity: 0, x: -30 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.5, delay: 0.3 }}
+              >
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
                   <span className="timeline-date">Maret 2026 - April 2026</span>
                   <h4 className="timeline-role">Peserta, Ketua Tim</h4>
                   <p className="timeline-company">Data Analytics Competition (DAC) Find IT! 2026 – DTETI UGM</p>
-                  <p className="timeline-desc">Merancang model Computer Vision (liveness detection) untuk mendeteksi dan mengklasifikasikan 6 kelas ancaman siber face spoofing. Melatih model prediktif menggunakan dataset citra dunia nyata yang kompleks, menghasilkan sistem verifikasi identitas dengan skor akurasi 0.75.</p>
+                  <p className="timeline-desc">
+                    • Merancang model Computer Vision untuk liveness detection pada sistem verifikasi identitas.<br/>
+                    • Melatih model prediktif menggunakan dataset citra kompleks untuk mendeteksi 6 jenis ancaman face spoofing.<br/>
+                    • Mencapai skor akurasi 0.75 dalam pengujian sistem.
+                  </p>
                 </div>
-              </div>
+              </motion.div>
 
-              <div className="timeline-item">
+              <motion.div 
+                className="timeline-item"
+                initial={{ opacity: 0, x: -30 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.5, delay: 0.4 }}
+              >
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
                   <span className="timeline-date">Januari 2026 – Februari 2026</span>
                   <h4 className="timeline-role">Software Development Intern</h4>
                   <p className="timeline-company">PT. Kereta Api Indonesia (KAI) Daop 6 Yogyakarta</p>
-                  <p className="timeline-desc">Mengembangkan website manajemen arsip digital untuk Unit SDM melalui kolaborasi dengan tim IT guna meningkatkan efisiensi operasional harian. Memvalidasi dan mendigitalisasi 5.000+ dokumen kontrak serta pegawai ke dalam sistem terpusat guna menjamin akurasi dan mempercepat akses data.</p>
+                  <p className="timeline-desc">
+                    • Berkolaborasi dengan tim IT mengembangkan website manajemen arsip digital untuk Unit SDM.<br/>
+                    • Mendigitalisasi dan memvalidasi 5.000+ dokumen kontrak pegawai ke dalam sistem terpusat.<br/>
+                    • Mempercepat proses pencarian dan akses data pegawai secara signifikan.
+                  </p>
                 </div>
-              </div>
+              </motion.div>
 
-              <div className="timeline-item">
+              <motion.div 
+                className="timeline-item"
+                initial={{ opacity: 0, x: -30 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+              >
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
                   <span className="timeline-date">Januari 2025</span>
                   <h4 className="timeline-role">Magang Berbasis Projek : Data Scientist</h4>
                   <p className="timeline-company">Rakamin Academy X ID/X Partners</p>
-                  <p className="timeline-desc">Mengimplementasikan Python dan SQL untuk memproses Big Data, menyusun query kompleks, serta mengembangkan model prediktif berdasarkan simulasi studi kasus industri nyata. Melakukan Exploratory Data Analysis (EDA) dan analisis statistik untuk mengekstrak data mentah menjadi actionable insights, yang kemudian disajikan melalui visualisasi data komprehensif.</p>
+                  <p className="timeline-desc">
+                    • Menggunakan Python dan SQL untuk memproses data dan mengembangkan model prediktif.<br/>
+                    • Melakukan Exploratory Data Analysis (EDA) dari studi kasus industri untuk menghasilkan actionable insights.<br/>
+                    • Merangkum hasil analisis ke dalam visualisasi data interaktif.
+                  </p>
                 </div>
-              </div>
+              </motion.div>
             </div>
           </div>
 
-          <div className="timeline-column fade-in">
-            <h3 className="column-title"><FiUsers /> Organisasi & Kepanitiaan</h3>
-            <div className="timeline">
-              <div className="timeline-item">
-                <div className="timeline-dot"></div>
-                <div className="timeline-content">
+          <div className="timeline-column">
+            <h3 className="column-title"><FiUsers /> Organisasi & Pengalaman Lain</h3>
+            <div className="bento-grid">
+              <motion.div 
+                className="bento-card"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.5, delay: 0.1 }}
+              >
+                <div className="bento-content">
                   <span className="timeline-date">Juli 2026</span>
                   <h4 className="timeline-role">Koordinator Mahasiswa Kelompok KKN UPNYK 84.065</h4>
                   <p className="timeline-company">LPPM UPN "Veteran" Yogyakarta</p>
-                  <p className="timeline-desc">Sebagai Koordinator Mahasiswa untuk program Kuliah Kerja Nyata (KKN), saya memimpin dan mengonsolidasikan tim mahasiswa multidisiplin untuk mengeksekusi inisiatif pemberdayaan masyarakat yang strategis. Saya bertindak sebagai penghubung utama yang menjembatani komunikasi antara perangkat desa, dosen pembimbing lapangan, dan anggota tim untuk mengarahkan serta menyelesaikan tantangan operasional di lapangan. Melalui koordinasi tim yang terstruktur dan manajemen proyek yang efektif, saya berhasil mengawasi pelaksanaan program kerja utama kami dari awal hingga akhir, memastikan upaya kolaboratif kami memberikan dampak positif yang langsung dan nyata bagi masyarakat setempat.</p>
+                  <p className="timeline-desc">
+                    • Memimpin tim mahasiswa dari berbagai program studi dalam pelaksanaan Kuliah Kerja Nyata (KKN).<br/>
+                    • Bertindak sebagai penghubung antara pihak desa, dosen pembimbing, dan anggota tim.<br/>
+                    • Mengawasi jalannya 3 program kerja utama pemberdayaan masyarakat agar selesai sesuai target operasional lapangan.
+                  </p>
                 </div>
-              </div>
+              </motion.div>
 
-              <div className="timeline-item">
-                <div className="timeline-dot"></div>
-                <div className="timeline-content">
+              <motion.div 
+                className="bento-card"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.5, delay: 0.15 }}
+              >
+                <div className="bento-content">
                   <span className="timeline-date">2024</span>
                   <h4 className="timeline-role">Speaker (Sekolah Kastrat)</h4>
                   <p className="timeline-company">HMTM UPN "Veteran" Yogyakarta</p>
-                  <p className="timeline-desc">Diundang khusus sebagai pembicara di acara <i>"Thought Leaders Next Gen."</i> Mampu melatih perumusan kajian isu kritis dan memfasilitasi diskusi interaktif guna memberdayakan daya analitik peserta agar berkembang menjadi pemimpin masa depan yang berdampak.</p>
+                  <p className="timeline-desc">
+                    • Menjadi pembicara dalam acara "Thought Leaders Next Gen".<br/>
+                    • Memfasilitasi diskusi interaktif seputar perumusan kajian isu kritis.<br/>
+                    • Membantu meningkatkan keterampilan analitik peserta dalam merespons isu sosial kampus.
+                  </p>
                 </div>
-              </div>
+              </motion.div>
 
-              <div className="timeline-item">
-                <div className="timeline-dot"></div>
-                <div className="timeline-content">
+              <motion.div 
+                className="bento-card"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.5, delay: 0.2 }}
+              >
+                <div className="bento-content">
                   <span className="timeline-date">Apr 2025 - Agt 2025</span>
                   <h4 className="timeline-role">Koordinator Umum</h4>
                   <p className="timeline-company">PKKBN IF UPN "Veteran" Yogyakarta</p>
-                  <p className="timeline-desc">Memimpin perencanaan dan koordinasi terhadap 100+ anggota panitia dari berbagai divisi untuk menyukseskan program kerja PKKBN Informatika 2025 dengan lancar.</p>
+                  <p className="timeline-desc">
+                    • Mengoordinasikan lebih dari 100 panitia dari berbagai divisi.<br/>
+                    • Memimpin tahapan perencanaan hingga pelaksanaan acara PKKBN Informatika 2025.
+                  </p>
                 </div>
-              </div>
+              </motion.div>
 
-              <div className="timeline-item">
-                <div className="timeline-dot"></div>
-                <div className="timeline-content">
+              <motion.div 
+                className="bento-card"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.5, delay: 0.25 }}
+              >
+                <div className="bento-content">
                   <span className="timeline-date">Feb 2025 - Des 2025</span>
                   <h4 className="timeline-role">Wakil Kepala Divisi Advokasi & Kesejahteraan Mahasiswa</h4>
                   <p className="timeline-company">BEM FTI UPN "Veteran" Yogyakarta</p>
-                  <p className="timeline-desc">Bertindak sebagai penghubung antara mahasiswa dan fakultas sembari mengoordinasikan upaya advokasi dan inisiatif kesejahteraan mahasiswa. Turut menyusun dan mengeksekusi program-program proaktif untuk menampung serta menyelesaikan permasalahan akademik maupun non-akademik secara efektif.</p>
+                  <p className="timeline-desc">
+                    • Menjembatani aspirasi mahasiswa dengan pihak fakultas melalui program advokasi.<br/>
+                    • Aktif menangani dan mencari solusi untuk berbagai keluhan mahasiswa terkait kendala akademik maupun non-akademik.
+                  </p>
                 </div>
-              </div>
+              </motion.div>
 
-              <div className="timeline-item">
-                <div className="timeline-dot"></div>
-                <div className="timeline-content">
+              <motion.div 
+                className="bento-card"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.5, delay: 0.3 }}
+              >
+                <div className="bento-content">
                   <span className="timeline-date">Okt 2024 - Des 2024</span>
                   <h4 className="timeline-role">PLT Kementerian Analisis Isu Kampus</h4>
                   <p className="timeline-company">BEM KM UPN "Veteran" Yogyakarta</p>
-                  <p className="timeline-desc">Ditunjuk atas rekam jejak kerja yang luar biasa. Memimpin langsung upaya analisis dan advokasi isu kampus, menunjukkan kepemimpinan adaptif, kolaborasi tangguh, dan formulasi pemecahan masalah strategis untuk memajukan tujuan organisasi.</p>
+                  <p className="timeline-desc">
+                    • Dipercaya mengambil alih kepemimpinan kementerian sementara secara penuh.<br/>
+                    • Memimpin langsung tim dalam menganalisis isu-isu kampus yang krusial dan menyusun langkah advokasi relevan.
+                  </p>
                 </div>
-              </div>
+              </motion.div>
 
-              <div className="timeline-item">
-                <div className="timeline-dot"></div>
-                <div className="timeline-content">
+              <motion.div 
+                className="bento-card"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.5, delay: 0.35 }}
+              >
+                <div className="bento-content">
                   <span className="timeline-date">Mei 2024 - Agt 2024</span>
                   <h4 className="timeline-role">Koordinator Lapangan Penyokong</h4>
                   <p className="timeline-company">PKKBN IF UPN "Veteran" Yogyakarta</p>
-                  <p className="timeline-desc">Mengawasi pelaksanaan teknis dan logistik untuk acara-acara besar. Merencanakan dan mengelola operasi lapangan yang melibatkan 100+ anggota panitia, serta bertugas sebagai MC untuk menciptakan interaksi positif yang menghidupkan antusiasme peserta.</p>
+                  <p className="timeline-desc">
+                    • Bertanggung jawab atas manajemen lapangan dan logistik pada acara PKKBN.<br/>
+                    • Mengoordinasikan 100+ panitia saat hari H dan sekaligus bertugas sebagai MC utama acara.
+                  </p>
                 </div>
-              </div>
+              </motion.div>
 
-              <div className="timeline-item">
-                <div className="timeline-dot"></div>
-                <div className="timeline-content">
+              <motion.div 
+                className="bento-card"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.5, delay: 0.4 }}
+              >
+                <div className="bento-content">
                   <span className="timeline-date">Feb 2024 - Okt 2024</span>
                   <h4 className="timeline-role">Staff Kementerian Analisis Isu Kampus</h4>
                   <p className="timeline-company">BEM KM UPN "Veteran" Yogyakarta</p>
-                  <p className="timeline-desc">Bertanggung jawab untuk mengidentifikasi, menganalisis, dan mengadvokasi isu-isu terkait kampus. Memimpin pengumpulan data dari 1.000+ mahasiswa, turut menyusun 8+ laporan analitis berdampak nyata, dan berkontribusi penuh pada 5+ proyek strategis demi peningkatan pengalaman mahasiswa.</p>
+                  <p className="timeline-desc">
+                    • Terlibat langsung dalam pengumpulan data kajian dari 1.000+ mahasiswa.<br/>
+                    • Berkontribusi dalam penyusunan 8+ laporan analisis yang digunakan sebagai landasan perbaikan fasilitas kampus.
+                  </p>
                 </div>
-              </div>
-
+              </motion.div>
             </div>
           </div>
         </div>
 
         {/* Bagian Pencapaian */}
-        <div className="achievements-section fade-in" style={{ marginTop: '5rem' }}>
+        <motion.div 
+          className="achievements-section" 
+          style={{ marginTop: '5rem' }}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8 }}
+        >
           <h3 className="column-title" style={{ justifyContent: 'center', marginBottom: '2rem' }}>Pencapaian</h3>
 
           <div className="timeline-content" style={{ maxWidth: '800px', margin: '0 auto 1.5rem', textAlign: 'center' }}>
             <span className="timeline-date">2025</span>
             <h4 className="timeline-role" style={{ marginTop: '0.5em', fontSize: '1.4rem', color: '#10b981' }}>Awardee Beasiswa Bank Indonesia</h4>
             <p className="timeline-company" style={{ fontWeight: '600', marginTop: '0.2em' }}>Bank Indonesia</p>
-            <p className="timeline-desc" style={{ marginTop: '1em' }}>Terpilih sebagai salah satu penerima program beasiswa bergengsi dari Bank Indonesia atas pencapaian akademis dan dedikasi kontribusi luar biasa bagi komunitas serta pengembangan kepemimpinan yang progresif.</p>
+            <p className="timeline-desc" style={{ marginTop: '1em' }}>Terpilih sebagai penerima beasiswa Bank Indonesia melalui tahapan seleksi ketat berdasarkan rekam jejak akademis, keaktifan organisasi, serta potensi kepemimpinan.</p>
           </div>
 
           <div className="timeline-content" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
             <span className="timeline-date">Maret - Mei 2024</span>
             <h4 className="timeline-role" style={{ marginTop: '0.5em', fontSize: '1.4rem', color: '#38bdf8' }}>Staff Of The Month</h4>
             <p className="timeline-company" style={{ fontWeight: '600', marginTop: '0.2em' }}>BEM KM UPN "Veteran" Yogyakarta</p>
-            <p className="timeline-desc" style={{ marginTop: '1em' }}>Dianugerahi penghargaan berkat kedisiplinan dan kapabilitas luar biasa dalam mengeksekusi misi manajerial kementerian. Mampu mendemonstrasikan etos kerja yang konsisten melebihi target dan membawa nilai kolaborasi positif bagi tim.</p>
+            <p className="timeline-desc" style={{ marginTop: '1em' }}>Mendapatkan penghargaan atas kinerja yang konsisten dan tanggung jawab penuh dalam menyelesaikan setiap target program kerja kementerian, serta mampu menjalin kolaborasi tim yang baik.</p>
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

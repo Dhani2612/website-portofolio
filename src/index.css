@@ -1,35 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Caveat:wght@400;500;600;700&display=swap');
 
 :root {
-  --bg-color: #fafafa;
-  --text-color: #0f172a;
-  --text-muted: #475569;
-  --accent-color: #f97316;
-  --accent-hover: #ea580c;
-  --accent-glow: rgba(249, 115, 22, 0.12);
-  --card-bg: #ffffff;
-  --card-border: #e2e8f0;
-  --header-bg: rgba(250, 250, 250, 0.8);
+  /* Dark Mode Exclusive (Zinc Theme) */
+  --bg-color: #18181B; /* Zinc 900 */
+  --text-color: #FAFAFA; /* Zinc 50 */
+  --text-muted: #A1A1AA; /* Zinc 400 */
+  --accent-color: #2563EB; /* Royal Blue */
+  --accent-hover: #3B82F6; /* Blue 500 */
+  --card-bg: #27272A; /* Zinc 800 */
+  --card-border: #3F3F46; /* Zinc 700 */
+  --header-bg: rgba(24, 24, 27, 0.85);
   --header-blur: blur(20px);
-  --glass-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
-  --transition-speed: 0.35s;
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  --transition-speed: 0.3s;
 
   --font-heading: 'Space Grotesk', sans-serif;
   --font-body: 'DM Sans', sans-serif;
   --font-accent: 'Caveat', cursive;
-}
-
-[data-theme='dark'] {
-  --bg-color: #050510;
-  --text-color: #f1f5f9;
-  --text-muted: #94a3b8;
-  --accent-color: #3b82f6;
-  --accent-hover: #60a5fa;
-  --accent-glow: rgba(59, 130, 246, 0.12);
-  --card-bg: #0f172a;
-  --card-border: #1e293b;
-  --header-bg: rgba(5, 5, 16, 0.85);
-  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
 
 * {
@@ -128,7 +115,6 @@ button {
 .btn-primary:hover {
   background-color: var(--accent-hover);
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px var(--accent-glow);
 }
 
 [data-theme='dark'] .btn-primary {
@@ -143,8 +129,9 @@ button {
 
 .btn-secondary:hover {
   border-color: var(--accent-color);
-  color: var(--accent-color);
-  background-color: var(--accent-glow);
+  color: var(--text-color);
+  background-color: rgba(37, 99, 235, 0.05);
+  transform: translateY(-2px);
 }
 
 .section-title {
