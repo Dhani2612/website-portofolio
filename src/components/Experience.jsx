@@ -179,7 +179,7 @@ const Experience = () => {
                       <h4 className="timeline-role">Koordinator Umum</h4>
                       <p className="timeline-company">PKKBN IF UPN "Veteran" Yogyakarta</p>
                     </div>
-                    <img src="/logo/LogoUPN.png" alt="Logo PKKBN IF UPN Veteran Yogyakarta" className="timeline-logo" />
+                    <img src="/logo/logoJIF.png" alt="Logo PKKBN IF UPN Veteran Yogyakarta" className="timeline-logo" />
                   </div>
                   <p className="timeline-desc">
                     • Mengoordinasikan lebih dari 100 panitia dari berbagai divisi.<br/>
@@ -202,7 +202,7 @@ const Experience = () => {
                       <h4 className="timeline-role">Wakil Kepala Divisi Advokasi & Kesejahteraan Mahasiswa</h4>
                       <p className="timeline-company">BEM FTI UPN "Veteran" Yogyakarta</p>
                     </div>
-                    <img src="/logo/LogoUPN.png" alt="Logo BEM FTI UPN Veteran Yogyakarta" className="timeline-logo" />
+                    <img src="/logo/LogoBEMFTI.png" alt="Logo BEM FTI UPN Veteran Yogyakarta" className="timeline-logo" />
                   </div>
                   <p className="timeline-desc">
                     • Menjembatani aspirasi mahasiswa dengan pihak fakultas melalui program advokasi.<br/>
@@ -225,7 +225,7 @@ const Experience = () => {
                       <h4 className="timeline-role">PLT Kementerian Analisis Isu Kampus</h4>
                       <p className="timeline-company">BEM KM UPN "Veteran" Yogyakarta</p>
                     </div>
-                    <img src="/logo/LogoUPN.png" alt="Logo BEM KM UPN Veteran Yogyakarta" className="timeline-logo" />
+                    <img src="/logo/LogoBEMKM.png" alt="Logo BEM KM UPN Veteran Yogyakarta" className="timeline-logo" />
                   </div>
                   <p className="timeline-desc">
                     • Dipercaya mengambil alih kepemimpinan kementerian sementara secara penuh.<br/>
@@ -248,7 +248,7 @@ const Experience = () => {
                       <h4 className="timeline-role">Koordinator Lapangan Penyokong</h4>
                       <p className="timeline-company">PKKBN IF UPN "Veteran" Yogyakarta</p>
                     </div>
-                    <img src="/logo/LogoUPN.png" alt="Logo PKKBN IF UPN Veteran Yogyakarta" className="timeline-logo" />
+                    <img src="/logo/logoJIF.png" alt="Logo PKKBN IF UPN Veteran Yogyakarta" className="timeline-logo" />
                   </div>
                   <p className="timeline-desc">
                     • Bertanggung jawab atas manajemen lapangan dan logistik pada acara PKKBN.<br/>
@@ -271,7 +271,7 @@ const Experience = () => {
                       <h4 className="timeline-role">Staff Kementerian Analisis Isu Kampus</h4>
                       <p className="timeline-company">BEM KM UPN "Veteran" Yogyakarta</p>
                     </div>
-                    <img src="/logo/LogoUPN.png" alt="Logo BEM KM UPN Veteran Yogyakarta" className="timeline-logo" />
+                    <img src="/logo/LogoBEMKM.png" alt="Logo BEM KM UPN Veteran Yogyakarta" className="timeline-logo" />
                   </div>
                   <p className="timeline-desc">
                     • Terlibat langsung dalam pengumpulan data kajian dari 1.000+ mahasiswa.<br/>
