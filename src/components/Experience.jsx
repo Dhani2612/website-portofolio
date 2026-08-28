@@ -164,29 +164,6 @@ const Experience = () => {
                 </div>
               </motion.div>
 
-              <motion.div 
-                className="bento-card"
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-50px" }}
-                transition={{ duration: 0.5, delay: 0.15 }}
-              >
-                <div className="bento-content">
-                  <span className="timeline-date">2024</span>
-                  <div className="timeline-header-flex">
-                    <div>
-                      <h4 className="timeline-role">Speaker (Sekolah Kastrat)</h4>
-                      <p className="timeline-company">HMTM UPN "Veteran" Yogyakarta</p>
-                    </div>
-                    <img src="/logo/LogoUPN.png" alt="Logo HMTM UPN Veteran Yogyakarta" className="timeline-logo" />
-                  </div>
-                  <p className="timeline-desc">
-                    • Menjadi pembicara dalam acara "Thought Leaders Next Gen".<br/>
-                    • Memfasilitasi diskusi interaktif seputar perumusan kajian isu kritis.<br/>
-                    • Membantu meningkatkan keterampilan analitik peserta dalam merespons isu sosial kampus.
-                  </p>
-                </div>
-              </motion.div>
 
               <motion.div 
                 className="bento-card"
