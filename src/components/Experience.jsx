@@ -49,8 +49,13 @@ const Experience = () => {
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
                   <span className="timeline-date">Agustus 2026 - November 2026</span>
-                  <h4 className="timeline-role">Web & CMS Administrator</h4>
-                  <p className="timeline-company">Divisi Humas UPN "Veteran" Yogyakarta</p>
+                  <div className="timeline-header-flex">
+                    <div>
+                      <h4 className="timeline-role">Web & CMS Administrator</h4>
+                      <p className="timeline-company">Divisi Humas UPN "Veteran" Yogyakarta</p>
+                    </div>
+                    <img src="/logo/LogoUPN.png" alt="Logo Divisi Humas UPN Veteran Yogyakarta" className="timeline-logo" />
+                  </div>
                   <p className="timeline-desc">
                     • Mengelola dan memelihara sistem web Hubungan Masyarakat (Humas) UPN "Veteran" Yogyakarta.<br/>
                     • Bertanggung jawab atas Content Management System (CMS) untuk publikasi berita resmi kampus.<br/>
@@ -69,8 +74,13 @@ const Experience = () => {
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
                   <span className="timeline-date">April 2026</span>
-                  <h4 className="timeline-role">TOP 800 Proposalist, Ketua Tim</h4>
-                  <p className="timeline-company">PIDI - DIGDAYA X Hackathon 2026</p>
+                  <div className="timeline-header-flex">
+                    <div>
+                      <h4 className="timeline-role">TOP 800 Proposalist, Ketua Tim</h4>
+                      <p className="timeline-company">PIDI - DIGDAYA X Hackathon 2026 by Bank Indonesia</p>
+                    </div>
+                    <img src="/logo/LogoBI.png" alt="Logo Bank Indonesia" className="timeline-logo" />
+                  </div>
                   <p className="timeline-desc">
                     • Memimpin tim merancang prototipe "NusaLink AI", platform remote-work bagi talenta IT lokal.<br/>
                     • Mengonsep arsitektur yang memanfaatkan Local Language Model (LLM) untuk penerjemahan real-time.<br/>
@@ -79,25 +89,6 @@ const Experience = () => {
                 </div>
               </motion.div>
 
-              <motion.div 
-                className="timeline-item"
-                initial={{ opacity: 0, x: -30 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true, margin: "-50px" }}
-                transition={{ duration: 0.5, delay: 0.3 }}
-              >
-                <div className="timeline-dot"></div>
-                <div className="timeline-content">
-                  <span className="timeline-date">Maret 2026 - April 2026</span>
-                  <h4 className="timeline-role">Peserta, Ketua Tim</h4>
-                  <p className="timeline-company">Data Analytics Competition (DAC) Find IT! 2026 – DTETI UGM</p>
-                  <p className="timeline-desc">
-                    • Merancang model Computer Vision untuk liveness detection pada sistem verifikasi identitas.<br/>
-                    • Melatih model prediktif menggunakan dataset citra kompleks untuk mendeteksi 6 jenis ancaman face spoofing.<br/>
-                    • Mencapai skor akurasi 0.75 dalam pengujian sistem.
-                  </p>
-                </div>
-              </motion.div>
 
               <motion.div 
                 className="timeline-item"
@@ -109,8 +100,13 @@ const Experience = () => {
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
                   <span className="timeline-date">Januari 2026 – Februari 2026</span>
-                  <h4 className="timeline-role">Software Development Intern</h4>
-                  <p className="timeline-company">PT. Kereta Api Indonesia (KAI) Daop 6 Yogyakarta</p>
+                  <div className="timeline-header-flex">
+                    <div>
+                      <h4 className="timeline-role">Software Development Intern</h4>
+                      <p className="timeline-company">PT. Kereta Api Indonesia (KAI) Daop 6 Yogyakarta</p>
+                    </div>
+                    <img src="/logo/LogoKAI.png" alt="Logo PT. Kereta Api Indonesia (KAI) Daop 6 Yogyakarta" className="timeline-logo" />
+                  </div>
                   <p className="timeline-desc">
                     • Berkolaborasi dengan tim IT mengembangkan website manajemen arsip digital untuk Unit SDM.<br/>
                     • Mendigitalisasi dan memvalidasi 5.000+ dokumen kontrak pegawai ke dalam sistem terpusat.<br/>
@@ -153,8 +149,13 @@ const Experience = () => {
               >
                 <div className="bento-content">
                   <span className="timeline-date">Juli 2026</span>
-                  <h4 className="timeline-role">Koordinator Mahasiswa Kelompok KKN UPNYK 84.065</h4>
-                  <p className="timeline-company">LPPM UPN "Veteran" Yogyakarta</p>
+                  <div className="timeline-header-flex">
+                    <div>
+                      <h4 className="timeline-role">Koordinator Mahasiswa Kelompok KKN UPNYK 84.065</h4>
+                      <p className="timeline-company">LPPM UPN "Veteran" Yogyakarta</p>
+                    </div>
+                    <img src="/logo/LogoUPN.png" alt="Logo LPPM UPN Veteran Yogyakarta" className="timeline-logo" />
+                  </div>
                   <p className="timeline-desc">
                     • Memimpin tim mahasiswa dari berbagai program studi dalam pelaksanaan Kuliah Kerja Nyata (KKN).<br/>
                     • Bertindak sebagai penghubung antara pihak desa, dosen pembimbing, dan anggota tim.<br/>
@@ -172,8 +173,13 @@ const Experience = () => {
               >
                 <div className="bento-content">
                   <span className="timeline-date">2024</span>
-                  <h4 className="timeline-role">Speaker (Sekolah Kastrat)</h4>
-                  <p className="timeline-company">HMTM UPN "Veteran" Yogyakarta</p>
+                  <div className="timeline-header-flex">
+                    <div>
+                      <h4 className="timeline-role">Speaker (Sekolah Kastrat)</h4>
+                      <p className="timeline-company">HMTM UPN "Veteran" Yogyakarta</p>
+                    </div>
+                    <img src="/logo/LogoUPN.png" alt="Logo HMTM UPN Veteran Yogyakarta" className="timeline-logo" />
+                  </div>
                   <p className="timeline-desc">
                     • Menjadi pembicara dalam acara "Thought Leaders Next Gen".<br/>
                     • Memfasilitasi diskusi interaktif seputar perumusan kajian isu kritis.<br/>
@@ -191,8 +197,13 @@ const Experience = () => {
               >
                 <div className="bento-content">
                   <span className="timeline-date">Apr 2025 - Agt 2025</span>
-                  <h4 className="timeline-role">Koordinator Umum</h4>
-                  <p className="timeline-company">PKKBN IF UPN "Veteran" Yogyakarta</p>
+                  <div className="timeline-header-flex">
+                    <div>
+                      <h4 className="timeline-role">Koordinator Umum</h4>
+                      <p className="timeline-company">PKKBN IF UPN "Veteran" Yogyakarta</p>
+                    </div>
+                    <img src="/logo/LogoUPN.png" alt="Logo PKKBN IF UPN Veteran Yogyakarta" className="timeline-logo" />
+                  </div>
                   <p className="timeline-desc">
                     • Mengoordinasikan lebih dari 100 panitia dari berbagai divisi.<br/>
                     • Memimpin tahapan perencanaan hingga pelaksanaan acara PKKBN Informatika 2025.
@@ -209,8 +220,13 @@ const Experience = () => {
               >
                 <div className="bento-content">
                   <span className="timeline-date">Feb 2025 - Des 2025</span>
-                  <h4 className="timeline-role">Wakil Kepala Divisi Advokasi & Kesejahteraan Mahasiswa</h4>
-                  <p className="timeline-company">BEM FTI UPN "Veteran" Yogyakarta</p>
+                  <div className="timeline-header-flex">
+                    <div>
+                      <h4 className="timeline-role">Wakil Kepala Divisi Advokasi & Kesejahteraan Mahasiswa</h4>
+                      <p className="timeline-company">BEM FTI UPN "Veteran" Yogyakarta</p>
+                    </div>
+                    <img src="/logo/LogoUPN.png" alt="Logo BEM FTI UPN Veteran Yogyakarta" className="timeline-logo" />
+                  </div>
                   <p className="timeline-desc">
                     • Menjembatani aspirasi mahasiswa dengan pihak fakultas melalui program advokasi.<br/>
                     • Aktif menangani dan mencari solusi untuk berbagai keluhan mahasiswa terkait kendala akademik maupun non-akademik.
@@ -227,8 +243,13 @@ const Experience = () => {
               >
                 <div className="bento-content">
                   <span className="timeline-date">Okt 2024 - Des 2024</span>
-                  <h4 className="timeline-role">PLT Kementerian Analisis Isu Kampus</h4>
-                  <p className="timeline-company">BEM KM UPN "Veteran" Yogyakarta</p>
+                  <div className="timeline-header-flex">
+                    <div>
+                      <h4 className="timeline-role">PLT Kementerian Analisis Isu Kampus</h4>
+                      <p className="timeline-company">BEM KM UPN "Veteran" Yogyakarta</p>
+                    </div>
+                    <img src="/logo/LogoUPN.png" alt="Logo BEM KM UPN Veteran Yogyakarta" className="timeline-logo" />
+                  </div>
                   <p className="timeline-desc">
                     • Dipercaya mengambil alih kepemimpinan kementerian sementara secara penuh.<br/>
                     • Memimpin langsung tim dalam menganalisis isu-isu kampus yang krusial dan menyusun langkah advokasi relevan.
@@ -245,8 +266,13 @@ const Experience = () => {
               >
                 <div className="bento-content">
                   <span className="timeline-date">Mei 2024 - Agt 2024</span>
-                  <h4 className="timeline-role">Koordinator Lapangan Penyokong</h4>
-                  <p className="timeline-company">PKKBN IF UPN "Veteran" Yogyakarta</p>
+                  <div className="timeline-header-flex">
+                    <div>
+                      <h4 className="timeline-role">Koordinator Lapangan Penyokong</h4>
+                      <p className="timeline-company">PKKBN IF UPN "Veteran" Yogyakarta</p>
+                    </div>
+                    <img src="/logo/LogoUPN.png" alt="Logo PKKBN IF UPN Veteran Yogyakarta" className="timeline-logo" />
+                  </div>
                   <p className="timeline-desc">
                     • Bertanggung jawab atas manajemen lapangan dan logistik pada acara PKKBN.<br/>
                     • Mengoordinasikan 100+ panitia saat hari H dan sekaligus bertugas sebagai MC utama acara.
@@ -263,8 +289,13 @@ const Experience = () => {
               >
                 <div className="bento-content">
                   <span className="timeline-date">Feb 2024 - Okt 2024</span>
-                  <h4 className="timeline-role">Staff Kementerian Analisis Isu Kampus</h4>
-                  <p className="timeline-company">BEM KM UPN "Veteran" Yogyakarta</p>
+                  <div className="timeline-header-flex">
+                    <div>
+                      <h4 className="timeline-role">Staff Kementerian Analisis Isu Kampus</h4>
+                      <p className="timeline-company">BEM KM UPN "Veteran" Yogyakarta</p>
+                    </div>
+                    <img src="/logo/LogoUPN.png" alt="Logo BEM KM UPN Veteran Yogyakarta" className="timeline-logo" />
+                  </div>
                   <p className="timeline-desc">
                     • Terlibat langsung dalam pengumpulan data kajian dari 1.000+ mahasiswa.<br/>
                     • Berkontribusi dalam penyusunan 8+ laporan analisis yang digunakan sebagai landasan perbaikan fasilitas kampus.

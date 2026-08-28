@@ -1,10 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="256" height="256" rx="64" fill="url(#paint0_linear)"/>
+  <rect x="4" y="4" width="248" height="248" rx="60" stroke="rgba(255,255,255,0.1)" stroke-width="8"/>
+  <path d="M85 65H135C175 65 200 90 200 128C200 166 175 191 135 191H85V65ZM115 161H135C155 161 170 148 170 128C170 108 155 95 135 95H115V161Z" fill="white"/>
   <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#6366f1" /> <!-- Indigo -->
-      <stop offset="100%" stop-color="#10b981" /> <!-- Emerald -->
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="256" y2="256" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2A2A2A"/>
+      <stop offset="1" stop-color="#050505"/>
     </linearGradient>
   </defs>
-  <rect width="100" height="100" rx="24" fill="url(#grad)" />
-  <path d="M 32 25 L 50 25 C 68 25 78 35 78 50 C 78 65 68 75 50 75 L 32 75 Z" fill="none" stroke="white" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

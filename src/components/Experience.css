@@ -223,6 +223,29 @@
   margin-bottom: 0.8rem;
 }
 
+.timeline-header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.timeline-logo {
+  height: 48px;
+  width: auto;
+  object-fit: contain;
+  filter: grayscale(100%) opacity(0.8);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 8px;
+}
+
+.timeline-item:hover .timeline-logo,
+.bento-card:hover .timeline-logo {
+  filter: grayscale(0%) opacity(1);
+  transform: scale(1.05);
+}
+
 .timeline-role {
   font-size: 1.25rem;
   font-weight: 700;
@@ -233,7 +256,7 @@
 .timeline-company {
   font-weight: 500;
   color: var(--text-muted);
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   font-size: 0.95rem;
 }
 
