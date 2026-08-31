@@ -217,6 +217,7 @@
 
 .cli-line {
   white-space: pre-wrap;
+  word-break: break-word;
   line-height: 1.5;
   margin-bottom: 0.3rem;
 }
@@ -344,6 +345,8 @@
   }
 
   .hero-terminal {
-    width: 340px;
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
   }
 }

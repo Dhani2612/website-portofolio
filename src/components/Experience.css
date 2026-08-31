@@ -231,6 +231,12 @@
   margin-bottom: 0.5rem;
 }
 
+.timeline-header-flex > div {
+  flex: 1;
+  min-width: 0;
+  word-wrap: break-word;
+}
+
 .timeline-logo {
   height: 48px;
   width: auto;
@@ -238,6 +244,7 @@
   filter: grayscale(100%) opacity(0.8);
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 8px;
+  flex-shrink: 0;
 }
 
 .timeline-item:hover .timeline-logo,
@@ -331,5 +338,15 @@
 @media (max-width: 480px) {
   .timeline {
     padding-left: 1.5rem;
+  }
+  .timeline-header-flex {
+    flex-direction: column-reverse;
+    gap: 0.5rem;
+  }
+  .timeline-logo {
+    height: 36px;
+  }
+  .timeline-role {
+    font-size: 1.1rem;
   }
 }
