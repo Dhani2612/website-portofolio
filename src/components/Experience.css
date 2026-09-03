@@ -231,7 +231,7 @@
   margin-bottom: 0.5rem;
 }
 
-.timeline-header-flex > div {
+.timeline-header-flex>div {
   flex: 1;
   min-width: 0;
   word-wrap: break-word;
@@ -309,14 +309,17 @@
 }
 
 @media (max-width: 640px) {
+
   .bento-grid .bento-card:nth-child(1),
   .bento-grid .bento-card:nth-child(4) {
     grid-column: span 1;
   }
+
   .bento-grid {
     grid-template-columns: 1fr;
   }
 }
+
 @media (max-width: 992px) {
   .education-banner {
     flex-direction: column;
@@ -339,13 +342,16 @@
   .timeline {
     padding-left: 1.5rem;
   }
+
   .timeline-header-flex {
     flex-direction: column-reverse;
     gap: 0.5rem;
   }
+
   .timeline-logo {
     height: 36px;
   }
+
   .timeline-role {
     font-size: 1.1rem;
   }

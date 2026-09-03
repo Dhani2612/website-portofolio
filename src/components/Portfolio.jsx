@@ -8,14 +8,24 @@ import {
   SiFlutter, SiDart, SiVite, SiPython, SiFlask, 
   SiMysql, SiSqlite, SiSupabase, SiArduino, SiCplusplus 
 } from 'react-icons/si';
-import { projects } from '../data/projectsData';
+import { client, urlFor } from '../sanity';
 import './Portfolio.css';
 
 // Komponen kartu proyek dengan auto-slideshow saat hover
 const ProjectCard = ({ project }) => {
   const [imgIndex, setImgIndex] = useState(0);
   const intervalRef = useRef(null);
-  const images = project.collages && project.collages.length > 0 ? project.collages : [project.img];
+  
+  // Format images using urlFor
+  const images = [];
+  if (project.collages && project.collages.length > 0) {
+    project.collages.forEach(img => images.push(urlFor(img).url()));
+  } else if (project.img) {
+    images.push(urlFor(project.img).url());
+  } else {
+    // fallback image if neither collages nor main img exist
+    images.push('https://via.placeholder.com/600x400?text=No+Image');
+  }
 
   const startSlideshow = useCallback(() => {
     if (images.length <= 1) return;
@@ -61,12 +71,12 @@ const ProjectCard = ({ project }) => {
             <h3>{project.title}</h3>
             <p>{project.desc}</p>
             <div className="project-tags">
-              {project.tags.slice(0, 3).map(tag => (
+              {project.tags && project.tags.slice(0, 3).map(tag => (
                 <span key={tag}>{tag}</span>
               ))}
-              {project.tags.length > 3 && <span>+{project.tags.length - 3}</span>}
+              {project.tags && project.tags.length > 3 && <span>+{project.tags.length - 3}</span>}
             </div>
-            <Link to={`/project/${project.id}`} className="btn btn-primary btn-sm project-link">
+            <Link to={`/project/${project._id}`} className="btn btn-primary btn-sm project-link">
               <FiExternalLink /> Detail Proyek
             </Link>
           </div>
@@ -78,21 +88,27 @@ const ProjectCard = ({ project }) => {
 
 const Portfolio = () => {
   const [activeTab, setActiveTab] = useState('projects');
+  const [projects, setProjects] = useState([]);
+  const [certificates, setCertificates] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
 
-  const certificates = [
-    { id: 1, title: "Dasar Pemrograman Web", org: "Dicoding", img: "/Sertif-Course-DasarPemrograman.png", link: "https://www.dicoding.com/certificates/RVZKWYMYOZD5" },
-    { id: 2, title: "Dasar Pemrograman JavaScript", org: "Dicoding", img: "/Sertif-Course-Java.png", link: "https://www.dicoding.com/certificates/0LZ06E2RRZ65" },
-    { id: 3, title: "Virtual Internship: Data Scientist", org: "Rakamin x ID/X Partners", img: "/Sertif-VirtualInternship-IDXPartners.png", link: "https://drive.google.com/file/d/1AWT95tO7BDkkWdliDRkO8hkAKpZUPuFR/view?usp=sharing" },
-    { id: 4, title: "Content Creator Course", org: "Eduparx", img: "/Sertif-ContentCreator.jpg", link: "https://inix-eduparx.s3.ap-southeast-1.amazonaws.com/oti/certificates/memoti/38601/CERT_2f0a74c1-f26c-4f69-96e6-c94339215c76.jpg" },
-    { id: 5, title: "Staff Kementerian", org: "BEM KM UPN Veteran Yogyakarta", img: "/Sertif-Staff-BEMKM.jpg", link: "https://drive.google.com/file/d/1FeEZ8t5aT2Bb-4nervrxrpRZjilNrf5l/view?usp=sharing" },
-    { id: 6, title: "PLT Kementerian", org: "BEM KM UPN Veteran Yogyakarta", img: "/Sertif-PLT-BEMKM.jpg", link: "https://drive.google.com/file/d/1WgVkVmvZU_ixi51arrsijKqN3Z6CyIHi/view?usp=sharing" },
-    { id: 7, title: "Staff of The Month", org: "BEM KM UPN Veteran Yogyakarta", img: "/Sertif-SOTM-BEMKM.jpg", link: "https://drive.google.com/file/d/1e30vL9dtG8wnhd8sZHtQovWP-UyYe8RT/view?usp=sharing" },
-    { id: 8, title: "Wakil Kepala Divisi Advokasi", org: "BEM FTI UPN Veteran Yogyakarta", img: "/Sertif-Wakadiv-BEMFTI.png", link: "https://drive.google.com/file/d/1wRSdM5IuY_t4HQt4ltcPC8ea0b9Fke9T/view?usp=sharing" },
-    { id: 9, title: "Koordinator Umum", org: "PKKBN IF UPN Veteran Yogyakarta", img: "/Sertif-KoordinatorUmum-PKKBNIF.png", link: "https://drive.google.com/file/d/15YGOHTVOpF_fgp96uqUhCpm-p0fOTJHI/view?usp=sharing" },
-    { id: 10, title: "Komandan Lapangan Penyokong", org: "PKKBN IF UPN Veteran Yogyakarta", img: "/Sertif-KomlapPenyokong-PKKBNIF.png", link: "https://drive.google.com/file/d/15dc_bxP4i09PQ6t303xt3vGpd7QLU7eK/view?usp=sharing" },
-    { id: 11, title: "Peserta Konferensi Internasional", org: "Konferensi Internasional", img: "/Sertif-Peserta-KonferensiInternasional.png", link: "https://drive.google.com/file/d/1dxnu_HBtIPmE-6ceEiyYsAnRPqvM8UAK/view?usp=sharing" },
-    { id: 12, title: "Speaker Kegiatan Mahasiswa", org: "HMTM UPN Veteran Yogyakarta", img: "/Sertif-Speaker-SekolahKastrat.jpg", link: "https://drive.google.com/file/d/1uu1Q_BkjaxEWVwLSnF_2XEqfZtMkowdo/view?usp=sharing" }
-  ];
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [projectData, certData] = await Promise.all([
+          client.fetch('*[_type == "project"] | order(_createdAt asc)'),
+          client.fetch('*[_type == "certificate"] | order(order desc)')
+        ]);
+        setProjects(projectData);
+        setCertificates(certData);
+      } catch (error) {
+        console.error("Error fetching data from Sanity:", error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    fetchData();
+  }, []);
 
   return (
     <section id="portfolio" className="portfolio-section">
@@ -123,24 +139,44 @@ const Portfolio = () => {
         <div className="tab-content">
           {activeTab === 'projects' && (
             <div className="projects-grid fade-in">
-              {projects.map(project => (
-                <ProjectCard key={project.id} project={project} />
-              ))}
+              {isLoading ? (
+                <div style={{ textAlign: 'center', width: '100%', gridColumn: '1 / -1', padding: '3rem 0', color: 'var(--text-secondary)' }}>
+                  Loading projects from Sanity...
+                </div>
+              ) : projects.length > 0 ? (
+                projects.map(project => (
+                  <ProjectCard key={project._id} project={project} />
+                ))
+              ) : (
+                <div style={{ textAlign: 'center', width: '100%', gridColumn: '1 / -1', padding: '3rem 0', color: 'var(--text-secondary)' }}>
+                  Tidak ada proyek ditemukan.
+                </div>
+              )}
             </div>
           )}
 
           {activeTab === 'certificates' && (
             <div className="certificates-grid fade-in">
-              {certificates.map(cert => (
-                <div className="cert-card" key={cert.id}>
-                  <img src={cert.img} alt={cert.title} className="cert-img" />
-                  <div className="cert-overlay">
-                    <h4>{cert.title}</h4>
-                    <p>{cert.org}</p>
-                    <a href={cert.link} target="_blank" rel="noreferrer" className="btn btn-primary btn-sm">Lihat Kredensial</a>
-                  </div>
+              {isLoading ? (
+                <div style={{ textAlign: 'center', width: '100%', gridColumn: '1 / -1', padding: '3rem 0', color: 'var(--text-secondary)' }}>
+                  Loading certificates from Sanity...
                 </div>
-              ))}
+              ) : certificates.length > 0 ? (
+                certificates.map(cert => (
+                  <div className="cert-card" key={cert._id}>
+                    {cert.img && <img src={urlFor(cert.img).url()} alt={cert.title} className="cert-img" />}
+                    <div className="cert-overlay">
+                      <h4>{cert.title}</h4>
+                      <p>{cert.org}</p>
+                      {cert.link && <a href={cert.link} target="_blank" rel="noreferrer" className="btn btn-primary btn-sm">Lihat Kredensial</a>}
+                    </div>
+                  </div>
+                ))
+              ) : (
+                <div style={{ textAlign: 'center', width: '100%', gridColumn: '1 / -1', padding: '3rem 0', color: 'var(--text-secondary)' }}>
+                  Tidak ada sertifikat ditemukan.
+                </div>
+              )}
             </div>
           )}
 

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { FiArrowLeft, FiGithub, FiExternalLink, FiChevronLeft, FiChevronRight } from 'react-icons/fi';
-import { projects } from '../data/projectsData';
+import { client, urlFor } from '../sanity';
 import './ProjectDetail.css';
 
 const ProjectDetail = () => {
@@ -10,12 +10,35 @@ const ProjectDetail = () => {
   const navigate = useNavigate();
   const [currentImg, setCurrentImg] = useState(0);
   const [imgOrientation, setImgOrientation] = useState('landscape');
+  
+  const [project, setProject] = useState(null);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, []);
+    
+    const fetchProject = async () => {
+      try {
+        const query = `*[_type == "project" && _id == $id][0]`;
+        const data = await client.fetch(query, { id });
+        setProject(data);
+      } catch (error) {
+        console.error("Error fetching project:", error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    
+    fetchProject();
+  }, [id]);
 
-  const project = projects.find(p => p.id === parseInt(id));
+  if (isLoading) {
+    return (
+      <div className="project-detail-page" style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', color: 'var(--text-secondary)'}}>
+        <h2>Loading project...</h2>
+      </div>
+    );
+  }
 
   if (!project) {
     return (
@@ -32,7 +55,17 @@ const ProjectDetail = () => {
     );
   }
 
-  const totalImages = project.collages ? project.collages.length : 0;
+  // Format images using urlFor
+  const images = [];
+  if (project.collages && project.collages.length > 0) {
+    project.collages.forEach(img => images.push(urlFor(img).url()));
+  } else if (project.img) {
+    images.push(urlFor(project.img).url());
+  } else {
+    images.push('https://via.placeholder.com/800x600?text=No+Image');
+  }
+
+  const totalImages = images.length;
 
   const handleImageLoad = (e) => {
     const { naturalWidth, naturalHeight } = e.target;
@@ -56,7 +89,7 @@ const ProjectDetail = () => {
         <div className="pd-header">
           <h1 className="pd-title">{project.title}</h1>
           <div className="pd-tags">
-            {project.tags.map(tag => (
+            {project.tags && project.tags.map(tag => (
               <span key={tag} className="pd-tag">{tag}</span>
             ))}
           </div>
@@ -78,7 +111,7 @@ const ProjectDetail = () => {
             <div className="pd-carousel-img-wrapper">
               <img
                 key={currentImg}
-                src={project.collages[currentImg]}
+                src={images[currentImg]}
                 alt={`${project.title} - foto ${currentImg + 1}`}
                 onLoad={handleImageLoad}
               />
@@ -106,7 +139,7 @@ const ProjectDetail = () => {
             <div
               className="pd-long-desc"
               // Kita me-render JSX dengan memecah line-break `\n` menjadi paragraf agar rapi
-              dangerouslySetInnerHTML={{ __html: project.longDesc.replace(/\n\n/g, '<br/><br/>') }}
+              dangerouslySetInnerHTML={{ __html: project.longDesc ? project.longDesc.replace(/\n\n/g, '<br/><br/>') : project.desc }}
             />
           </div>
 
@@ -119,12 +152,12 @@ const ProjectDetail = () => {
             </ul>
 
             <div className="pd-actions">
-              {project.github !== "#" && (
+              {project.github && project.github !== "#" && (
                 <a href={project.github} target="_blank" rel="noopener noreferrer" className="btn btn-secondary btn-block">
                   <FiGithub /> Repositori Kode
                 </a>
               )}
-              {project.demo !== "#" && (
+              {project.demo && project.demo !== "#" && (
                 <a href={project.demo} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-block">
                   <FiExternalLink /> Coba Aplikasi
                 </a>
@@ -138,3 +171,4 @@ const ProjectDetail = () => {
 };
 
 export default ProjectDetail;
+
