@@ -1,358 +1,235 @@
+/* Experience — Dark Minimalist */
+
 .experience-section {
-  position: relative;
-  background-color: transparent;
+  padding: 0 0 3rem;
+  min-height: auto;
+  margin-bottom: 0;
+  display: block;
 }
 
-/* Pendidikan Banner */
-.education-banner {
-  max-width: 800px;
-  margin: 0 auto 5rem;
-  transition: transform var(--transition-speed);
+.experience-container {
+  width: 100%;
 }
 
-.education-banner:hover {
-  transform: translateY(-5px);
-}
-
-.edu-logo-wrapper {
-  flex-shrink: 0;
-}
-
-.edu-logo-wrapper img {
-  width: 140px;
-  height: auto;
-  object-fit: contain;
-  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.15));
-}
-
-[data-theme='light'] .edu-logo-wrapper img {
-  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.1));
-}
-
-.body-flex {
-  display: flex;
-  align-items: center;
-  gap: 2.5rem;
-}
-
-@media (max-width: 768px) {
-  .body-flex {
-    flex-direction: column;
-    text-align: center;
-  }
-}
-
-/* Glassmorphism Card */
-.edu-card {
-  flex-grow: 1;
-  background-color: rgba(15, 23, 42, 0.6);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border-radius: 20px;
-  overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.1);
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-[data-theme='light'] .edu-card {
-  background-color: rgba(255, 255, 255, 0.85);
-  border-color: rgba(0, 0, 0, 0.08);
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.8);
-}
-
-.edu-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.15);
-  border-color: rgba(255, 255, 255, 0.2);
-}
-
-[data-theme='light'] .edu-card:hover {
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.12), inset 0 1px 0 rgba(255, 255, 255, 1);
-  border-color: rgba(0, 0, 0, 0.15);
-}
-
-.edu-card-header {
-  display: flex;
-  justify-content: flex-end;
-  padding: 1rem 1.5rem 0;
-}
-
-.edu-badge {
-  background: linear-gradient(135deg, rgba(16, 185, 129, 0.2), rgba(16, 185, 129, 0.05));
-  color: #10b981;
-  padding: 0.4rem 1rem;
-  border-radius: 30px;
-  font-size: 0.8rem;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  border: 1px solid rgba(16, 185, 129, 0.3);
-  text-transform: uppercase;
-}
-
-.edu-card-body {
-  padding: 0.5rem 2rem 2.5rem;
-}
-
-.edu-details {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.edu-major {
-  font-size: 1.8rem;
-  font-weight: 800;
-  color: var(--text-color);
-  margin: 0;
-  letter-spacing: -0.5px;
-}
-
-.edu-univ {
-  font-size: 1.1rem;
-  font-weight: 500;
-  color: var(--text-muted);
-  margin: 0;
-}
-
-.edu-period {
-  display: inline-block;
-  margin-top: 0.5rem;
-  padding: 0.3rem 0.8rem;
-  background-color: rgba(37, 99, 235, 0.1);
-  color: var(--accent-color);
-  border-radius: 8px;
-  font-size: 0.9rem;
-  font-weight: 600;
-  width: fit-content;
-}
-
-/* Timeline */
-.experience-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-}
-
-.column-title {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  font-size: 1.6rem;
-  font-weight: 700;
-  margin-bottom: 2.5rem;
-  color: var(--text-color);
-  letter-spacing: -0.5px;
-}
-
-.column-title svg {
-  color: var(--accent-color);
-}
-
-.timeline {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.timeline::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 8px;
-  width: 2px;
-  background: linear-gradient(to bottom, var(--accent-color), transparent);
-  border-radius: 1px;
-}
-
-.timeline.no-line::before {
-  display: none;
-}
-
-.timeline-item {
-  position: relative;
-  padding-left: 3rem;
-  cursor: pointer;
-}
-
-.timeline-dot {
-  position: absolute;
-  left: 0;
-  top: 4px;
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  background-color: var(--accent-color);
-  border: 4px solid var(--bg-color);
-  box-shadow: 0 0 0 2px var(--accent-color);
-  transition: all 0.3s ease;
-  z-index: 2;
-}
-
-.timeline-item:hover .timeline-dot {
-  transform: scale(1.3);
-  background-color: #fff;
-  box-shadow: 0 0 0 2px var(--accent-color), 0 0 12px var(--accent-glow);
-}
-
-.timeline-content {
-  background-color: var(--card-bg);
-  padding: 1.5rem 1.8rem;
-  border-radius: 16px;
+/* Education Card */
+.education-card {
   border: 1px solid var(--card-border);
-  box-shadow: var(--glass-shadow);
-  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: var(--card-bg);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 0;
+  transition: border-color 0.2s ease;
 }
 
-.timeline-item:hover .timeline-content {
-  transform: translateY(-4px);
+.education-card:hover {
   border-color: var(--accent-color);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 12px 30px rgba(0, 0, 0, 0.3);
 }
 
-.timeline-date {
+.education-header {
+  margin-bottom: 1rem;
+}
+
+.status-badge {
   display: inline-block;
-  padding: 0.3rem 0.85rem;
-  background-color: rgba(37, 99, 235, 0.1);
-  color: var(--accent-color);
-  border-radius: 8px;
-  font-size: 0.82rem;
+  background-color: var(--foreground);
+  color: var(--bg-color);
+  font-size: 10px;
+  text-transform: uppercase;
   font-weight: 700;
-  margin-bottom: 0.8rem;
+  padding: 0.2rem 0.5rem;
+  letter-spacing: 0.08em;
 }
 
-.timeline-header-flex {
+.education-info h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--foreground);
+  margin: 0 0 0.25rem 0;
+}
+
+.education-info h4 {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--text-color);
+  margin: 0 0 0.4rem 0;
+}
+
+.period {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: 0.25rem;
+}
+
+/* Experience List */
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.experience-card {
+  border: 1px solid var(--card-border);
+  background-color: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 0;
+  transition: border-color 0.2s ease;
+}
+
+.experience-card:hover {
+  border-color: var(--accent-color);
+}
+
+.experience-card-header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  margin-bottom: 1rem;
   gap: 1rem;
-  margin-bottom: 0.5rem;
 }
 
-.timeline-header-flex>div {
-  flex: 1;
+.experience-role-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.4rem;
   min-width: 0;
-  word-wrap: break-word;
+  flex: 1;
 }
 
-.timeline-logo {
-  height: 48px;
-  width: auto;
-  object-fit: contain;
-  filter: grayscale(100%) opacity(0.8);
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  border-radius: 8px;
-  flex-shrink: 0;
+.role {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--foreground);
+  margin: 0;
+  line-height: 1.3;
 }
 
-.timeline-item:hover .timeline-logo,
-.bento-card:hover .timeline-logo {
-  filter: grayscale(0%) opacity(1);
-  transform: scale(1.05);
-}
-
-.timeline-role {
-  font-size: 1.25rem;
+.company-badge {
+  display: inline-block;
+  background-color: var(--foreground);
+  color: var(--bg-color);
+  font-size: 10px;
+  text-transform: uppercase;
   font-weight: 700;
-  margin-bottom: 0.3rem;
-  letter-spacing: -0.3px;
+  padding: 0.2rem 0.5rem;
+  letter-spacing: 0.08em;
 }
 
-.timeline-company {
+.company-logo {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: grayscale(100%) brightness(0.7);
+  transition: filter 0.2s ease;
+}
+
+.experience-card:hover .company-logo {
+  filter: grayscale(0%) brightness(1);
+}
+
+.company-logo img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* Description Bullets */
+.experience-desc {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.experience-desc li {
+  position: relative;
+  padding-left: 1.25rem;
+  margin-bottom: 0.4rem;
+  font-size: 0.85rem;
+  color: var(--text-color);
+  line-height: 1.55;
+}
+
+.experience-desc li::before {
+  content: '+';
+  position: absolute;
+  left: 0;
+  color: var(--accent-color);
+  font-weight: 700;
+}
+
+/* Achievements */
+.achievements-section {
+  margin-top: 2rem;
+}
+
+.section-divider {
+  border-top: 1px dotted var(--card-border);
+  margin-bottom: 1.5rem;
+}
+
+.achievements-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.achievement-card {
+  border: 1px solid var(--card-border);
+  background-color: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 0;
+  transition: border-color 0.2s ease;
+}
+
+.achievement-card:hover {
+  border-color: var(--accent-color);
+}
+
+.achievement-info h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--foreground);
+  margin: 0 0 0.25rem 0;
+}
+
+.achievement-org {
+  display: inline-block;
+  font-size: 0.8rem;
+  color: var(--text-color);
+  margin-right: 0.75rem;
   font-weight: 500;
-  color: var(--text-muted);
-  margin-bottom: 0.5rem;
-  font-size: 0.95rem;
 }
 
-.timeline-desc {
-  font-size: 0.92rem;
-  line-height: 1.7;
+.achievement-desc {
+  margin: 0.75rem 0 0 0;
+  font-size: 0.85rem;
   color: var(--text-muted);
+  line-height: 1.55;
+}
+
+.experience-loading {
+  text-align: center;
+  padding: 4rem;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
 }
 
 /* Responsive */
-/* Bento Grid Layout (Organisasi) */
-.bento-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
-}
-
-.bento-card {
-  display: flex;
-  flex-direction: column;
-}
-
-/* Feature tile variations to create asymmetry */
-.bento-grid .bento-card:nth-child(1),
-.bento-grid .bento-card:nth-child(4) {
-  grid-column: span 2;
-}
-
-.bento-content {
-  background-color: var(--card-bg);
-  padding: 1.5rem 1.8rem;
-  border-radius: 16px;
-  border: 1px solid var(--card-border);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 8px 32px rgba(0, 0, 0, 0.2);
-  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
-  height: 100%;
-}
-
-.bento-card:hover .bento-content {
-  transform: translateY(-4px);
-  border-color: var(--accent-color);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 12px 30px rgba(0, 0, 0, 0.3);
-}
-
-@media (max-width: 640px) {
-
-  .bento-grid .bento-card:nth-child(1),
-  .bento-grid .bento-card:nth-child(4) {
-    grid-column: span 1;
-  }
-
-  .bento-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width: 992px) {
-  .education-banner {
-    flex-direction: column;
-    text-align: center;
-    gap: 1.25rem;
-    padding: 2rem;
-  }
-
-  .edu-period {
-    align-self: center;
-  }
-
-  .experience-grid {
-    grid-template-columns: 1fr;
-    gap: 4rem;
-  }
-}
-
 @media (max-width: 480px) {
-  .timeline {
-    padding-left: 1.5rem;
-  }
-
-  .timeline-header-flex {
+  .experience-card-header {
     flex-direction: column-reverse;
-    gap: 0.5rem;
+    gap: 0.75rem;
   }
 
-  .timeline-logo {
+  .company-logo {
+    width: 36px;
     height: 36px;
-  }
-
-  .timeline-role {
-    font-size: 1.1rem;
   }
 }

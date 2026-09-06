@@ -2,35 +2,55 @@ import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import Hero from '../components/Hero';
-import Experience from '../components/Experience';
-import Portfolio from '../components/Portfolio';
+import EduAndAchieve from '../components/EduAndAchieve';
+import TabbedContent from '../components/TabbedContent';
 import Contact from '../components/Contact';
+import LanguageSwitcher from '../components/LanguageSwitcher';
 
-const Home = ({ isTerminalOpen, setIsTerminalOpen }) => {
+const Home = () => {
   const location = useLocation();
 
   useEffect(() => {
-    // Jika datang dari halaman lain dengan perintah scroll ke seksi tertentu
-    if (location.state?.scrollTo) {
-      setTimeout(() => {
-        const el = document.getElementById(location.state.scrollTo);
-        if (el) el.scrollIntoView({ behavior: 'smooth' });
-      }, 100); // Jeda kecil agar DOM sempat termuat
+    // Handle scroll to hash when landing on Home
+    if (location.hash) {
+      const id = location.hash.replace('#', '');
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    } else {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }
-  }, [location.state]);
+  }, [location]);
 
   return (
-    <motion.main
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      exit={{ opacity: 0, y: -20 }}
-      transition={{ duration: 0.3 }}
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.5 }}
     >
-      <Hero isTerminalOpen={isTerminalOpen} setIsTerminalOpen={setIsTerminalOpen} />
-      <Experience />
-      <Portfolio />
-      <Contact />
-    </motion.main>
+      <LanguageSwitcher />
+      <main className="page-container">
+        <div className="top-layout">
+          {/* Left Column: Hero/Profile */}
+          <Hero />
+          
+          {/* Right Column: Education & Achievements */}
+          <div className="right-content">
+            <EduAndAchieve />
+          </div>
+        </div>
+
+        {/* Bottom Section: Tabs for Professional, Organization, Projects, Certs */}
+        <div className="bottom-layout" id="portfolio">
+          <TabbedContent />
+        </div>
+
+        {/* Footer / Contact */}
+        <Contact />
+      </main>
+    </motion.div>
   );
 };
 

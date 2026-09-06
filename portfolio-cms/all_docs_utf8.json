@@ -1,0 +1,4373 @@
+﻿[
+  {
+    "_createdAt": "2026-09-03T04:08:38Z",
+    "_id": "0Kx6dhY4cG5xUskekUoC19",
+    "_rev": "0Kx6dhY4cG5xUskekUpeLM",
+    "_system": {
+      "base": {
+        "id": "0Kx6dhY4cG5xUskekUoC19",
+        "rev": "0Kx6dhY4cG5xUskekUoBzU"
+      }
+    },
+    "_type": "project",
+    "_updatedAt": "2026-09-03T04:24:08Z",
+    "collages": [
+      {
+        "_key": "0Kx6dhY4cG5xUskekUpT5c",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-f719115d98fb6072532a8c62509f2976e4626199-1068x1128-jpg",
+          "_type": "reference"
+        }
+      },
+      {
+        "_key": "0Kx6dhY4cG5xUskekUpT7H",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-5c0f5ab43fe908d9b5da949bad50417e82baa6e0-1600x900-jpg",
+          "_type": "reference"
+        }
+      }
+    ],
+    "desc": "Sistem IoT cerdas memanfaatkan mikrokontroler Arduino, modul sensor terpadu, dan aktuator relai dalam mengelola iklim ruangan UMKM.",
+    "features": [
+      "Pembaca suhu dan kelembapan ruangan tanpa sela",
+      "Dasbor fisik LCD I2C",
+      "Pembangkit mekanis relay otomatis dari ambang toleransi mikrokontroler"
+    ],
+    "github": "https://github.com/Dhani2612/temp-humidity-monitor",
+    "img": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-f719115d98fb6072532a8c62509f2976e4626199-1068x1128-jpg",
+        "_type": "reference"
+      }
+    },
+    "longDesc": "Proyek IoT (Internet of Things) ini saya buat sebagai implementasi pragmatis untuk mata kuliah Komputer dan Masyarakat. Visinya adalah memecahkan kendala lapangan yang ada di lingkungan lokal seperti UMKM pengrajin (furniture production) di mana kelembapan udara yang keliru dapat segera merusak material kayu yang sensitif.\n    \n    Dilengkapi perangkat keras berupa sensor DHT22 untuk mengukur matriks Suhu dan Kelembapan ruangan, data mentah akan ditayangkan secara waktu nyata atau real time ke dalam layar LCD I2C 20x4.\n    \n    Yang membuat sistem ini otonom adalah blok logikanya. Saat program C++ Arduino mendeteksi nilai kelembapan atau suhu menembus pelambung batas (humidity < 50 atau temperature < 28), modul Relay pendamping akan otomatis tersulut dan mengatifkan instrumen penstabil udara secara mandiri!",
+    "tags": [
+      "Arduino",
+      "C++",
+      "IoT",
+      "Hardware"
+    ],
+    "title": "DHT22 Relay LCD ΓÇô IoT Monitoring"
+  },
+  {
+    "_createdAt": "2026-09-03T04:19:56Z",
+    "_id": "0Kx6dhY4cG5xUskekUpYiU",
+    "_rev": "0Kx6dhY4cG5xUskekUpYgp",
+    "_type": "certificate",
+    "_updatedAt": "2026-09-03T04:19:56Z",
+    "img": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-5dc177b39816ed0732bb3a8113de3d98e3072c40-2000x1414-jpg",
+        "_type": "reference"
+      }
+    },
+    "link": "https://drive.google.com/file/d/1FeEZ8t5aT2Bb-4nervrxrpRZjilNrf5l/view?usp=sharing",
+    "order": 96,
+    "org": "BEM KM UPN Veteran Yogyakarta",
+    "title": "Staff Kementerian"
+  },
+  {
+    "_createdAt": "2026-09-03T04:20:11Z",
+    "_id": "0Kx6dhY4cG5xUskekUpZJ2",
+    "_rev": "0Kx6dhY4cG5xUskekUpZHN",
+    "_type": "certificate",
+    "_updatedAt": "2026-09-03T04:20:11Z",
+    "img": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-b85c0b446f9a42fd1b70bd8017acefd25dff7e79-1754x1240-png",
+        "_type": "reference"
+      }
+    },
+    "link": "https://drive.google.com/file/d/15dc_bxP4i09PQ6t303xt3vGpd7QLU7eK/view?usp=sharing",
+    "order": 91,
+    "org": "PKKBN IF UPN Veteran Yogyakarta",
+    "title": "Komandan Lapangan Penyokong"
+  },
+  {
+    "_createdAt": "2026-09-03T04:20:34Z",
+    "_id": "0Kx6dhY4cG5xUskekUpZwu",
+    "_rev": "0Kx6dhY4cG5xUskekUpZvF",
+    "_type": "experience",
+    "_updatedAt": "2026-09-03T04:20:34Z",
+    "company": "PKKBN IF UPN \"Veteran\" Yogyakarta",
+    "desc": [
+      "Mengoordinasikan lebih dari 100 panitia dari berbagai divisi.",
+      "Memimpin tahapan perencanaan hingga pelaksanaan acara PKKBN Informatika 2025."
+    ],
+    "logo": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-1edcda42c57ed9c58778b0f68ad14429ba62474b-500x500-png",
+        "_type": "reference"
+      }
+    },
+    "order": 95,
+    "period": "Apr 2025 - Agt 2025",
+    "role": "Koordinator Umum",
+    "type": "organization"
+  },
+  {
+    "_createdAt": "2026-09-03T04:20:42Z",
+    "_id": "0Kx6dhY4cG5xUskekUpaVn",
+    "_rev": "0Kx6dhY4cG5xUskekUpaU8",
+    "_type": "experience",
+    "_updatedAt": "2026-09-03T04:20:42Z",
+    "company": "PKKBN IF UPN \"Veteran\" Yogyakarta",
+    "desc": [
+      "Bertanggung jawab atas manajemen lapangan dan logistik pada acara PKKBN.",
+      "Mengoordinasikan 100+ panitia saat hari H dan sekaligus bertugas sebagai MC utama acara."
+    ],
+    "logo": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-1edcda42c57ed9c58778b0f68ad14429ba62474b-500x500-png",
+        "_type": "reference"
+      }
+    },
+    "order": 92,
+    "period": "Mei 2024 - Agt 2024",
+    "role": "Koordinator Lapangan Penyokong",
+    "type": "organization"
+  },
+  {
+    "_createdAt": "2026-09-03T04:08:58Z",
+    "_id": "GNi82xCo1eRS3egKAinoVK",
+    "_rev": "GNi82xCo1eRS3egKAipN7m",
+    "_system": {
+      "base": {
+        "id": "GNi82xCo1eRS3egKAinoVK",
+        "rev": "GNi82xCo1eRS3egKAinoSd"
+      }
+    },
+    "_type": "project",
+    "_updatedAt": "2026-09-03T04:23:57Z",
+    "collages": [
+      {
+        "_key": "0Kx6dhY4cG5xUskekUpTPY",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-c3aaa097636a411f8b7e8512d217bf3fe7af57e3-1905x916-png",
+          "_type": "reference"
+        }
+      },
+      {
+        "_key": "0Kx6dhY4cG5xUskekUpTRD",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-6b7cd7adf79d93b47262cad351a6d5e7417caa53-1897x917-png",
+          "_type": "reference"
+        }
+      },
+      {
+        "_key": "0Kx6dhY4cG5xUskekUpTSs",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-58ad0c3630cd914068a8d100e02e969c81b01d29-1907x917-png",
+          "_type": "reference"
+        }
+      }
+    ],
+    "desc": "Purwarupa LMS berbasis web yang mengintegrasikan enkripsi AES-256, steganografi LSB, dan autentikasi scrypt untuk keamanan data akademik.",
+    "features": [
+      "Hybrid Cryptography: enkripsi file tugas dengan AES-256 + Caesar Cipher",
+      "Steganografi LSB untuk watermark digital pada transkrip nilai",
+      "Autentikasi aman dengan hashing scrypt dan fallback MD5",
+      "Anti brute-force melalui Rate Limiting pada login dan registrasi",
+      "HTTPS development dengan sertifikat self-signed (mkcert)",
+      "Antarmuka responsif bertema Professional LMS White & Modern Blue"
+    ],
+    "github": "https://github.com/Dhani2612/LMS-kripto-projek",
+    "img": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-c3aaa097636a411f8b7e8512d217bf3fe7af57e3-1905x916-png",
+        "_type": "reference"
+      }
+    },
+    "longDesc": "Kripto Sakti adalah purwarupa aplikasi berbasis web bertema Learning Management System (LMS) yang dirancang secara khusus untuk mendemonstrasikan integrasi berbagai algoritma keamanan siber dan kriptografi modern ke dalam alur kerja pendidikan digital sehari-hari, seperti pengelolaan tugas mahasiswa dan transkrip akademik.\n\nAplikasi ini tidak sekadar bertindak sebagai sarana unggah-unduh file biasa, melainkan menyuntikkan keamanan tingkat tinggi di balik layar. Saat mahasiswa mengunggah file tugas (PDF/DOCX), sistem mengenkripsinya menggunakan kombinasi AES-256 yang dimodifikasi dengan Caesar Cipher, sehingga dokumen asli tidak pernah disimpan secara utuh di server. Hanya dosen pembimbing yang berwenang yang dapat mendekripsinya kembali.\n\nUntuk verifikasi transkrip, sistem menyisipkan watermark digital ke dalam gambar menggunakan teknik Steganografi LSB (Least Significant Bit), sehingga keaslian transkrip dapat diverifikasi tanpa merusak visual gambar secara kasat mata. Password dilindungi dengan hashing modern scrypt dari Werkzeug Security, dan endpoint vital dilindungi dengan Rate Limiting untuk mencegah serangan brute-force.",
+    "tags": [
+      "Python",
+      "Flask",
+      "Cryptography",
+      "MySQL"
+    ],
+    "title": "Kripto Sakti ΓÇô Secure LMS"
+  },
+  {
+    "_createdAt": "2026-09-03T04:09:31Z",
+    "_id": "GNi82xCo1eRS3egKAio0Mf",
+    "_rev": "dFAVSasokFbCybtJSe76sB",
+    "_system": {
+      "base": {
+        "id": "GNi82xCo1eRS3egKAio0Mf",
+        "rev": "GNi82xCo1eRS3egKAio0Jy"
+      }
+    },
+    "_type": "project",
+    "_updatedAt": "2026-09-06T17:09:55Z",
+    "collages": [
+      {
+        "_key": "GNi82xCo1eRS3egKAip5hf",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-04ce68651ef4d325a5a7576c25212ff34d2649af-1917x911-png",
+          "_type": "reference"
+        }
+      },
+      {
+        "_key": "GNi82xCo1eRS3egKAip5kM",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-f00c20122fa8bc00fedf96138b83296eeb2d4431-1917x907-png",
+          "_type": "reference"
+        }
+      }
+    ],
+    "desc": "Sistem informasi pencatatan dan manajemen data tamu yang berkunjung ke divisi Hubungan Masyarakat UPN \"Veteran\" Yogyakarta.",
+    "features": [
+      "Digitalisasi penuh untuk pencatatan buku tamu instansi resmi",
+      "Penyimpanan data terstruktur dengan pencatatan waktu otomatis (Timestamp)",
+      "Antarmuka pengisian formulir yang intuitif dan responsif",
+      "Sistem rekapitulasi data untuk mempermudah audit dan pelaporan"
+    ],
+    "features_en": [
+      "Full digitalization for official institution guestbook recording",
+      "Structured data storage with automatic Timestamp",
+      "Intuitive and responsive form filling interface",
+      "Data recapitulation system to facilitate audit and reporting"
+    ],
+    "img": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-04ce68651ef4d325a5a7576c25212ff34d2649af-1917x911-png",
+        "_type": "reference"
+      }
+    },
+    "longDesc": "Sistem Buku Tamu Digital ini saya kembangkan secara khusus selama bertugas sebagai Web & CMS Administrator di Divisi Hubungan Masyarakat (Humas) UPN \"Veteran\" Yogyakarta. Proyek ini lahir dari inisiatif untuk mendigitalisasi proses pencatatan kehadiran tamu yang sebelumnya masih mengandalkan buku catatan manual.\n\nMelalui aplikasi berbasis web ini, petugas maupun tamu dapat melakukan registrasi kedatangan dengan lebih cepat dan terstruktur. Sistem akan secara otomatis mencatat identitas, instansi asal, tujuan kunjungan, serta cap waktu (timestamp) secara akurat ke dalam basis data terpusat.\n\nSelain mempercepat alur operasional di meja resepsionis, digitalisasi ini sangat mempermudah divisi Humas dalam melakukan rekapitulasi pelaporan, pencarian arsip tamu masa lalu, dan analisis data kunjungan guna mendukung peningkatan layanan publik instansi.",
+    "longDesc_en": "I developed this Digital Guestbook System specifically during my tenure as Web & CMS Administrator at the Public Relations (Humas) Division of UPN \"Veteran\" Yogyakarta. This project was born from an initiative to digitalize the guest attendance recording process, which previously still relied on manual logbooks.\n\nThrough this web-based application, staff and guests can register their arrival faster and more structurally. The system automatically records identity, origin institution, purpose of visit, and accurate timestamps into a centralized database.\n\nBesides accelerating operational workflow at the receptionist desk, this digitalization greatly facilitates the Public Relations division in recapitulating reports, searching past guest archives, and analyzing visit data to support the improvement of the institution's public services.",
+    "tags": [
+      "JavaScript",
+      "Apps Script",
+      "Web",
+      "CMS"
+    ],
+    "title": "Sistem Buku Tamu Digital | Humas UPNYK"
+  },
+  {
+    "_createdAt": "2026-09-03T04:19:44Z",
+    "_id": "GNi82xCo1eRS3egKAipDOQ",
+    "_rev": "GNi82xCo1eRS3egKAipDLj",
+    "_type": "certificate",
+    "_updatedAt": "2026-09-03T04:19:44Z",
+    "img": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-5fa7de81ef58c03c8c314a2e53e792d6019a4411-1051x746-png",
+        "_type": "reference"
+      }
+    },
+    "link": "https://www.dicoding.com/certificates/RVZKWYMYOZD5",
+    "order": 100,
+    "org": "Dicoding",
+    "title": "Dasar Pemrograman Web"
+  },
+  {
+    "_createdAt": "2026-09-03T04:19:47Z",
+    "_id": "GNi82xCo1eRS3egKAipDZC",
+    "_rev": "GNi82xCo1eRS3egKAipDWV",
+    "_type": "certificate",
+    "_updatedAt": "2026-09-03T04:19:47Z",
+    "img": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-8d4d6ee2b64905f3ec6b19e870684899b5470b8f-1121x792-png",
+        "_type": "reference"
+      }
+    },
+    "link": "https://www.dicoding.com/certificates/0LZ06E2RRZ65",
+    "order": 99,
+    "org": "Dicoding",
+    "title": "Dasar Pemrograman JavaScript"
+  },
+  {
+    "_createdAt": "2026-09-03T04:19:52Z",
+    "_id": "GNi82xCo1eRS3egKAipE8D",
+    "_rev": "GNi82xCo1eRS3egKAipE5W",
+    "_type": "certificate",
+    "_updatedAt": "2026-09-03T04:19:52Z",
+    "img": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-54eb22f713213f57b1b3c32898a79ba7cc6b9c63-1979x1400-jpg",
+        "_type": "reference"
+      }
+    },
+    "link": "https://inix-eduparx.s3.ap-southeast-1.amazonaws.com/oti/certificates/memoti/38601/CERT_2f0a74c1-f26c-4f69-96e6-c94339215c76.jpg",
+    "order": 97,
+    "org": "Eduparx",
+    "title": "Content Creator Course"
+  },
+  {
+    "_createdAt": "2026-09-03T04:19:58Z",
+    "_id": "GNi82xCo1eRS3egKAipEIz",
+    "_rev": "GNi82xCo1eRS3egKAipEGI",
+    "_type": "certificate",
+    "_updatedAt": "2026-09-03T04:19:58Z",
+    "img": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-463c2637ee81e741fff2afb2a29ac89c5699ac20-2000x1414-jpg",
+        "_type": "reference"
+      }
+    },
+    "link": "https://drive.google.com/file/d/1WgVkVmvZU_ixi51arrsijKqN3Z6CyIHi/view?usp=sharing",
+    "order": 95,
+    "org": "BEM KM UPN Veteran Yogyakarta",
+    "title": "PLT Kementerian"
+  },
+  {
+    "_createdAt": "2026-09-03T04:20:01Z",
+    "_id": "GNi82xCo1eRS3egKAipEZ9",
+    "_rev": "GNi82xCo1eRS3egKAipEWS",
+    "_type": "certificate",
+    "_updatedAt": "2026-09-03T04:20:01Z",
+    "img": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-5cdb654189fdd4a72d72be4e999e92a0ffe81623-2000x1414-jpg",
+        "_type": "reference"
+      }
+    },
+    "link": "https://drive.google.com/file/d/1e30vL9dtG8wnhd8sZHtQovWP-UyYe8RT/view?usp=sharing",
+    "order": 94,
+    "org": "BEM KM UPN Veteran Yogyakarta",
+    "title": "Staff of The Month"
+  },
+  {
+    "_createdAt": "2026-09-03T04:20:07Z",
+    "_id": "GNi82xCo1eRS3egKAipF05",
+    "_rev": "GNi82xCo1eRS3egKAipExO",
+    "_type": "certificate",
+    "_updatedAt": "2026-09-03T04:20:07Z",
+    "img": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-778c285ffebb486b3742796eb51a16fca43444f8-2000x1414-png",
+        "_type": "reference"
+      }
+    },
+    "link": "https://drive.google.com/file/d/15YGOHTVOpF_fgp96uqUhCpm-p0fOTJHI/view?usp=sharing",
+    "order": 92,
+    "org": "PKKBN IF UPN Veteran Yogyakarta",
+    "title": "Koordinator Umum"
+  },
+  {
+    "_createdAt": "2026-09-03T04:20:17Z",
+    "_id": "GNi82xCo1eRS3egKAipG02",
+    "_rev": "GNi82xCo1eRS3egKAipFxL",
+    "_type": "certificate",
+    "_updatedAt": "2026-09-03T04:20:17Z",
+    "img": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-e430d1d50f26db7c44ddbdd5abd6f08c1baa4e70-1552x2240-jpg",
+        "_type": "reference"
+      }
+    },
+    "link": "https://drive.google.com/file/d/1uu1Q_BkjaxEWVwLSnF_2XEqfZtMkowdo/view?usp=sharing",
+    "order": 89,
+    "org": "HMTM UPN Veteran Yogyakarta",
+    "title": "Speaker Kegiatan Mahasiswa"
+  },
+  {
+    "_createdAt": "2026-09-03T04:20:26Z",
+    "_id": "GNi82xCo1eRS3egKAipGeR",
+    "_rev": "GNi82xCo1eRS3egKAipGbk",
+    "_type": "experience",
+    "_updatedAt": "2026-09-03T04:20:26Z",
+    "company": "Rakamin Academy X ID/X Partners",
+    "desc": [
+      "Menggunakan Python dan SQL untuk memproses data dan mengembangkan model prediktif.",
+      "Melakukan Exploratory Data Analysis (EDA) dari studi kasus industri untuk menghasilkan actionable insights.",
+      "Merangkum hasil analisis ke dalam visualisasi data interaktif."
+    ],
+    "order": 97,
+    "period": "Januari 2025",
+    "role": "Magang Berbasis Projek : Data Scientist",
+    "type": "professional"
+  },
+  {
+    "_createdAt": "2026-09-03T04:20:31Z",
+    "_id": "GNi82xCo1eRS3egKAipH2g",
+    "_rev": "GNi82xCo1eRS3egKAipGzz",
+    "_type": "experience",
+    "_updatedAt": "2026-09-03T04:20:31Z",
+    "company": "LPPM UPN \"Veteran\" Yogyakarta",
+    "desc": [
+      "Memimpin tim mahasiswa dari berbagai program studi dalam pelaksanaan Kuliah Kerja Nyata (KKN).",
+      "Bertindak sebagai penghubung antara pihak desa, dosen pembimbing, dan anggota tim.",
+      "Mengawasi jalannya 3 program kerja utama pemberdayaan masyarakat agar selesai sesuai target operasional lapangan."
+    ],
+    "logo": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-93cb794a0d85fd06ce2397709f2b6cde3e7273e8-977x974-png",
+        "_type": "reference"
+      }
+    },
+    "order": 96,
+    "period": "Juli 2026",
+    "role": "Koordinator Mahasiswa Kelompok KKN UPNYK 84.065",
+    "type": "organization"
+  },
+  {
+    "_createdAt": "2026-09-03T04:20:40Z",
+    "_id": "GNi82xCo1eRS3egKAipHjm",
+    "_rev": "GNi82xCo1eRS3egKAipHh5",
+    "_type": "experience",
+    "_updatedAt": "2026-09-03T04:20:40Z",
+    "company": "BEM KM UPN \"Veteran\" Yogyakarta",
+    "desc": [
+      "Dipercaya mengambil alih kepemimpinan kementerian sementara secara penuh.",
+      "Memimpin langsung tim dalam menganalisis isu-isu kampus yang krusial dan menyusun langkah advokasi relevan."
+    ],
+    "logo": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-3edd6ad53b6c7f38fcbbf3098c9c9dbdb2f222f0-350x363-png",
+        "_type": "reference"
+      }
+    },
+    "order": 93,
+    "period": "Okt 2024 - Des 2024",
+    "role": "PLT Kementerian Analisis Isu Kampus",
+    "type": "organization"
+  },
+  {
+    "_createdAt": "2026-09-03T04:20:45Z",
+    "_id": "GNi82xCo1eRS3egKAipIQs",
+    "_rev": "GNi82xCo1eRS3egKAipIOB",
+    "_type": "experience",
+    "_updatedAt": "2026-09-03T04:20:45Z",
+    "company": "BEM KM UPN \"Veteran\" Yogyakarta",
+    "desc": [
+      "Terlibat langsung dalam pengumpulan data kajian dari 1.000+ mahasiswa.",
+      "Berkontribusi dalam penyusunan 8+ laporan analisis yang digunakan sebagai landasan perbaikan fasilitas kampus."
+    ],
+    "logo": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-3edd6ad53b6c7f38fcbbf3098c9c9dbdb2f222f0-350x363-png",
+        "_type": "reference"
+      }
+    },
+    "order": 91,
+    "period": "Feb 2024 - Okt 2024",
+    "role": "Staff Kementerian Analisis Isu Kampus",
+    "type": "organization"
+  },
+  {
+    "_createdAt": "2026-09-03T04:08:46Z",
+    "_id": "image-025df022f6b1aa211ebe1ec4ec82b97fb56e1f2f-738x1600-jpg",
+    "_rev": "0Kx6dhY4cG5xUskekUoHpe",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:08:46Z",
+    "assetId": "025df022f6b1aa211ebe1ec4ec82b97fb56e1f2f",
+    "extension": "jpg",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "c13u.v?cRPxbt7ozD~NFozogogozR4jFxH",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 0.46125,
+        "height": 1600,
+        "width": 738
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAArABQDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAQCAwUGCP/EACYQAAICAAUDBAMAAAAAAAAAAAECAAMEERIhMRMiQSMyYXFRUpH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQME/8QAGBEBAQEBAQAAAAAAAAAAAAAAAAEREhP/2gAMAwEAAhEDEQA/APPtmH62GrrXDooHnVzF1wOjMqiDb9hNAAdBQtFeryxbmVOraT6dA28GdGRltINUrHuQbbQkx9QjIa1qxpw9bNhqSCPczbmLWKzBuygD4MkiqahmlR28vKrAioT06j9NvKW6Vy+IQhAd6zCoIKau0Z6styJC4XacnrrAK6tgOJzots6bHW2fHMlZfaSmdjcfmZ+kXitWxLFI2ABGcJjNdZn72/sI9IvL/9k=",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#343c4b",
+          "foreground": "#fff",
+          "population": 3.85,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#1e3869",
+          "foreground": "#fff",
+          "population": 0.2,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#343c4b",
+          "foreground": "#fff",
+          "population": 3.85,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#bcc4d6",
+          "foreground": "#000",
+          "population": 0.01,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#db9eb1",
+          "foreground": "#000",
+          "population": 0,
+          "title": "#fff"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#a65374",
+          "foreground": "#fff",
+          "population": 0.08,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#b14164",
+          "foreground": "#fff",
+          "population": 0.02,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "iPcBAwBdiQiWiHI4d4Zv/7k="
+    },
+    "mimeType": "image/jpeg",
+    "originalFilename": "spadaapp3.jpeg",
+    "path": "images/b1shmtql/production/025df022f6b1aa211ebe1ec4ec82b97fb56e1f2f-738x1600.jpg",
+    "sha1hash": "025df022f6b1aa211ebe1ec4ec82b97fb56e1f2f",
+    "size": 81580,
+    "uploadId": "aae6b37ab198902eee4b784fa5a7dc02e4ea0151",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/025df022f6b1aa211ebe1ec4ec82b97fb56e1f2f-738x1600.jpg"
+  },
+  {
+    "_createdAt": "2026-09-03T04:09:28Z",
+    "_id": "image-04ce68651ef4d325a5a7576c25212ff34d2649af-1917x911-png",
+    "_rev": "0Kx6dhY4cG5xUskekUox4N",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:09:29Z",
+    "assetId": "04ce68651ef4d325a5a7576c25212ff34d2649af",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "M3RMoAR80K~qRp00rK%LM{R$00ML-:n,-;",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 2.1042810098792537,
+        "height": 911,
+        "width": 1917
+      },
+      "hasAlpha": true,
+      "isOpaque": true,
+      "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABJ0AAASdAHeZh94AAABpUlEQVQokX3SS2sTQQDA8f16ioYQaymJFFSkKPghBFG0SNGDFw8evIioRJPm0VaLIiK1KopUUVQoYguySfYxr93Z/cvu5kWJPfzZndmdH8MwTu16ldpylfKVExy5dJyjl0scu1qmdK1CablC+cYclZWTVG7OM3drgfnbVRbunKJ2d5HFe2c4ff8cZx8tsdS4wPnWRZzOVpf22y711w0evHzMw1d16m8aPNlq8nR7lea7Fs337bzVDx1aH7u0P63R+bxOd2eDta/PWP+2ycb3TZ7/eIHjBQGDIKA3GPC35+IO+nihjy8DAhUWyaCYE8VcqEcJAiXwRYgXFjlSGfKkRkiF0gZrLUmSkKRF1sZordHGYBNLmibjrLVoEyFlZhgckUMFFgqJUjr/KU3TcRluoigve5/+Zm2C1tHQ0BMw26GUCj3c4fSiEXoQOxxUGqEV0ihiG0+g4aKsg9ihoB+G7PX32XV36YW9MToCizP9D2hmgH3f4+f+L3Z+f+GPu5efZRzbvGj4nFUUxahZOwyEzFHX65NdJSl0jmZlx5E1Gk9X3I5J/wCX6d61ZUqmdwAAAABJRU5ErkJggg==",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#3a7c44",
+          "foreground": "#fff",
+          "population": 0.27,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#0c641c",
+          "foreground": "#fff",
+          "population": 0.01,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#95c798",
+          "foreground": "#000",
+          "population": 0.93,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#95c798",
+          "foreground": "#000",
+          "population": 0.93,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#d4fcc8",
+          "foreground": "#000",
+          "population": 0.01,
+          "title": "#000"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#94a95d",
+          "foreground": "#000",
+          "population": 0.06,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#44a44c",
+          "foreground": "#fff",
+          "population": 0.73,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "OegJC4R3iIhweAeHd3+PBwg="
+    },
+    "mimeType": "image/png",
+    "originalFilename": "tamukermahum.png",
+    "path": "images/b1shmtql/production/04ce68651ef4d325a5a7576c25212ff34d2649af-1917x911.png",
+    "sha1hash": "04ce68651ef4d325a5a7576c25212ff34d2649af",
+    "size": 106974,
+    "uploadId": "5c2eee375b284656d0b31271a53201592571fe55",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/04ce68651ef4d325a5a7576c25212ff34d2649af-1917x911.png"
+  },
+  {
+    "_createdAt": "2026-09-03T04:09:08Z",
+    "_id": "image-169b924a3224ff401c9b71e3d3a278827d8aa0f7-1906x917-png",
+    "_rev": "GNi82xCo1eRS3egKAinpwD",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:09:09Z",
+    "assetId": "169b924a3224ff401c9b71e3d3a278827d8aa0f7",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "MdQJx%ofM]oet9^-jtbIj[jZWBayt9a#R$",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 2.0785169029443837,
+        "height": 917,
+        "width": 1906
+      },
+      "hasAlpha": true,
+      "isOpaque": true,
+      "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABJ0AAASdAHeZh94AAABfklEQVQokW3L72/SQACH8f7/r01MlDhpfCGbmc53WzYJvoAFW4xsSQmjiKwUuK6lv64ta5PHeCxmjL745C5330erKsm2CInCJUGwIssiylJSVRlllanzubq36hktSW2i5I5gM8LfjAjjO+LUJpUzZOYgc5ckdRSZuaS5QyJn/OvqaCLoI/wXgj5BeEMqHeJU8OAv8PzdPZEOfjhUmzraQnSoI4IBcbomlZIoToiShCzPSTKBCMzaZiE6aH+W5xy6wBXXBNGCNMsptiXFY8W2LEmyNa7Xq2nOFW1yf8ahr8xX39lEDnlR8FhVT0pi6XK/7tQ0Z4pmzVocOmbqXrIMfyPyEG8bP4lYxVOm7kVN01K04aTJ0G5ys0fndv4FY9WlLQyuHgyuPIO2Z2Kuu9zOT9Vmv9nResPXGKM3DMaN/36OG5iTD3yzjzm1W3yyPyqf7Rbt6QnmRFebwfjtAe2y+4rerwaGdfTCe35YOteWTk9pqnvf0tXfbvNujzk64i8U48daPHsD2AAAAABJRU5ErkJggg==",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#746c74",
+          "foreground": "#fff",
+          "population": 0.01,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#1a6938",
+          "foreground": "#fff",
+          "population": 0,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#cbdc93",
+          "foreground": "#000",
+          "population": 6.52,
+          "title": "#000"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#d4bca4",
+          "foreground": "#000",
+          "population": 0,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#cbdc93",
+          "foreground": "#000",
+          "population": 6.52,
+          "title": "#000"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#849054",
+          "foreground": "#fff",
+          "population": 0.01,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#2fb863",
+          "foreground": "#fff",
+          "population": 1.78,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "NukFE4JHl3d/iGiX54CI+lg="
+    },
+    "mimeType": "image/png",
+    "originalFilename": "pupuk1.png",
+    "path": "images/b1shmtql/production/169b924a3224ff401c9b71e3d3a278827d8aa0f7-1906x917.png",
+    "sha1hash": "169b924a3224ff401c9b71e3d3a278827d8aa0f7",
+    "size": 70541,
+    "uploadId": "6ea769b44f2154b78bc24366b925fae77a552a67",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/169b924a3224ff401c9b71e3d3a278827d8aa0f7-1906x917.png"
+  },
+  {
+    "_createdAt": "2026-09-03T04:09:05Z",
+    "_id": "image-17438f11d8e1d485f2bacf5accbb2afc231d65cc-738x1600-jpg",
+    "_rev": "0Kx6dhY4cG5xUskekUoZIo",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:09:05Z",
+    "assetId": "17438f11d8e1d485f2bacf5accbb2afc231d65cc",
+    "extension": "jpg",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "cLRfnMxuM|~qRkoe01j?j]_4jZoM9EWBox",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 0.46125,
+        "height": 1600,
+        "width": 738
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAArABQDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAEDBAkCCP/EACsQAAEDAgQFAgcAAAAAAAAAAAEAAhEDMQQFBiESEyJRcRVBFiNTVZGTsf/EABcBAQEBAQAAAAAAAAAAAAAAAAEAAgP/xAAcEQACAgIDAAAAAAAAAAAAAAAAARFBAgMhMZH/2gAMAwEAAhEDEQA/APSxo4kuMYlkew4bKxQo1GsirUa93cCFXZRbSxDn9RL9jElW3U4bJsOy02qBcic2DcISid/6hRCY4827o7QpXOkWI8Kq4t43B8Cb9SsMcDS2gs8oKKF+T5QkDt02QkuiNhaahBqMMeF1zWct/LqN22ja6zcGtNS8Dj65mEz9YpnWepAWxneYCRv84okTQPK2Z5yahxmMw7nGo4sgWZ7BCz6+NNS/fMw/cULq9zbmF4YWCVn/2Q==",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#343c58",
+          "foreground": "#fff",
+          "population": 0.01,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#2c44b4",
+          "foreground": "#fff",
+          "population": 0,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#2561e5",
+          "foreground": "#fff",
+          "population": 0.53,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#ccc0a9",
+          "foreground": "#000",
+          "population": 0.14,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#fcaccc",
+          "foreground": "#000",
+          "population": 0.01,
+          "title": "#fff"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#a25a75",
+          "foreground": "#fff",
+          "population": 0.02,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#2561e5",
+          "foreground": "#fff",
+          "population": 0.53,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "+fcJAwB3fwiIfnEtCwpBU0A="
+    },
+    "mimeType": "image/jpeg",
+    "originalFilename": "cash3.jpeg",
+    "path": "images/b1shmtql/production/17438f11d8e1d485f2bacf5accbb2afc231d65cc-738x1600.jpg",
+    "sha1hash": "17438f11d8e1d485f2bacf5accbb2afc231d65cc",
+    "size": 57170,
+    "uploadId": "5e2f73e70a9f67b90873e7efbff6c516ce3bec22",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/17438f11d8e1d485f2bacf5accbb2afc231d65cc-738x1600.jpg"
+  },
+  {
+    "_createdAt": "2026-09-03T04:08:40Z",
+    "_id": "image-18c42f3d0d9bd272257bcff82c1a44a28b7abdd2-738x1600-jpg",
+    "_rev": "0Kx6dhY4cG5xUskekUoCG6",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:08:42Z",
+    "assetId": "18c42f3d0d9bd272257bcff82c1a44a28b7abdd2",
+    "extension": "jpg",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "c13]4T?ce,DhV@t88^NFo}?dtRadrqt7t7",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 0.46125,
+        "height": 1600,
+        "width": 738
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAArABQDASIAAhEBAxEB/8QAGwAAAgMAAwAAAAAAAAAAAAAAAAMBAgUEBgj/xAApEAABBAECBQIHAAAAAAAAAAABAAIDEQQhMRITIlGRBTIUFUFTYWOB/8QAGAEBAQADAAAAAAAAAAAAAAAAAQIAAwT/xAAaEQEBAAIDAAAAAAAAAAAAAAAAARETAhIh/9oADAMBAAIRAxEAPwDzy5sM+NwtxG9A917LjRQN4jy49aTYnARG3kaaDurYxZxnmSOa3uF0YjTbfSXRNcepg00Qr2LNOvVCzEOW1iQt+XQO5biXg2dDaWcCL7cnkK2HXwMFiPY7g2mdP6vBVJZE7WxyuaNAO6Ev1CjlOqv4hCo14sgQ4cMUnODmNJNEVX4UnKb3l24vpsun86UxkmRxO26l8sls63ajuo2Qzg2c1rnzlw2cLFoWE6aS/e7yhGyHq//Z",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#1c2434",
+          "foreground": "#fff",
+          "population": 15.26,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#049474",
+          "foreground": "#fff",
+          "population": 0,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#1c2434",
+          "foreground": "#fff",
+          "population": 15.26,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#c1ccdc",
+          "foreground": "#000",
+          "population": 0.02,
+          "title": "#000"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#e6eff6",
+          "foreground": "#000",
+          "population": 0.24,
+          "title": "#000"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#50a196",
+          "foreground": "#fff",
+          "population": 0.05,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#28aa8f",
+          "foreground": "#fff",
+          "population": 0.2,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "SOcFAwBZcwmXjYUpmIh/ifk="
+    },
+    "mimeType": "image/jpeg",
+    "originalFilename": "spadaapp1.jpeg",
+    "path": "images/b1shmtql/production/18c42f3d0d9bd272257bcff82c1a44a28b7abdd2-738x1600.jpg",
+    "sha1hash": "18c42f3d0d9bd272257bcff82c1a44a28b7abdd2",
+    "size": 67697,
+    "uploadId": "6c092e3bbbfd6722e4b2ec20f4cbc01d89ba0cb2",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/18c42f3d0d9bd272257bcff82c1a44a28b7abdd2-738x1600.jpg"
+  },
+  {
+    "_createdAt": "2026-09-03T04:20:33Z",
+    "_id": "image-1edcda42c57ed9c58778b0f68ad14429ba62474b-500x500-png",
+    "_rev": "k5SsXVtg04B1Uu1lddaZpb",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:20:42Z",
+    "assetId": "1edcda42c57ed9c58778b0f68ad14429ba62474b",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "eFGbVqOs00+aMvtRWBsmozRk00wI}:GF%Na0ozI:RP%1DNNw%##lRq",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 1,
+        "height": 500,
+        "width": 500
+      },
+      "hasAlpha": true,
+      "isOpaque": false,
+      "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAAFlklEQVQ4jXWUaVBTZxSGYzuu/e82dpxWR1umdkYjSe5NbjbCYgRlMWprBQ2I6IggigqCMbIIWW5WwLBGQKKymQiRRTBEEcQi4gKKVDtDbX9ohWldmtzv3HYu7XTqVM/v73vOO++c92Wx/jd/fsQOV83jcAqW8AhyDUZo12MC7XYeXx+LiXThgXjhWoLQfRocrP2EpbjwMYvFmsH6wMxQKFSzcNyymCfQyDCx4Yg4yFITFl50NXJT2UBEZMktaYjZQ0iNdQKx4RiG6UI5ooIlzJ/3wpaKVHPW4oUrcYFhj0Rmad4QU/5oW2z1y6S9Dl9mlpM6mN6EdibU+nbGn53c/I39sXyDzSULse4TygxfikRVc/6rdEZAgGoWLjGslIYWHQ7faOvbEX92KvVgky8tvdl/+GgzVahpp/IL2qhsdQuVm9/mz8y+5E9ObZxSbK0akIZaM6VSU8C/SlUq1UdsNrkoVF6ye/uO2r79qQ2vTuS4/Xmn2v0MxGL1oNqzA6jO8T2qtPchi7WHyi+4TKnUrf59KQ2vtnxrHwiTFyWLRKYlDIulUOjn4rhJIo+w1ScfaJhU57j9OXluqrS8F7W674HX+xju3nsGw8M/0X39T+jOKw+hrLwXMW9O5rmptPSLU9GbK5yExBTCZtvmsQiCXMQXmw8qtlSOph91+pjN1uIe1NPzGNrbR6Cy6gY4XcPQ1HwHWpxD8HDoCQz2j0N5+XWk0Xf6M7Iu+aIUFWN8kSmDUckSCvWrZKGWivhExwsGVqjpoBhlVz1joM5xgzKhFo5kOiE3pwWadI3o58pzaLKzB7ytg2AwdVGMn9t31LyUyKw1BEGuYRESUirfUNKWmOR4m3HMSRUVe6mOzhEwmrvpxKQ6OHGyFYpt15HDfg2Nam3wZvNWoI5koHH3dbBX36QYr/fsO/9H8DprN0aQ61kCkSFSGmzujYg8jeKUNVBU7EX1DbchOaUe0o82Q0fHCNwc+BE98N5Fv2tIQIGBNIqOhmeuLrCfuYl273WgiCgbEBLjLZwgt7H4Qn0Ul6/tDcS1ELLOSmv1V6CxaQjSDjVNq7vqeQR9vePoqasb+RN2AXz2OVDRMfSEq4u2FHkgRG6l1/I0NJevH5gGEgQp5eC6y2yu9i1fSNJHMpxwue0B2Kv7wW7vRx7vGFzrvI+eWSsRwnEazZ9P+3co6dGmbjpb3QICMUmzuRofF9dfwYV6OQvDjF/xCGMpBydfcHA9bIs9A+cv3IahOxMwfGcCBocm4L73Hpo6pQWEYTQlENBTeVporeqCWGUNzcW1dCCmf8nFDXZMqFvNEomsCzGhMYXLNzzgiw3Upi3lcKqwA7zXxmF09Bd68PYEGu8fRW/s1UAdPw6TVhvccnSCJt897R0H0yIObnjEI8zpuMyymMXkEBeaCUxoPBcZU/bywKFGKjPbRZGGbnTRNQwezxgMD/wAT3uH4WF7P3Q09IHV3I2yjl+i4pQ1FCE2TXFwshETGIN4PP3c6ehxucYFQolJuT2u2pt1vOU35nwys1wUaeyirMVeVFF5AyqqesFkvorUuW4q7VAjxSzevffcqxB5SR8PJ5OYlpqOHjNstm0mjpuWRW8pT/kurtq7c9fZX49lt/iYG8vIclGnNO2UOteNDqY3UdmqFv++/fX+yJiyyYio0huh4cXpgiDdCobxTn0tX548WyLRLBNKDEp5hO1cXHzdg1hl7XPl7rrXufltPnWO25eQ5HidnNr4PCHx/IhYZqnnCsjEoHW6FWFhptnv7UQ2O3Eml5u3QCg1E2KZJUUgMZaFRZS4d8bXepUJNdciNp52h4afLg+PLE0TBVnEgSLrwoC/a+vDrc34sHRp1ZyAANVCHk+/ChMbg4RCQ7RQYogWCEjZaq7m6y/YuYt4vANz//HsHdhf0Bkf2I76BgEAAAAASUVORK5CYII=",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#2f3151",
+          "foreground": "#fff",
+          "population": 0.91,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#141c74",
+          "foreground": "#fff",
+          "population": 0,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#f70607",
+          "foreground": "#fff",
+          "population": 3.54,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#aea7c5",
+          "foreground": "#000",
+          "population": 0.91,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#f96e89",
+          "foreground": "#000",
+          "population": 0,
+          "title": "#fff"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#646c96",
+          "foreground": "#fff",
+          "population": 0.07,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#f70607",
+          "foreground": "#fff",
+          "population": 3.54,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "oxaGFQI6CJd4iHRtWAV3MWEIB0eId4CGRw=="
+    },
+    "mimeType": "image/png",
+    "originalFilename": "logoJIF.png",
+    "path": "images/b1shmtql/production/1edcda42c57ed9c58778b0f68ad14429ba62474b-500x500.png",
+    "sha1hash": "1edcda42c57ed9c58778b0f68ad14429ba62474b",
+    "size": 132934,
+    "uploadId": "75cb021dba2f0fb793b483868d3545fe1ded05c2",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/1edcda42c57ed9c58778b0f68ad14429ba62474b-500x500.png"
+  },
+  {
+    "_createdAt": "2026-09-03T04:09:21Z",
+    "_id": "image-371c24c86c5d9edfbe681718b7e65aa58695ff07-1897x840-png",
+    "_rev": "k5SsXVtg04B1Uu1ldda5r8",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:09:23Z",
+    "assetId": "371c24c86c5d9edfbe681718b7e65aa58695ff07",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "MAH]~@5=0NoJxt00Nd$zR+oL?^xZxtWERj",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 2.2583333333333333,
+        "height": 840,
+        "width": 1897
+      },
+      "hasAlpha": true,
+      "isOpaque": true,
+      "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABJ0AAASdAHeZh94AAACjElEQVQokR3Mi0pTAQCA4fMEudxEN+dRN22mo4USmWjuuM1d3NbS0qislLSyeZ04zbI0L+k03UUlcFnhLWuVKaRlCWEhFQURUXR5lT/oe4BPqDKoOJWbQm2+lkvGHBpNerzGLJqNOnzmvXRac+i2ZdFjy6DXlkafTaTPnsJ1i5JrkoJes4JBq4JhezwBhwKhOi+FmgOp1Bdo8RZn0WLK/h/5rXu55tTT59nHgCebIbeWIZfILaeaoTIl/dYE+szx9JtlDJXKCNhlTDjlCHX5aVws0OAt0tImZdJhyaTbpuOmR8/Y6XwitYVM1R5k+ux+pqpzmDy5h4kKNYEyOQGHjIAtjlHbLsYdcYTd8QjeQg3NhzX4JA1+UzpXLCK99lTGKvXMXC5hzudgod3KUruJpXaJ+eZDzJzREimXEzkqI3JkN2FXHCGnjLArHqGpSMRXLNJpEum2qOkpVTLgUBGsyuTupXwW2ow8apd40lHMU38RsbYDzJ3XED2pYKZKzp1jcqY8cibdCURciQithUl0FCdx1ayi165isEzJiFtJuFIkWqNj0WvgSWseq75c1nwGnjXpWK4XmT+n5EG1kmhVElOeRCLuJCKuZIQuSUWPWUW/Q82oRyR0PJXpEyLR6jQW6jNYaclhvcPAZpeB1349Gz4dq40ZxC5oWKxJ594pkekKNSF3MhNONUKwxsh0nUS0oYS5FjMxv5XVqzbWb9h5M+jg3aiLj8GjfAqV82H8CO8DTrb67az3WHjeZeKxT2KhSeJ+g5FovRFhc3aErfsBtudH2Xk4xufYbb6ujPN9LcjPF0F+b4T48zLM31cRfq2H+LE2zreVMb7EAnxcHmFncZjtuWHePhhma/YW/wCFNIS4a7QdNQAAAABJRU5ErkJggg==",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#6c4434",
+          "foreground": "#fff",
+          "population": 0.02,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#854104",
+          "foreground": "#fff",
+          "population": 0.84,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#dec8b0",
+          "foreground": "#000",
+          "population": 7,
+          "title": "#000"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#c29c8c",
+          "foreground": "#000",
+          "population": 0.01,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#dec8b0",
+          "foreground": "#000",
+          "population": 7,
+          "title": "#000"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#9c7256",
+          "foreground": "#fff",
+          "population": 0.25,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#b16c25",
+          "foreground": "#fff",
+          "population": 6.44,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "WGoKE4JGh3dweLiIQFURmAU="
+    },
+    "mimeType": "image/png",
+    "originalFilename": "kknkarang1.png",
+    "path": "images/b1shmtql/production/371c24c86c5d9edfbe681718b7e65aa58695ff07-1897x840.png",
+    "sha1hash": "371c24c86c5d9edfbe681718b7e65aa58695ff07",
+    "size": 2447103,
+    "uploadId": "2d5f073055d1a70271fa8f9a42ceb17a8a19dc7f",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/371c24c86c5d9edfbe681718b7e65aa58695ff07-1897x840.png"
+  },
+  {
+    "_createdAt": "2026-09-03T04:20:40Z",
+    "_id": "image-3edd6ad53b6c7f38fcbbf3098c9c9dbdb2f222f0-350x363-png",
+    "_rev": "GNi82xCo1eRS3egKAipIG6",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:20:45Z",
+    "assetId": "3edd6ad53b6c7f38fcbbf3098c9c9dbdb2f222f0",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "eEJ*xDtR1G-q02uzbHL3nnyBqGs,5TM{I^?wkD?4X4iu19t7R4OXz-",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 0.9641873278236914,
+        "height": 363,
+        "width": 350
+      },
+      "hasAlpha": true,
+      "isOpaque": false,
+      "lqip": "data:image/png;base64,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",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#2f5849",
+          "foreground": "#fff",
+          "population": 1.96,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#692412",
+          "foreground": "#fff",
+          "population": 0.04,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#f2161a",
+          "foreground": "#fff",
+          "population": 10.47,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#a9c0a0",
+          "foreground": "#000",
+          "population": 1.41,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#80e4f2",
+          "foreground": "#000",
+          "population": 0.33,
+          "title": "#fff"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#9c5494",
+          "foreground": "#fff",
+          "population": 0,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#f2161a",
+          "foreground": "#fff",
+          "population": 10.47,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "pfiFHQgYx2hwiXDayFdwf7L3KAmOiIxwSA=="
+    },
+    "mimeType": "image/png",
+    "originalFilename": "LogoBEMKM.png",
+    "path": "images/b1shmtql/production/3edd6ad53b6c7f38fcbbf3098c9c9dbdb2f222f0-350x363.png",
+    "sha1hash": "3edd6ad53b6c7f38fcbbf3098c9c9dbdb2f222f0",
+    "size": 196902,
+    "uploadId": "de515b836a6c0c54c4b0855a5af0ffb860b0885c",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/3edd6ad53b6c7f38fcbbf3098c9c9dbdb2f222f0-350x363.png"
+  },
+  {
+    "_createdAt": "2026-09-03T04:19:58Z",
+    "_id": "image-463c2637ee81e741fff2afb2a29ac89c5699ac20-2000x1414-jpg",
+    "_rev": "0Kx6dhY4cG5xUskekUpYxR",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:19:58Z",
+    "assetId": "463c2637ee81e741fff2afb2a29ac89c5699ac20",
+    "extension": "jpg",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "VAR31W004T8wHq~o9GX8%LSjxq%gMcxus9?wwas:Mxt7",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 1.4144271570014144,
+        "height": 1414,
+        "width": 2000
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAOABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAYHBf/EACIQAAICAQIHAQAAAAAAAAAAAAECAwQAERMFBgcSFCExMv/EABYBAQEBAAAAAAAAAAAAAAAAAAMCBP/EAB0RAAEDBQEAAAAAAAAAAAAAAAIAAxEBExQhIjH/2gAMAwEAAhEDEQA/AKh0+nsS0rUvlr3Gb9qmoPrKBQugJtzT7sp+ELpid08WSOlcFhYmkNj2VGg+Yz3RNtyeLtI6kEFhqMysdNDCd3R1lbUCssejv3nX7hiNx/nocEvCmarOQgYsCNPeGFkNhzPiqyZbX//Z",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#2e436a",
+          "foreground": "#fff",
+          "population": 0.38,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#0d2178",
+          "foreground": "#fff",
+          "population": 0.84,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#f0b31c",
+          "foreground": "#000",
+          "population": 3.98,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#cbad9b",
+          "foreground": "#000",
+          "population": 0.74,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#f8e45c",
+          "foreground": "#000",
+          "population": 0.42,
+          "title": "#000"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#7199aa",
+          "foreground": "#fff",
+          "population": 0.01,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#f0b31c",
+          "foreground": "#000",
+          "population": 3.98,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "tRgKHYIgU4ZpiHiYhpeHiPt4yX+I"
+    },
+    "mimeType": "image/jpeg",
+    "originalFilename": "Sertif-PLT-BEMKM.jpg",
+    "path": "images/b1shmtql/production/463c2637ee81e741fff2afb2a29ac89c5699ac20-2000x1414.jpg",
+    "sha1hash": "463c2637ee81e741fff2afb2a29ac89c5699ac20",
+    "size": 306166,
+    "uploadId": "6729ae1d342786c5d9cdc85b7b9cba299d236c71",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/463c2637ee81e741fff2afb2a29ac89c5699ac20-2000x1414.jpg"
+  },
+  {
+    "_createdAt": "2026-09-03T04:19:52Z",
+    "_id": "image-54eb22f713213f57b1b3c32898a79ba7cc6b9c63-1979x1400-jpg",
+    "_rev": "0Kx6dhY4cG5xUskekUpYaB",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:19:52Z",
+    "assetId": "54eb22f713213f57b1b3c32898a79ba7cc6b9c63",
+    "extension": "jpg",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "V8Q+{L?v00rr%L00_N00Q-D%Y+.SU^U_nO^Q57v#Md?b",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 1.4135714285714285,
+        "height": 1400,
+        "width": 1979
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAOABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAUIB//EACEQAAEEAgICAwAAAAAAAAAAAAECAwQFAAYRMRJBITJx/8QAFgEBAQEAAAAAAAAAAAAAAAAABAEC/8QAIhEAAQEHBQEAAAAAAAAAAAAAAQACAwQREhNRBSFBQpGh/9oADAMBAAIRAxEAPwDV9DobyiC62TZQJTSFEgBRDiT7x1t+vy76EYardyK3xwUoR3+43ha0xG2SXch1apD4AKT9QMcuNBZKiB5DrJQAJcJDUU8abuds7KU9l0PZ6q1cjNSJL7XAUhxvog4ZVcZCnGUqkBCnPZA+MMxZd4+pY1iLAlUPAv/Z",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#25334d",
+          "foreground": "#fff",
+          "population": 4.47,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#9a0b0b",
+          "foreground": "#fff",
+          "population": 4.32,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#25334d",
+          "foreground": "#fff",
+          "population": 4.47,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#cbbbc0",
+          "foreground": "#000",
+          "population": 1.28,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#fae4ea",
+          "foreground": "#000",
+          "population": 0.26,
+          "title": "#000"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#5c9c94",
+          "foreground": "#fff",
+          "population": 0,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#db273d",
+          "foreground": "#fff",
+          "population": 2.57,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "NCgOFYgYh4mgdGeWd4eHjKZ/bPu2"
+    },
+    "mimeType": "image/jpeg",
+    "originalFilename": "Sertif-ContentCreator.jpg",
+    "path": "images/b1shmtql/production/54eb22f713213f57b1b3c32898a79ba7cc6b9c63-1979x1400.jpg",
+    "sha1hash": "54eb22f713213f57b1b3c32898a79ba7cc6b9c63",
+    "size": 204512,
+    "uploadId": "2265fd0cd74f6d97f4cb2baf60e051a2456fdda0",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/54eb22f713213f57b1b3c32898a79ba7cc6b9c63-1979x1400.jpg"
+  },
+  {
+    "_createdAt": "2026-09-03T04:08:57Z",
+    "_id": "image-58ad0c3630cd914068a8d100e02e969c81b01d29-1907x917-png",
+    "_rev": "k5SsXVtg04B1Uu1lddZzJj",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:08:57Z",
+    "assetId": "58ad0c3630cd914068a8d100e02e969c81b01d29",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "M5SF^h-=tS-=IV~qWFt8a$IVRjWFogWERj",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 2.079607415485278,
+        "height": 917,
+        "width": 1907
+      },
+      "hasAlpha": true,
+      "isOpaque": true,
+      "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABJ0AAASdAHeZh94AAAA+UlEQVQoka1S2XLDIAzM//9oEzepgzHoArYj1XGdHm952AFJy85qh9N7GrjcB1IZEBuwtsEGRDtYDMQSYFGItZjtvDag1kGsKIVxSrUjlY5MHZW/UbhjzorzdcHb5RaYrglp5ZgdudX51FDIcFqp4wEn7qCOe1ZMt4zzNAem2/Il6NwDfz1o7II+IB0oPLDSAMkAiz80pFVD3O+sLWa5DhQaYB3h8JegN0k6ltIwZ0PlBjUX9tUNH4uhSo/M/JxzCy5rj/pPhy6Sq4ajGm685w4FKQsKbz1xMcVaDSTtae3nDOkRbjtkudU/+7zd6Z8MX4XXCz59lRfgEykSDA4v3na9AAAAAElFTkSuQmCC",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#3c4860",
+          "foreground": "#fff",
+          "population": 0.01,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#243c6c",
+          "foreground": "#fff",
+          "population": 0,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#5975a9",
+          "foreground": "#fff",
+          "population": 0.04,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#bcbcd4",
+          "foreground": "#000",
+          "population": 0,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#9dccfc",
+          "foreground": "#000",
+          "population": 0.03,
+          "title": "#fff"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#5975a9",
+          "foreground": "#fff",
+          "population": 0.04,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#3858cc",
+          "foreground": "#fff",
+          "population": 0.01,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "/fcBA4DXB7d0fGGXIz8586M="
+    },
+    "mimeType": "image/png",
+    "originalFilename": "kriptoapp2.png",
+    "path": "images/b1shmtql/production/58ad0c3630cd914068a8d100e02e969c81b01d29-1907x917.png",
+    "sha1hash": "58ad0c3630cd914068a8d100e02e969c81b01d29",
+    "size": 59025,
+    "uploadId": "8d75bf87fcf23f57f91e1effc9d9b168d8812949",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/58ad0c3630cd914068a8d100e02e969c81b01d29-1907x917.png"
+  },
+  {
+    "_createdAt": "2026-09-03T04:20:25Z",
+    "_id": "image-5aa59ac9132def94a68083e082b13952836d8402-960x405-png",
+    "_rev": "GNi82xCo1eRS3egKAipGTf",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:20:25Z",
+    "assetId": "5aa59ac9132def94a68083e082b13952836d8402",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "MaHbu-5?1Q}SsmS5S4smw^juJAsmsmS2bI",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 2.3703703703703702,
+        "height": 405,
+        "width": 960
+      },
+      "hasAlpha": true,
+      "isOpaque": false,
+      "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAACbUlEQVQokRXQ20sUURzA8f1XmnPWnHPmd8a8ZWooBibaxVQs7QZm6u7MmZ05Mz6EYaEP9eJbIhRSYYSXTSIqKrIezJAeykRwDXVXs8022dt4xyD2H/jA9+thsukAEXOq0rmqUvsOo+ZpoFYfULHCiL0OxH7cXnqxIerL7k5o0mKSowPXwJE0x92R1qxDuWAVqVSMHVFELE8x1zyMmL0qtRdU4qwCsQZVavcBdaYZtVeAiGclYDR/uFx8Ns29w5sGirkG3toy8B9Xxw8W2tjRxuJr1dUF7a/PFLYu1RW2THkYEf0qdZYZEXGQre+MiBAj9k8gYjyHmA0DNZVqSvfaOyb+5nK0tMnRrMtxNM3RxLrfe/1Jfblxs7Lura+s6WvTsavPPaDYw4w6a0DEPhBzm1Gxy4g1rxLTOl98BcV82WU7Ae/InoXDLsdvXAMNpjmeTujS598d3oFg4/FBXn5h5lShL1SiBoIeoGICqB0DYh2AbO1lYJVYyznEvNVbVVua4l5nO4BntwNoKa1LIwldupfQ8SuXo8lwmzx2++S5YFkuj+SCE2HUeeRRiJgFIpJArL9AxAyjIpzJz1PM971VtT0xLXtoy0Bfk7o0Fdel0Q2/NJTS8cd9E4XC7cokL296l6PYUaZ0LqrU6vMAtX4xaqeAiE8gB7oYFfczD4uYsdpTVfsy3CGPJXXpRcyPxjc01L+hoS6X44e7ARz50QrRzor65XwIuEDseZWKrgyYwZKMilFGzApVNi4BMb+UMH/4bnVNMNKR9TSuoYmYXxqKa7g5qR3OT2hIpDkKzbWw/Rsn6nYLQP9HZXOWKZbxHwPYHqyLIxnUAAAAAElFTkSuQmCC",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#2d2b5c",
+          "foreground": "#fff",
+          "population": 1.06,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#a62a04",
+          "foreground": "#fff",
+          "population": 0.03,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#ec6b23",
+          "foreground": "#fff",
+          "population": 25.27,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#7d3c1b",
+          "foreground": "#fff",
+          "population": 0,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#d87a4b",
+          "foreground": "#fff",
+          "population": 0.97,
+          "title": "#fff"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#bb7a6b",
+          "foreground": "#fff",
+          "population": 0.13,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#ec6b23",
+          "foreground": "#fff",
+          "population": 25.27,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "VmiGQoobA413iIcDdzdwd/p7hIVitTg="
+    },
+    "mimeType": "image/png",
+    "originalFilename": "LogoKAI.png",
+    "path": "images/b1shmtql/production/5aa59ac9132def94a68083e082b13952836d8402-960x405.png",
+    "sha1hash": "5aa59ac9132def94a68083e082b13952836d8402",
+    "size": 55144,
+    "uploadId": "8b50206723360c6d4e535d904c6009ef09dde6ea",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/5aa59ac9132def94a68083e082b13952836d8402-960x405.png"
+  },
+  {
+    "_createdAt": "2026-09-03T04:08:37Z",
+    "_id": "image-5c0f5ab43fe908d9b5da949bad50417e82baa6e0-1600x900-jpg",
+    "_rev": "0Kx6dhY4cG5xUskekUoBuV",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:08:37Z",
+    "assetId": "5c0f5ab43fe908d9b5da949bad50417e82baa6e0",
+    "extension": "jpg",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "MLE{qg00~pD*Rj?bIAxvIUxu?ajExvRjxu",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 1.7777777777777777,
+        "height": 900,
+        "width": 1600
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAALABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUCAwYH/8QAIRAAAgICAQQDAAAAAAAAAAAAAQIDBAAFEgYRIVEHIkH/xAAVAQEBAAAAAAAAAAAAAAAAAAAEA//EABkRAAMAAwAAAAAAAAAAAAAAAAABEQIiMf/aAAwDAQACEQMRAD8AxlXeXplmDWJAoXsHHjicadO7Nru4pwrYmPdwG5N4bI7yvFHCYkjCxv8AZlHgE+8p6cqQLtKjLGARKCCCcRo1YQmV6d0f5Ir0+NcUUcxjiSD+jDEdnU0JGV3rRl2XuT7OGFqENH//2Q==",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#304053",
+          "foreground": "#fff",
+          "population": 7.34,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#0e2c46",
+          "foreground": "#fff",
+          "population": 4.64,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#bebbb2",
+          "foreground": "#000",
+          "population": 9.39,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#bebbb2",
+          "foreground": "#000",
+          "population": 9.39,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#eac7c7",
+          "foreground": "#000",
+          "population": 0.16,
+          "title": "#000"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#b46454",
+          "foreground": "#fff",
+          "population": 0.01,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#4586b9",
+          "foreground": "#fff",
+          "population": 0.54,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "nOcJDILQdWlraHmLeZfRjB+u+Q=="
+    },
+    "mimeType": "image/jpeg",
+    "originalFilename": "umkmmebel.jpeg",
+    "path": "images/b1shmtql/production/5c0f5ab43fe908d9b5da949bad50417e82baa6e0-1600x900.jpg",
+    "sha1hash": "5c0f5ab43fe908d9b5da949bad50417e82baa6e0",
+    "size": 172209,
+    "uploadId": "f56e9fffca61c3bf8a81a2e95f1539dac571cb2b",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/5c0f5ab43fe908d9b5da949bad50417e82baa6e0-1600x900.jpg"
+  },
+  {
+    "_createdAt": "2026-09-03T04:20:01Z",
+    "_id": "image-5cdb654189fdd4a72d72be4e999e92a0ffe81623-2000x1414-jpg",
+    "_rev": "k5SsXVtg04B1Uu1lddaYer",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:20:01Z",
+    "assetId": "5cdb654189fdd4a72d72be4e999e92a0ffe81623",
+    "extension": "jpg",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "VCQS*n$+[C$7;3W9Yk%ft-I:?FTeIAXnSw]:XkQmaw$f",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 1.4144271570014144,
+        "height": 1414,
+        "width": 2000
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAOABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABQAEB//EAB4QAAICAgMBAQAAAAAAAAAAAAECAxEABAUhMRIi/8QAFgEBAQEAAAAAAAAAAAAAAAAAAwEC/8QAGxEBAAICAwAAAAAAAAAAAAAAAQACAxEEQVL/2gAMAwEAAhEDEQA/AO+cptu0UT6mwkZYXdXYw6HZ2mf5baQIx7/ObeJ1g0Wr3Zij+TfhxLZ1g8REYRG9usg7NzeSpS6EIk4iJiGhRSpF3fpyxyKFRGoYAsB2csNwYuyKcm/pn//Z",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#434444",
+          "foreground": "#fff",
+          "population": 0.26,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#741f0f",
+          "foreground": "#fff",
+          "population": 0,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#f19492",
+          "foreground": "#000",
+          "population": 2.45,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#a49fd0",
+          "foreground": "#000",
+          "population": 0.02,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#f19492",
+          "foreground": "#000",
+          "population": 2.45,
+          "title": "#fff"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#6574a5",
+          "foreground": "#fff",
+          "population": 0.03,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#bb3219",
+          "foreground": "#fff",
+          "population": 0.05,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "NggCDYS3llXw3aaukpcYnOcKm3+S"
+    },
+    "mimeType": "image/jpeg",
+    "originalFilename": "Sertif-SOTM-BEMKM.jpg",
+    "path": "images/b1shmtql/production/5cdb654189fdd4a72d72be4e999e92a0ffe81623-2000x1414.jpg",
+    "sha1hash": "5cdb654189fdd4a72d72be4e999e92a0ffe81623",
+    "size": 244921,
+    "uploadId": "6ee236697f58a1acbf9f3acac9139494fe6577a6",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/5cdb654189fdd4a72d72be4e999e92a0ffe81623-2000x1414.jpg"
+  },
+  {
+    "_createdAt": "2026-09-03T04:19:55Z",
+    "_id": "image-5dc177b39816ed0732bb3a8113de3d98e3072c40-2000x1414-jpg",
+    "_rev": "k5SsXVtg04B1Uu1lddaYVz",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:19:55Z",
+    "assetId": "5dc177b39816ed0732bb3a8113de3d98e3072c40",
+    "extension": "jpg",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "VAR2}O004T8wL}~o9GX8%LSj-n%NH=xui_?wwtt6Mxxt",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 1.4144271570014144,
+        "height": 1414,
+        "width": 2000
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAOABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABgAFB//EACIQAAICAQMEAwAAAAAAAAAAAAECAwQABRESBiExMgcTFP/EABYBAQEBAAAAAAAAAAAAAAAAAAMCBP/EAB0RAAICAQUAAAAAAAAAAAAAAAACAxEhARMUIjH/2gAMAwEAAhEDEQA/AOn9AWZ3pWZWuKGM3uE3Bx9S1KNYuFiwJJCfYLthH48SSOlcFlYnkNjuVHbxia8kv1SflESOCCCy7jMsFNEtDy4fWzbrqyxDk/M+d8sDa910NEvCmarOVQMWBG3fLC5Eadb8K2XbJ//Z",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#2e436a",
+          "foreground": "#fff",
+          "population": 0.49,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#0d2178",
+          "foreground": "#fff",
+          "population": 0.84,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#f0b31c",
+          "foreground": "#000",
+          "population": 3.98,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#ccad9c",
+          "foreground": "#000",
+          "population": 0.73,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#f8e45c",
+          "foreground": "#000",
+          "population": 0.42,
+          "title": "#000"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#9d894a",
+          "foreground": "#fff",
+          "population": 0.32,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#f0b31c",
+          "foreground": "#000",
+          "population": 3.98,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "tRgKHYIgU4ZpiHiYhpeHh/t4yX+I"
+    },
+    "mimeType": "image/jpeg",
+    "originalFilename": "Sertif-Staff-BEMKM.jpg",
+    "path": "images/b1shmtql/production/5dc177b39816ed0732bb3a8113de3d98e3072c40-2000x1414.jpg",
+    "sha1hash": "5dc177b39816ed0732bb3a8113de3d98e3072c40",
+    "size": 311541,
+    "uploadId": "fb9ced1a0b1ec3fdbfccee5254b59f2b3dc2318a",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/5dc177b39816ed0732bb3a8113de3d98e3072c40-2000x1414.jpg"
+  },
+  {
+    "_createdAt": "2026-09-03T04:19:43Z",
+    "_id": "image-5fa7de81ef58c03c8c314a2e53e792d6019a4411-1051x746-png",
+    "_rev": "GNi82xCo1eRS3egKAipDDe",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:19:43Z",
+    "assetId": "5fa7de81ef58c03c8c314a2e53e792d6019a4411",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "VDPjP$~q00s:RP4.?bE1Rj?H00xGxuS2tQ_3RPt7ofIU",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 1.4088471849865951,
+        "height": 746,
+        "width": 1051
+      },
+      "hasAlpha": true,
+      "isOpaque": true,
+      "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABJ0AAASdAHeZh94AAACzElEQVQ4jX2TbW/TVhSA8/f4hPaND0ggVUjbQAONl8EEVIxKiE1UCCENDaZ14qW0pW22tmvVMFoB5WXQAunqtEnjxKnz3pLEdmzH1/Yz+abdQBX78OhcXcvPPfecc2Nn+q7y61Cc8amHjE4kGJtMMDqVYGzqodzbTYLh+DSXrt5k/5en+ezAVxw88i29l69z9tI1Ytd/HuTlUpJ0No+yluXvVAYlo6LpJUqV2i6K5SrZXIHh32Y49HWvFB4+dZGbt0f46fYIsV8Gx0llVIrlGqqms54rsFGqYjsuQRDuwvcDTKvN9J9P6Dl2jj37PueLkxe4MzLBvdEpYgOD4ySVtMzu9dsVlDWV+lYDT/ifFBqmxcyjBY6f/56eY2c5deEKdx9Mcm9sW/g6meLpYpKZxy/4a3mVWtPA9gMcP8CLJCEEOwQhhtlmdv4ZJ3p/oOfoOb75rp/BsT8ksYH7cZJplRW9xJKqoZQq6IZF1e1Q73i0hKAThIht/CCU5Xj+6q3McO/+I5y+2M/vM3PcH5/uClfzGxStNpphopsWZcum6rhsdjwansAQPqbwsYSP4/t4fiAbFHW778oNOR1LSUU2SgrXNJ2K7VBu22w5Ls2Oh+EJKYkw/kXIMkRZep6gUtskvZ6XMacV/xOuazqG40ocT8gMvA+uGa29sEski2oZhsjGmVablmGi5jc+EOYKtAyDRrOF1bbl6UEYEkr4BN1a5gpFVtayLCsZhuPbwkw2z+bWFpVqjfeNJo7jytN9v5vNRwTdTgvh0zItOcOLSYU3y6tdYTTY0Supb0bCOs2mQdt2aNsubkcg/Gj2dggQIpA3sG2XRtNAL1Uo6GVSaZWh+DSxHweGWHynkCvoqHldfoxeiqZXZCxV6x9TiahJkbZRIqfp5AtF3iyniJKL9fXf4MHELIn5Z8zOLXSZ34476/9jbkH+OzqZ4PK1W/wDapvVweGFkhMAAAAASUVORK5CYII=",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#2a3a4b",
+          "foreground": "#fff",
+          "population": 6.24,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#1c3141",
+          "foreground": "#fff",
+          "population": 0.58,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#2a3a4b",
+          "foreground": "#fff",
+          "population": 6.24,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#b7d6d9",
+          "foreground": "#000",
+          "population": 1.87,
+          "title": "#000"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#fcfcf4",
+          "foreground": "#000",
+          "population": 0.55,
+          "title": "#000"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#449c9c",
+          "foreground": "#fff",
+          "population": 0,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#4cbcb0",
+          "foreground": "#000",
+          "population": 0,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "9PcJDYALZ4WkdmmBeJiHcwqUcyCJ"
+    },
+    "mimeType": "image/png",
+    "originalFilename": "Sertif-Course-DasarPemrograman.png",
+    "path": "images/b1shmtql/production/5fa7de81ef58c03c8c314a2e53e792d6019a4411-1051x746.png",
+    "sha1hash": "5fa7de81ef58c03c8c314a2e53e792d6019a4411",
+    "size": 284161,
+    "uploadId": "fe1581608e6f9073886c37d31946531aa15bc6c2",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/5fa7de81ef58c03c8c314a2e53e792d6019a4411-1051x746.png"
+  },
+  {
+    "_createdAt": "2026-09-03T04:08:56Z",
+    "_id": "image-6b7cd7adf79d93b47262cad351a6d5e7417caa53-1897x917-png",
+    "_rev": "k5SsXVtg04B1Uu1lddZz8C",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:08:56Z",
+    "assetId": "6b7cd7adf79d93b47262cad351a6d5e7417caa53",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "M6SPeG%NN#.8M}_4bIt6WERiWYj]t5RkM{",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 2.068702290076336,
+        "height": 917,
+        "width": 1897
+      },
+      "hasAlpha": true,
+      "isOpaque": true,
+      "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABJ0AAASdAHeZh94AAABMUlEQVQokX2R23KDMBBD+f9PzaSh2Ou92qizpk3CtOVBg7HXQhwtH2VgrQNsAxZnqQ80CRRSVGI0caj3X3MWA2KBxoal8EDlAZIB1rNIOh5FcbsX3O4b1o1BEvOs5Yy9ZpukOpY0elceVtlReJ+XKgfWYvgsCmo+L1beQbI/jehNJ8M0ENuxtYFHPdbq+/yDVK7TZK19zvwkpf8MnwlbYCMHa4fY8SupZJrvmTpxHFjGtWEyqiQolUBNJmyLDvMB9yygwz33BiRLu0w4AQeIGFspoNZg5nB3qAVUA2aCcEbvPk3blWECVhsQdTRmqBrMAywB4j6fqgzXigifqf8opZ82klGyUuuH+WR2KJll0kxt/s33lLBjyQJoQj6U8HMwC0k1zQ92UK5nES8dZ6+7WdYXzK0M0TgiPloAAAAASUVORK5CYII=",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#5c5e64",
+          "foreground": "#fff",
+          "population": 0.01,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#2849b1",
+          "foreground": "#fff",
+          "population": 0.02,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#a5b1d0",
+          "foreground": "#000",
+          "population": 0.35,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#a5b1d0",
+          "foreground": "#000",
+          "population": 0.35,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#5cb4fc",
+          "foreground": "#000",
+          "population": 0,
+          "title": "#fff"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#4c548c",
+          "foreground": "#fff",
+          "population": 0,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#2464ec",
+          "foreground": "#fff",
+          "population": 0.01,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "/fcBA4DDDHeCXYG5BXRmQFY="
+    },
+    "mimeType": "image/png",
+    "originalFilename": "kriptoapp1.png",
+    "path": "images/b1shmtql/production/6b7cd7adf79d93b47262cad351a6d5e7417caa53-1897x917.png",
+    "sha1hash": "6b7cd7adf79d93b47262cad351a6d5e7417caa53",
+    "size": 52653,
+    "uploadId": "ba91877bbea7736839469ea7ae68a1276523f693",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/6b7cd7adf79d93b47262cad351a6d5e7417caa53-1897x917.png"
+  },
+  {
+    "_createdAt": "2026-09-03T04:08:49Z",
+    "_id": "image-700f967903f1f2abccd2d6521ffa37de147f6189-738x1600-jpg",
+    "_rev": "0Kx6dhY4cG5xUskekUoKy1",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:08:49Z",
+    "assetId": "700f967903f1f2abccd2d6521ffa37de147f6189",
+    "extension": "jpg",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "c13+Zf?vk8x]WBRjV;NFR*xuaeaeVqRiWV",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 0.46125,
+        "height": 1600,
+        "width": 738
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAArABQDASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAAAAMBBAUGCP/EACcQAAEDAQYHAQEAAAAAAAAAAAEAAgMRBBIhMTJBExQiUXGBkVLh/8QAGAEAAwEBAAAAAAAAAAAAAAAAAAECAwT/xAAaEQEBAAMBAQAAAAAAAAAAAAAAARESEwJB/9oADAMBAAIRAxEAPwDz4xkTYmslgZIzbE4KWGyRkkWNg2zKvWZx5aPqfpGTEiZwdITeJ8tounWMZaoTxxSSXhG0DYDZCdJq/iEYh5aEAPKxm7LS5+8FVdiTq+p8IbyrMItG7jVV6ePqoipB1boSrSSJKDshSGo08Kzsa9zAQypFxVT6yvelznGlMZJkcTlmpfLJVnW7Ed1HVU8X62bSxxeDhQgFCwnTSV1u+oS6Q9X/2Q==",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#1c2434",
+          "foreground": "#fff",
+          "population": 39,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#2a605f",
+          "foreground": "#fff",
+          "population": 0.1,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#1c2434",
+          "foreground": "#fff",
+          "population": 39,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#bcc4d4",
+          "foreground": "#000",
+          "population": 0.01,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#a2d6d5",
+          "foreground": "#000",
+          "population": 0,
+          "title": "#fff"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#74949c",
+          "foreground": "#fff",
+          "population": 0,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#4db1af",
+          "foreground": "#fff",
+          "population": 0,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "SfcBCwBsegeGeWE6iIc/dfg="
+    },
+    "mimeType": "image/jpeg",
+    "originalFilename": "spadaapp5.jpeg",
+    "path": "images/b1shmtql/production/700f967903f1f2abccd2d6521ffa37de147f6189-738x1600.jpg",
+    "sha1hash": "700f967903f1f2abccd2d6521ffa37de147f6189",
+    "size": 61817,
+    "uploadId": "f80fc240dfe7e070af35194ba83487596a202d69",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/700f967903f1f2abccd2d6521ffa37de147f6189-738x1600.jpg"
+  },
+  {
+    "_createdAt": "2026-09-03T04:20:07Z",
+    "_id": "image-778c285ffebb486b3742796eb51a16fca43444f8-2000x1414-png",
+    "_rev": "GNi82xCo1eRS3egKAipEpJ",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:20:07Z",
+    "assetId": "778c285ffebb486b3742796eb51a16fca43444f8",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "V6QJyKtR9l~q00xveStSbJsl00Rj00t801=p%0x__29a",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 1.4144271570014144,
+        "height": 1414,
+        "width": 2000
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAABpMAAAaTAEcLDmcAAAC1klEQVQokTWRyY/cRBjF/b/lAuccOHAIXHJGSIhDkKJccouUQBBkUVAmlwSUCE00CoIwhIHucU8v03u33bvtdnnf7apyVX2FeiSe3vE96T39lC+Phvfeal//dP7pt+r3f1r7mJTJZjf7eaC+bpyd/av2RkvbDjGmAkBaMXnatD87Gn388OLag5Zy9834dITUufv7wB1bRVJgF61mw996F3+oaqvVHU6W5s6JkqxkjGeEX5rZyw66c7K8/qSv3HzUbmp+geuScFLzOM1HM63RUtV2V+0Mmu3BxeWkP9GNvYMJ5QIKylBKPujRreOF8vmj3rke1FwIAUJAXuKNYY/nq9liO19up9p6qq301c4LorpmAJIDcAAjwq96jvL8zNh4ZVVDguWVRZBRFJaWnxleanopCnMUV0FepwQyKnMqCZclFWZCFDvCJeFhJec+jF0x92ERgh6IscMu93SC6DJkWiAmnph4MPbEPICgkrWQHKQiAATIlMA65FO3njp06uCpXQ2sorPN+kauOeUMlcN9NUJkgOqJy4MSmJACQAEAKSUXsqA8KogdZBvbX1ne0nT1HVrs0NpyV6aztnzLT4OcJlhQLgGkEKCIQ/cgxnheVH4Y7x3P3Ds7Cxn/29w7tuMFYVJWmPMDcFxzK8SKGZOqFgBQM1ZWOM0LL0410+vq5kjfLtY7y3aDKEmzIi/KChPGhQDYeOWzvw3lVdcxIswFcC4Y54xxN6tOxuiH08kvp612r++6PqE145xzwa+I1kw0teDGjz3l1vHigx6hlBTkahEAysiLjvXNr73Hx3+dt9qe53POAQ4/KYMC8xzXjbl/83Fbuf6kf/tk8bKDLs0sI4dQguvGOnjd3fwzXKy3RhTHjDEpD2xHZvmu7zZmzvuhc/fNWLn2oPXRw/aNo9HTpm0lREpZc4hKipIyyqvDS0oPW6Xcx/S79/tP7qtfPWvee6t/cTT4Dzjf53S5cY4MAAAAAElFTkSuQmCC",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#3d5771",
+          "foreground": "#fff",
+          "population": 1.14,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#1471ba",
+          "foreground": "#fff",
+          "population": 5.54,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#1471ba",
+          "foreground": "#fff",
+          "population": 5.54,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#baceda",
+          "foreground": "#000",
+          "population": 2.79,
+          "title": "#000"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#55c2f7",
+          "foreground": "#000",
+          "population": 0.12,
+          "title": "#fff"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#5883a5",
+          "foreground": "#fff",
+          "population": 1.11,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#1984ef",
+          "foreground": "#fff",
+          "population": 0.9,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "eOcFFYJXCWZ2iJhwgnSYhQiIcoAZ"
+    },
+    "mimeType": "image/png",
+    "originalFilename": "Sertif-KoordinatorUmum-PKKBNIF.png",
+    "path": "images/b1shmtql/production/778c285ffebb486b3742796eb51a16fca43444f8-2000x1414.png",
+    "sha1hash": "778c285ffebb486b3742796eb51a16fca43444f8",
+    "size": 514977,
+    "uploadId": "a3f17c685f5a4a82ad7b4198a585542e012373fe",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/778c285ffebb486b3742796eb51a16fca43444f8-2000x1414.png"
+  },
+  {
+    "_createdAt": "2026-09-03T04:09:00Z",
+    "_id": "image-7af2072b0b171faeeba29fbdf03b142d1915633c-738x1600-jpg",
+    "_rev": "GNi82xCo1eRS3egKAinowG",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:09:02Z",
+    "assetId": "7af2072b0b171faeeba29fbdf03b142d1915633c",
+    "extension": "jpg",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "coO;ACt7k9IxWCt5D%ayf7~nodRl-fWCWE",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 0.46125,
+        "height": 1600,
+        "width": 738
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAArABQDASIAAhEBAxEB/8QAHAAAAQUAAwAAAAAAAAAAAAAAAAECAwcJBAUI/8QAKhAAAQMDAwIEBwAAAAAAAAAAAQIDBAAFEQYSIRNBIiUxURUWU1VhgZP/xAAZAQACAwEAAAAAAAAAAAAAAAABBQIDBAb/xAAgEQACAwACAQUAAAAAAAAAAAABAgADEQQhBRIxUZGx/9oADAMBAAIRAxEAPwC8pesYMWa6w5Lj5bVgjceKfF1zZXAetOYSewSSc1UF+t0xF8n+Wy17nlHKQcEV1i7RNLiVR7ZJax65STXVJ4XjsoPrO58iJrOfapIC/s9D228xZ0cvMymXG9xAKaKr/Qtumt2PD0d1Ki6o4UMHtRSq7h1o5UN7TZVe7IGI7lpKRlWfB+6V1vJykICfyKkKWgUFaAVK4zT39qY6yUghKScUsmwdRh2jGBxiiuFaJZm29p9TYbKgfCO3NFFlKkgwA6NimU6XVIQlolPuupnHllk7C2V49Cris3hrPUmxR+N3DPv1jSq1pqUbfPLhyPrGo7Dk0BtLN7RHWJcuKVFxRRtGAE9hRWfnzpqX75cP7GirWvLHcH1IisAZs//Z",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#2c3c58",
+          "foreground": "#fff",
+          "population": 0.01,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#2644b0",
+          "foreground": "#fff",
+          "population": 0.02,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#3072f0",
+          "foreground": "#fff",
+          "population": 14.36,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#e1dcd1",
+          "foreground": "#000",
+          "population": 0.14,
+          "title": "#000"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#a1e8d9",
+          "foreground": "#000",
+          "population": 0.11,
+          "title": "#000"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#87a061",
+          "foreground": "#fff",
+          "population": 0.02,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#3072f0",
+          "foreground": "#fff",
+          "population": 14.36,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "NOcNIwSIeDh3j3hNiHCYCIg="
+    },
+    "mimeType": "image/jpeg",
+    "originalFilename": "cash1.jpeg",
+    "path": "images/b1shmtql/production/7af2072b0b171faeeba29fbdf03b142d1915633c-738x1600.jpg",
+    "sha1hash": "7af2072b0b171faeeba29fbdf03b142d1915633c",
+    "size": 65129,
+    "uploadId": "3862f86b57ecd589404a462bf70d8b94ac6f6e45",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/7af2072b0b171faeeba29fbdf03b142d1915633c-738x1600.jpg"
+  },
+  {
+    "_createdAt": "2026-09-03T04:20:37Z",
+    "_id": "image-8cc917c9552ffc6e2e30dd17ad5f9260e214659e-853x973-png",
+    "_rev": "k5SsXVtg04B1Uu1lddaZcI",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:20:37Z",
+    "assetId": "8cc917c9552ffc6e2e30dd17ad5f9260e214659e",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "eLAxJ;bKDNWXaI}yWBI|jZo#,ij=Idayxup1ocA2W?$]D=ofICe.xr",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 0.8766700924974307,
+        "height": 973,
+        "width": 853
+      },
+      "hasAlpha": true,
+      "isOpaque": false,
+      "lqip": "data:image/png;base64,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",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#5f3a58",
+          "foreground": "#fff",
+          "population": 0.73,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#042985",
+          "foreground": "#fff",
+          "population": 0.03,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#0795f1",
+          "foreground": "#fff",
+          "population": 18.82,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#948e04",
+          "foreground": "#fff",
+          "population": 0,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#f9f02e",
+          "foreground": "#000",
+          "population": 1.04,
+          "title": "#000"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#6370a8",
+          "foreground": "#fff",
+          "population": 0.44,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#0795f1",
+          "foreground": "#fff",
+          "population": 18.82,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "WnaFTAg5dkeXp2iPffi3eI+JgGWHSHd3BA=="
+    },
+    "mimeType": "image/png",
+    "originalFilename": "LogoBEMFTI.png",
+    "path": "images/b1shmtql/production/8cc917c9552ffc6e2e30dd17ad5f9260e214659e-853x973.png",
+    "sha1hash": "8cc917c9552ffc6e2e30dd17ad5f9260e214659e",
+    "size": 473792,
+    "uploadId": "2398536f9e5f913106e48803a9373fafb8271eba",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/8cc917c9552ffc6e2e30dd17ad5f9260e214659e-853x973.png"
+  },
+  {
+    "_createdAt": "2026-09-03T04:19:46Z",
+    "_id": "image-8d4d6ee2b64905f3ec6b19e870684899b5470b8f-1121x792-png",
+    "_rev": "0Kx6dhY4cG5xUskekUpYQD",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:19:46Z",
+    "assetId": "8d4d6ee2b64905f3ec6b19e870684899b5470b8f",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "VDPjMu~q00s:RP4.?bIUV@-;00s:xuR*t7^+RPxtofIU",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 1.4154040404040404,
+        "height": 792,
+        "width": 1121
+      },
+      "hasAlpha": true,
+      "isOpaque": true,
+      "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABJ0AAASdAHeZh94AAAClklEQVQ4jYWT2U8TURTG+/f5YPTNB8UXSRCjMQQB44IVjQmIIYZEE0FJgLasU0CgDTElgbiEvWBpx06X6XSZ1m7DtDOdhc/cOwUjFn34cpJ7z/3dc79zrq3D/hLD49OYnPNgglnChNuDCfdyPTbW6NQCevrf4urNTlxquo2m1i48fPEaD54PwDY4NI6vm3sIhaP4HgzDH2ARCIUR45MQUmIDZcBG4ph0e9DSbsfl63fQ2vEUQ2PTeDc6BdsHJ4MgyyGZFhHlBXBRnh6qVhWYpvmXDMOAdCTD82kNzW3duHClBS337HDMfIRrdskC7gdYHLIR7B4EKbBYKkPT9H8Cvb51tHf34cbdR+iw98M5uwjX7KIF3PIHsL65h5W1b9hnIyjKFSiGgaphoEZAx8c4rotAj+QKVlY/g/jf3NaNrp5X1H+rQhcDf4jDAS9gi4shmMkiKVcgqiqytRokXYdumhasDlQUFV82dtH+uBcXr91Cp70fC14fbaZtxMUgFOWRkWUkJAkJ6QgpAlRU5M4AT0SenUqLcDFLeNI7SCdk2x+g0TbidCMcF1BSVOSrVeQVBQVVRUnTKIw82zgDJCIep8UsDlkOaTGHeCKF6XmvBYzEBVQUFbKiQKnVUDMMaKYJjVRzxsM/oLpO/SRNOgUSD8NRHmVJQrFYgizL0DTN6mrdt0Ywsq6oKgUFf0TolFhAJwOWi+FnvoCMmEWhUKSJJ5U1EtnT6+MTZDls7wXoh5g6BYZjyOULELM5lMvS7wrPEYGRS4slCYlkGryQokXRpgwOO7Cxc4BIPEGHmhfSSGWy1OjzRPYJiP6sGI9oXMDO/iHeOxjY7j8bwNjkAuY9Pswt+2ic9/5HJKeuOZq/CsfMIux9b/ALMlDUN5CtJ3MAAAAASUVORK5CYII=",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#2b3c54",
+          "foreground": "#fff",
+          "population": 5.74,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#1c3045",
+          "foreground": "#fff",
+          "population": 0.02,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#2b3c54",
+          "foreground": "#fff",
+          "population": 5.74,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#b9d3d6",
+          "foreground": "#000",
+          "population": 2.07,
+          "title": "#000"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#fcfcf4",
+          "foreground": "#000",
+          "population": 0.51,
+          "title": "#000"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#666d77",
+          "foreground": "#fff",
+          "population": 3.54,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#3ca494",
+          "foreground": "#fff",
+          "population": 0,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "9PcJDYALZ4SkdmmBeJiHcwqUcjBp"
+    },
+    "mimeType": "image/png",
+    "originalFilename": "Sertif-Course-Java.png",
+    "path": "images/b1shmtql/production/8d4d6ee2b64905f3ec6b19e870684899b5470b8f-1121x792.png",
+    "sha1hash": "8d4d6ee2b64905f3ec6b19e870684899b5470b8f",
+    "size": 317455,
+    "uploadId": "bccf73fc9be268004e062b280aaf4864288ce2c1",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/8d4d6ee2b64905f3ec6b19e870684899b5470b8f-1121x792.png"
+  },
+  {
+    "_createdAt": "2026-09-03T04:20:19Z",
+    "_id": "image-93cb794a0d85fd06ce2397709f2b6cde3e7273e8-977x974-png",
+    "_rev": "GNi82xCo1eRS3egKAipGru",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:20:30Z",
+    "assetId": "93cb794a0d85fd06ce2397709f2b6cde3e7273e8",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "eFKKSTt501oc18IVWDNMfj?W01ayDwWEvM9lj@xlodRVDaj[tIay_K",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 1.0030800821355237,
+        "height": 974,
+        "width": 977
+      },
+      "hasAlpha": true,
+      "isOpaque": false,
+      "lqip": "data:image/png;base64,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",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#3f2e42",
+          "foreground": "#fff",
+          "population": 0.21,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#547c04",
+          "foreground": "#fff",
+          "population": 0,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#ede507",
+          "foreground": "#000",
+          "population": 27.24,
+          "title": "#000"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#b1a39c",
+          "foreground": "#000",
+          "population": 0.22,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#d7cf93",
+          "foreground": "#000",
+          "population": 0.53,
+          "title": "#000"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#7c5c8c",
+          "foreground": "#fff",
+          "population": 0,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#ede507",
+          "foreground": "#000",
+          "population": 27.24,
+          "title": "#000"
+        }
+      },
+      "thumbHash": "XzyCFQQrF8d4hoGfmPd7fZYICEh1iHBlWA=="
+    },
+    "mimeType": "image/png",
+    "originalFilename": "LogoUPN.png",
+    "path": "images/b1shmtql/production/93cb794a0d85fd06ce2397709f2b6cde3e7273e8-977x974.png",
+    "sha1hash": "93cb794a0d85fd06ce2397709f2b6cde3e7273e8",
+    "size": 761924,
+    "uploadId": "4d9b5228a163b083b212fb119f5aff844600340b",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/93cb794a0d85fd06ce2397709f2b6cde3e7273e8-977x974.png"
+  },
+  {
+    "_createdAt": "2026-09-03T04:20:22Z",
+    "_id": "image-a9267adf2f80ea677145048a102befb11ee3b781-2201x697-png",
+    "_rev": "GNi82xCo1eRS3egKAipGDV",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:20:22Z",
+    "assetId": "a9267adf2f80ea677145048a102befb11ee3b781",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "D643Zj_N?w.S%gm~o%o$kXkD",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 3.157819225251076,
+        "height": 697,
+        "width": 2201
+      },
+      "hasAlpha": true,
+      "isOpaque": false,
+      "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsSAAALEgHS3X78AAABa0lEQVQYlUWRTUtCURCGX42KEL9atKuVC9O8mkEhZRlIBJKll3PNEoKCIGoTFWUt7q4Sk/J6P5KMpJYWkWtba/2M/ohxRrPFw8zhnTlnzjsQjt5Gli4/XFG5PiZkni0AzABMaLdNFDvgP5fNhCybuzXmXg8ncPq6l1Ya+cRN41w4qs0gpjuxXbEiXrFiuWjDds4KVhhCJm8Bu7ZjQ3di9dZBsLK9B6/jNcGz96/9avNnp9L6nszWD/uZPgXJ8EPUBLCSDyltHCltFEx1QbwTwNQAaQnFTzkr+4h11Yuk4qYLD6rNn93H1vf0Rf14UDQifUltEUl1HkydA7sPQbqb6DSrc0gZEYqSMQtRDxNMW+jEUoi+vKk08lLxMxs8qYUH+ET0uuEBK3poyrTiBiu4IKpeiPokTbimjZPOc6kURMLo9PClrHSX4tos2hDPWckn7l+0bCevtp4c4Nqfh6S/2Mg77jl7GEbsysnPv1XBhtuzuKMMAAAAAElFTkSuQmCC",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#355063",
+          "foreground": "#fff",
+          "population": 0.27,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#043484",
+          "foreground": "#fff",
+          "population": 0.01,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#355063",
+          "foreground": "#fff",
+          "population": 0.27,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#e4d4c4",
+          "foreground": "#000",
+          "population": 0.01,
+          "title": "#000"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#7cc4f8",
+          "foreground": "#000",
+          "population": 0.01,
+          "title": "#fff"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#50749c",
+          "foreground": "#fff",
+          "population": 0.1,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#0460c4",
+          "foreground": "#fff",
+          "population": 0.02,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "GWWBAoAi76x5dyfvefeed7uahohQlZc="
+    },
+    "mimeType": "image/png",
+    "originalFilename": "LogoBI.png",
+    "path": "images/b1shmtql/production/a9267adf2f80ea677145048a102befb11ee3b781-2201x697.png",
+    "sha1hash": "a9267adf2f80ea677145048a102befb11ee3b781",
+    "size": 97222,
+    "uploadId": "3de346de79c129888718ec323068a3e8d93d0b6c",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/a9267adf2f80ea677145048a102befb11ee3b781-2201x697.png"
+  },
+  {
+    "_createdAt": "2026-09-03T04:30:07Z",
+    "_id": "image-ae0640cf37dd56a977a6e28b53ac26f1be9a179b-408x612-png",
+    "_rev": "0Kx6dhY4cG5xUskekUppCB",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:30:07Z",
+    "assetId": "ae0640cf37dd56a977a6e28b53ac26f1be9a179b",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "dpP?zQt7_Nt7xTayx[j[NGazn+j[tSj@VsfQtRfRV@ay",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 0.6666666666666666,
+        "height": 612,
+        "width": 408
+      },
+      "hasAlpha": true,
+      "isOpaque": true,
+      "lqip": "data:image/png;base64,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",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#593a36",
+          "foreground": "#fff",
+          "population": 0.52,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#77392c",
+          "foreground": "#fff",
+          "population": 0.02,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#ececfc",
+          "foreground": "#000",
+          "population": 14.66,
+          "title": "#000"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#d0afa7",
+          "foreground": "#000",
+          "population": 0.32,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#ececfc",
+          "foreground": "#000",
+          "population": 14.66,
+          "title": "#000"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#9d6154",
+          "foreground": "#fff",
+          "population": 2.78,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#c46c6c",
+          "foreground": "#fff",
+          "population": 0.01,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "9AcOFQL4N3eJaYeYd4mXmDh/dsBX"
+    },
+    "mimeType": "image/png",
+    "originalFilename": "Pas_Foto-removebg-preview.png",
+    "path": "images/b1shmtql/production/ae0640cf37dd56a977a6e28b53ac26f1be9a179b-408x612.png",
+    "sha1hash": "ae0640cf37dd56a977a6e28b53ac26f1be9a179b",
+    "size": 201824,
+    "uploadId": "12f323ba2735a0ff12e36129a83c58e7cfcfc7ef",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/ae0640cf37dd56a977a6e28b53ac26f1be9a179b-408x612.png"
+  },
+  {
+    "_createdAt": "2026-09-03T04:09:25Z",
+    "_id": "image-b6ae9a7f5e775a8fe0f1720de64a060f424aeff2-1900x912-png",
+    "_rev": "0Kx6dhY4cG5xUskekUotsg",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:09:25Z",
+    "assetId": "b6ae9a7f5e775a8fe0f1720de64a060f424aeff2",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "MKRypW9Z%M_4?atQWBogt7of~q-;Mx9FIU",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 2.0833333333333335,
+        "height": 912,
+        "width": 1900
+      },
+      "hasAlpha": true,
+      "isOpaque": true,
+      "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABJ0AAASdAHeZh94AAABqklEQVQokYWSS2sUQRSF59/5F9wJLl0I2UtABDEMMSg6BLMQdCEkuAgoBMRFIEQxjAk+kpDHkJGkFYfpV3W9O3xS1T04JgEXH5c+3Dr3VN/qnNee2jusUUiRo2SBs4ra26hPcNZirYkYoyPOmqgHQk/w6ngXRB2N8vQn2TihKkYYlWN0iTVVHBAGTjBaRqY1ZzXBq9M0S0RV8Gs0YpgkDIaH7O5tsb2zwWCwRyUyrA2H/k9nMv13mtE/+MG7rW+8XnvDwtNZ7ty9xauV55yeDZFKoJXA6KpN2FRr5EVDiTGSg+NDXq4s033S48H8fW7PXOfGzWv0Fuc4Otony8YUeYooM0SZRypRoKSI5/9JqHXF990dlpYe0e3e49niAr3Hszycm+Ht6guS0xPKMqMsWjPRmElZotQVhiF+cnbCp4/rbG6850t/k6/9dbY/rHG8/xlRpM0ypojLsGHTgQv/MBCi53lKnqWIIqMKVyvGVFWBMe3zcJfxzsXtXjIMW9RGo1R4YwbnXIvHed/UyfcU3vurDRtTjY1JXNMYqanrc+o61HpK+4sPaVuPPx8n7333T+sbAAAAAElFTkSuQmCC",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#4f5236",
+          "foreground": "#fff",
+          "population": 1.69,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#313813",
+          "foreground": "#fff",
+          "population": 0.11,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#4f5236",
+          "foreground": "#fff",
+          "population": 1.69,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#cabfa8",
+          "foreground": "#000",
+          "population": 0.28,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#b2d9f7",
+          "foreground": "#000",
+          "population": 0.37,
+          "title": "#000"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#65889e",
+          "foreground": "#fff",
+          "population": 0.02,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#a6be40",
+          "foreground": "#000",
+          "population": 0,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "OggGA4CjvWd2iPhbSnoAGMI="
+    },
+    "mimeType": "image/png",
+    "originalFilename": "kknkarang2.png",
+    "path": "images/b1shmtql/production/b6ae9a7f5e775a8fe0f1720de64a060f424aeff2-1900x912.png",
+    "sha1hash": "b6ae9a7f5e775a8fe0f1720de64a060f424aeff2",
+    "size": 642629,
+    "uploadId": "262a376dd750d23b5f18f66b2f555f55482cdce3",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/b6ae9a7f5e775a8fe0f1720de64a060f424aeff2-1900x912.png"
+  },
+  {
+    "_createdAt": "2026-09-03T04:09:03Z",
+    "_id": "image-b6ba019a4710809299e10d1264bffbbf0a261f48-738x1600-jpg",
+    "_rev": "k5SsXVtg04B1Uu1ldda11I",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:09:03Z",
+    "assetId": "b6ba019a4710809299e10d1264bffbbf0a261f48",
+    "extension": "jpg",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "cQQv%itk-=~XWCW,D+sAMxyCf*%3DOR*Xl",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 0.46125,
+        "height": 1600,
+        "width": 738
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAArABQDASIAAhEBAxEB/8QAHAAAAgICAwAAAAAAAAAAAAAAAAIFCQEEBgcI/8QALBAAAQMDAgMGBwAAAAAAAAAAAQIDBAAFEQYSITFBEyJRU2FxBxUWJURSg//EABcBAAMBAAAAAAAAAAAAAAAAAAACAwT/xAAeEQACAgICAwAAAAAAAAAAAAAAAQIRAzEEEgWRsf/aAAwDAQACEQMRAD8A9LKalFStr6QOg2VHQrpJN2XAfhyCE/kbMINTTmOGSoe1OW+0QMKIqkZJXasTb2JRTbSgBOc+popRiNvEyPZ4hmzZK0tg8E+J8BULZtbQLhPREdafiuOHDZdGAv2pviNbJM+1RXYiO1VHdDimv2FcdkyJGqrpa2Y1rcjCKsKcdWnGMdBU599xZnx+Qw4c88PJg2ml1rd/DsxaMHnRTKGMDwFFOaDSU+6pZTsaITyO+maX3FqIaQv0VVcI1pqXYo/PLhnPnGsq1nqXu/fLhxHnGiwosDtab4plxUubGWpTiiggckdBRVfP1pqUcBfLgP7GiqyzNu6XoVQpbP/Z",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#3c3c3c",
+          "foreground": "#fff",
+          "population": 0.02,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#10ba83",
+          "foreground": "#fff",
+          "population": 4.43,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#10ba83",
+          "foreground": "#fff",
+          "population": 4.43,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#dabbb2",
+          "foreground": "#000",
+          "population": 0.06,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#70f0c7",
+          "foreground": "#000",
+          "population": 0.03,
+          "title": "#fff"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#a55656",
+          "foreground": "#fff",
+          "population": 0.04,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#ec2434",
+          "foreground": "#fff",
+          "population": 0.01,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "9vcJCwK4f0doinE/aWcg/Zc="
+    },
+    "mimeType": "image/jpeg",
+    "originalFilename": "cash2.jpeg",
+    "path": "images/b1shmtql/production/b6ba019a4710809299e10d1264bffbbf0a261f48-738x1600.jpg",
+    "sha1hash": "b6ba019a4710809299e10d1264bffbbf0a261f48",
+    "size": 59788,
+    "uploadId": "47ff5cda2a07e6a38b925be9f158616db98ce902",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/b6ba019a4710809299e10d1264bffbbf0a261f48-738x1600.jpg"
+  },
+  {
+    "_createdAt": "2026-09-03T04:09:15Z",
+    "_id": "image-b7d54c93aa20d2e9903828829173370ffa68e78f-1887x917-png",
+    "_rev": "GNi82xCo1eRS3egKAinqac",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:09:15Z",
+    "assetId": "b7d54c93aa20d2e9903828829173370ffa68e78f",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "M6S6Vrn~00-;0J~UW+?KWE?JWEn~oiRls=",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 2.057797164667394,
+        "height": 917,
+        "width": 1887
+      },
+      "hasAlpha": true,
+      "isOpaque": true,
+      "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABJ0AAASdAHeZh94AAABzklEQVQokVWRS28TMRRG5///DCQWLMoGNrDqAkpF1VaoorSgRkk6yWTeM34/Eh1kJ61gceR7bev4u3IRosLZgXHY0vcV2kzEqP8jeIWxAq1ntEkItDtinSQ4SQwq3y2EWjBMv9lWP9lUv+jHBVKt0aY8sUHpMu8JWSJkjVAtUjcI3SBVg5QVUq6RakHRDTe0/R275g+7ekHXr5jFBm1qrGuwrsXYtDYYm+oR42ZsZsKaESUqxumBbrym2HXf6Kd7hEyvzSgt0EbivMYH80oIlhATjhASqTbEYLFmyMJdd0FR1uc0ww9mUSHkiNIz1kqsP+GOq/MKF054lfe9n/FBYmxHN96xqc8pltvPbNsrumHNMNYI2edxnBfYf3AvhCR/6WdcSBM1NMMtq+0niqfyYxZOokZKiTEa710mjefDkRB9Ju498VSn0V20KNez6695Kj9QPKzOKJvL/HNKGYxNsoAPgRhjrkOImRj37A8HDodDPnM+oINlth2b9juP6zOK28e3LKsvTLJBSIU2Fuc8zqcER6H3L8LIYX8Upt56jwqGybQ8N5fcL99RXNy8YfH8lTkl1AabE/osDSHJjiTZfr9/JScM/jVh2V7xsHrPX7Gy+1LmBd3+AAAAAElFTkSuQmCC",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#5c5646",
+          "foreground": "#fff",
+          "population": 0.22,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#576123",
+          "foreground": "#fff",
+          "population": 0,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#d5dea5",
+          "foreground": "#000",
+          "population": 5.11,
+          "title": "#000"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#c0a7ae",
+          "foreground": "#000",
+          "population": 0.03,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#d5dea5",
+          "foreground": "#000",
+          "population": 5.11,
+          "title": "#000"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#92787a",
+          "foreground": "#fff",
+          "population": 0.08,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#a7ba44",
+          "foreground": "#000",
+          "population": 0,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "e/gFC4AGN1h3enqH+ImHwIY="
+    },
+    "mimeType": "image/png",
+    "originalFilename": "pupuk4.png",
+    "path": "images/b1shmtql/production/b7d54c93aa20d2e9903828829173370ffa68e78f-1887x917.png",
+    "sha1hash": "b7d54c93aa20d2e9903828829173370ffa68e78f",
+    "size": 129638,
+    "uploadId": "c308aab72dba265b7ee7781129a4b6a0209a33ce",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/b7d54c93aa20d2e9903828829173370ffa68e78f-1887x917.png"
+  },
+  {
+    "_createdAt": "2026-09-03T04:20:10Z",
+    "_id": "image-b85c0b446f9a42fd1b70bd8017acefd25dff7e79-1754x1240-png",
+    "_rev": "GNi82xCo1eRS3egKAipFDY",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:20:10Z",
+    "assetId": "b85c0b446f9a42fd1b70bd8017acefd25dff7e79",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "V8NKYW~q00xu00^,Ioo~tRIV00ITw]WY-nr=xuOYaekW",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 1.414516129032258,
+        "height": 1240,
+        "width": 1754
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADPUlEQVQokRXL227bZAAAYD8JL4C4QFxxARJS1QIKh0xlq6a2E4UJkIpUJlSqdllZNUQREhOaug26dHVCF3Wo27qlW7MlXYtDFJekcezE9m/7jw9xHCd1fIhjO2lv0L77D3l9bGlk5ubZSGz0MhqeR88sxD6dRz+ai4ZmV0Oz0Y/n7o5GYueXNiauJc5fvTcaiYfn0dBs9O2Lv732yRXknW9u/IS+eIyRSayczJIpnEnh1ccvDxJPHqEPn69vH2w8+/cJRmQKXKbIPz8EKZzdxipX7uy+NXUdGZpZ3cwQLcMxLcdyuj0v6Ni2AOlSCcMLxXyxWiBZQdZMp+cF/Z4f9Hy/3XE2UsV3p28iQ9+tPjioOK4/GAxOTk5OT08Nq0sBKV9icILHCeGQhCzUOpY7GAz6rwQdy0m8KL737S3kw9m721nadgPX61uOZzk9/djhxBYJGiRQKaBSnMqJuqabbcNuG5Zp2S3D3EwXRy79iZy5jCZzjNn1daPLyy1Qa3Jik+YbJKuUqhLByGVWLjMSycgUUBihrjT0ht6+ny6Efogi55bQZJ623MDues1jS9EMKOugpjG8StASQUsUkElGqgCZFxuS0mw0dUXVNlL4B3NRZHw5toPTtuv7Qb/X803bVTSDF5sAalWuTrEyBWSKlQCsq82WprcajSYPpbVk9v2FNWTyl/UdvGp2e57nu65nOW5D74j1FpSbvKgBqLJCneFlrqbIqibXVVGUKwx3J/lP6GoMmbj2x9M8abteEAS+5ztur21Yktpmaw1WqHNQAVDhoAJFRVLqoiRDWKswYO0pFv45joz/uLKTK9mu23+VPdd1jzsWK+sYWTukuCrDsxzkoCjUpFpNhBBCQaAZEN/NnltGkbH56w9f5tsds+u6ttM1bbttdGhJyxxxWLFyVK5WaMDykBMEwPEs4ADHUzSLJvfOLq4gw19Glm8nkplcKkfs4lSa4DIVmDwCCawc3yv8tfffvf3i39nSVo7YypW2cqUHWCHxbH/x9/WhLxaQN0YuDo9d+uyrxfDMr+GFW5+vPJrePJi+j32d2J+K712IZSbQ9MR6ehLNTMbSk7H0hdvbY5Ebw+Pfvzk89T8CX4EXkguOWwAAAABJRU5ErkJggg==",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#3e617d",
+          "foreground": "#fff",
+          "population": 1.84,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#0b497f",
+          "foreground": "#fff",
+          "population": 0.12,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#3e92b2",
+          "foreground": "#fff",
+          "population": 4.51,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#bac3cf",
+          "foreground": "#000",
+          "population": 3.19,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#5cb6da",
+          "foreground": "#000",
+          "population": 0.01,
+          "title": "#fff"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#915553",
+          "foreground": "#fff",
+          "population": 0.1,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#3e92b2",
+          "foreground": "#fff",
+          "population": 4.51,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "cNcJFYQ4GDd3iIdwh3iIcUh2gIUH"
+    },
+    "mimeType": "image/png",
+    "originalFilename": "Sertif-KomlapPenyokong-PKKBNIF.png",
+    "path": "images/b1shmtql/production/b85c0b446f9a42fd1b70bd8017acefd25dff7e79-1754x1240.png",
+    "sha1hash": "b85c0b446f9a42fd1b70bd8017acefd25dff7e79",
+    "size": 641939,
+    "uploadId": "faf110d575c61149cbe45e35c34792c6d5098d7f",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/b85c0b446f9a42fd1b70bd8017acefd25dff7e79-1754x1240.png"
+  },
+  {
+    "_createdAt": "2026-09-03T04:08:52Z",
+    "_id": "image-c3aaa097636a411f8b7e8512d217bf3fe7af57e3-1905x916-png",
+    "_rev": "GNi82xCo1eRS3egKAinjYG",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:08:54Z",
+    "assetId": "c3aaa097636a411f8b7e8512d217bf3fe7af57e3",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "M7R{=L%N---;IW~pj[N3j[xUxsj[M}WBxs",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 2.0796943231441047,
+        "height": 916,
+        "width": 1905
+      },
+      "hasAlpha": true,
+      "isOpaque": true,
+      "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABJ0AAASdAHeZh94AAAAyUlEQVQoka2S20oDUQxF5/9/p4/6CfqiFIoWQaUtLTgdzyWZc12lUwVfTqGDD5uEJHsRSDqnmf9U57TQkj9HyVgfsT7gNeEnY9vTNWFjQUPh2wW+ekN/HHBO0JCn3kxgxjplGAzGGFRHQizzgaIRL4KIEkIgpUxMdR7QaeEwJNbbkZdNZL3NvB8KvW3Pu2tAI4XXXeHuqbB4LCweKvfPlbd9xcrPwW4Bnk27Y2W1qSw/K8uPS74fKnbOhhP0r+QSf+ttoFz/q1t1AuZUCJ4XrkbhAAAAAElFTkSuQmCC",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#444444",
+          "foreground": "#fff",
+          "population": 0,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#0d5ad4",
+          "foreground": "#fff",
+          "population": 0.02,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#0d60f8",
+          "foreground": "#fff",
+          "population": 0.96,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#9baecf",
+          "foreground": "#000",
+          "population": 0.29,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#72bdfc",
+          "foreground": "#000",
+          "population": 0.02,
+          "title": "#fff"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#7c7c7c",
+          "foreground": "#fff",
+          "population": 0.03,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#0d60f8",
+          "foreground": "#fff",
+          "population": 0.96,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "vfcBA4D3GMeKhblI935777c="
+    },
+    "mimeType": "image/png",
+    "originalFilename": "kriptoapp0.png",
+    "path": "images/b1shmtql/production/c3aaa097636a411f8b7e8512d217bf3fe7af57e3-1905x916.png",
+    "sha1hash": "c3aaa097636a411f8b7e8512d217bf3fe7af57e3",
+    "size": 46982,
+    "uploadId": "2a7859a2ee3162c21be13c1b1607212e9b5269c0",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/c3aaa097636a411f8b7e8512d217bf3fe7af57e3-1905x916.png"
+  },
+  {
+    "_createdAt": "2026-09-03T04:20:04Z",
+    "_id": "image-c7f758aeccf4e62677f0725a5dd1732f9c93b1d6-2000x1414-png",
+    "_rev": "0Kx6dhY4cG5xUskekUpZ7P",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:20:04Z",
+    "assetId": "c7f758aeccf4e62677f0725a5dd1732f9c93b1d6",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "V5N1Q000000000?EWE4;-:?G00~qtl~p~pX;xXwrIuNL",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 1.4144271570014144,
+        "height": 1414,
+        "width": 2000
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAABpMAAAaTAEcLDmcAAAC90lEQVQokV2T6U/TcBjH+/8YxbcmxigajaAxMZEZERWNQ0Q5PCYbKEaBoTI6CFMHGs2iiccLD7xQIYCD4Fi7+yi7u3VlR7cev27tVqcpw5iYfF49ySff7/MkD7Snoavp4uCZKzqlaqSzb1w18PDaYBXjf6gHjefVuvqmqwrljQtq3dGWXqi560779cnmrgedfU9fvJ01W5bnV6xm1IO4gw5/xIn9w4VFP8/9vKl7Ak++fvV+tldrhM5d059oN2w/1K9oMUx9mQ9FrM6wD0ukckyBF8pAKAFB5MVSoSQJUoXM5hcsLqszgLhW7xqeQ8qr8JGz8Oad6rrG4Tefl4i1aDybIfOABgLFcGQ2TWaSKSqb4/hCSeLFco7laVD0BGLa8XW5QQnX1GrqG4fff0PzLABFkSuKNOCS6WQ4hoWj7mg8QGZIBoBCaaOCNxQfHHsGKVWwokVfU6upk2UbRYN0jiHS2RiBu1c9Kw7UYkdQl80X8OJJfI3KZRjACSVvEB8YM23IW3f3HGgamZpxZGmQzObDCdIfCltcvtkVz3eLdx7xIm5fIBrFyVQySzO8XLt/1AS1qOTaW3f3HDwx8mHGQXNFriCmc2wwlrb6iAU7PmfHzc643U/ECIqiAVsQCiXJG8Rvj5rka6/v3FN/XK7NAkEo/8px4ipBW7HUkjNuduCLrgSCpSIkw/ClolQRf/32hvDbehPU2i3LW3ap9x+79+4rygJBlCr5YjmU4ZEwtegmzK7Eko9EI1SMKrCCfK1/cptmrEEJb9qh2qsYejeNMusyX66QnGiL5qdRYhrFF7E1b5LNrMfKslTxBPFbehPUecNwqsOwra7v8Gn9xxkHw8uyIFVYQcKS7Ddb4gsStQbJOMUBUY6tyhvJFzWjl/oenewYb+99/HLKjLiDTn/Y4Y/YfeFFG/bph31qDplZdv50YnafPK/ycXa56+Y4pFD2nlPpWrvhVjV8+dZ99dCEZmhCrZXp1hr/PsnDbq2xOqzSpoH3Hbv8B6jQZjXKMYVIAAAAAElFTkSuQmCC",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#2b445d",
+          "foreground": "#fff",
+          "population": 0.28,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#040854",
+          "foreground": "#fff",
+          "population": 0,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#2b445d",
+          "foreground": "#fff",
+          "population": 0.28,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#cdcfa8",
+          "foreground": "#000",
+          "population": 0.17,
+          "title": "#000"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#8ce0f8",
+          "foreground": "#000",
+          "population": 0,
+          "title": "#000"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#746d83",
+          "foreground": "#fff",
+          "population": 0.26,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#387bc6",
+          "foreground": "#fff",
+          "population": 0.16,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "becJDYABRYuHh3iSmHh4kRB5BbIW"
+    },
+    "mimeType": "image/png",
+    "originalFilename": "Sertif-Wakadiv-BEMFTI.png",
+    "path": "images/b1shmtql/production/c7f758aeccf4e62677f0725a5dd1732f9c93b1d6-2000x1414.png",
+    "sha1hash": "c7f758aeccf4e62677f0725a5dd1732f9c93b1d6",
+    "size": 961973,
+    "uploadId": "0096a0fc73b2e71f5f26b7cf7d419d225ef47cbb",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/c7f758aeccf4e62677f0725a5dd1732f9c93b1d6-2000x1414.png"
+  },
+  {
+    "_createdAt": "2026-09-03T04:08:44Z",
+    "_id": "image-d30f3ceeaa0dbc19aaede793d9f5fdf18e4cee2a-738x1600-jpg",
+    "_rev": "GNi82xCo1eRS3egKAinZou",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:08:44Z",
+    "assetId": "d30f3ceeaa0dbc19aaede793d9f5fdf18e4cee2a",
+    "extension": "jpg",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "c13[_4_N%1tRtRtSMwR%kBnOs9s8I9RjkD",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 0.46125,
+        "height": 1600,
+        "width": 738
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAArABQDASIAAhEBAxEB/8QAGwAAAwEAAwEAAAAAAAAAAAAAAAMFBAECBgj/xAAmEAACAgEDAwMFAAAAAAAAAAABAgMRAAQSIRQiMRNRkTJCYXGh/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAEDAgT/xAAaEQEBAQADAQAAAAAAAAAAAAABABESEyFR/9oADAMBAAIRAxEAPwD591UCJpYhLolAdbRt39zEkKobWOsqyyaiCGAyJ2OLTkHjE9W93tPxnpwsRbC0ase5BY4wxhYliSPJwyYV2oS6qRNPEjKyL9p2+RiOrY8F2r9DHS6kiOMSRnbXbuF8YltUKG2NL/K5R31iZ5Y5JCGNDDOkxtyawxK5FPcKL6MbbBZLC+MzyyMbKrHyLrb4GeZSeURNUje3nOXlktO9uR75n2Hy64q61WWJ9wJA5F4ZGaaS/rb5wx2E43//2Q==",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#34414d",
+          "foreground": "#fff",
+          "population": 2.63,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#082c71",
+          "foreground": "#fff",
+          "population": 0.14,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#34414d",
+          "foreground": "#fff",
+          "population": 2.63,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#c4ccdc",
+          "foreground": "#000",
+          "population": 0.01,
+          "title": "#000"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#dab49f",
+          "foreground": "#000",
+          "population": 0,
+          "title": "#fff"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#aa7667",
+          "foreground": "#fff",
+          "population": 0.03,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#ae6a43",
+          "foreground": "#fff",
+          "population": 0.22,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "iPcBAwB/iBmHiHAaqWVvS/M="
+    },
+    "mimeType": "image/jpeg",
+    "originalFilename": "spadaapp2.jpeg",
+    "path": "images/b1shmtql/production/d30f3ceeaa0dbc19aaede793d9f5fdf18e4cee2a-738x1600.jpg",
+    "sha1hash": "d30f3ceeaa0dbc19aaede793d9f5fdf18e4cee2a",
+    "size": 70764,
+    "uploadId": "0e6a3de627c58d16036703ff52c5d5f55d3f48d5",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/d30f3ceeaa0dbc19aaede793d9f5fdf18e4cee2a-738x1600.jpg"
+  },
+  {
+    "_createdAt": "2026-09-03T04:09:17Z",
+    "_id": "image-dfc1070f02232e4af9141ba4a117897e3d9e4831-1912x917-png",
+    "_rev": "0Kx6dhY4cG5xUskekUoiKf",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:09:17Z",
+    "assetId": "dfc1070f02232e4af9141ba4a117897e3d9e4831",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "MLQc-F%4D~bDnh_4Rit8s=s:nhj^jvWUoh",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 2.085059978189749,
+        "height": 917,
+        "width": 1912
+      },
+      "hasAlpha": true,
+      "isOpaque": true,
+      "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABJ0AAASdAHeZh94AAACHElEQVQokXXR2W7aQBSAYb//K3S5SNckqpoqrRSlSVnSLJAVSADb2Bgbj/exsQ1ZQPorh5tGai8+jfSfq3NGWa7mPD6k5JlHIn3KRcbTcs5qtfiv5WrB41PJ4jHn/iHj6SFl+VSwWt2j5KWBzIZ4QRcn6OLLPrLQqXpRmv9UzbLSIChURHaNzNoUxR3l3EIJkzaOd4xu1RjYv9BFHSc4JkhaVLO11l/aRLJNIFtoyW8uvF2GYgs/OSBOr1DcsMlE1DHsGqbbxA6OEeEJXnyKF53iV+Izgvjs+a161UR8Si+s89PdoTHdRvP38OITlIm3j+0dMfU7hHJEVlrkpYXMNUI5IEw00tmYfD4hK03ibEgQDwiljj1T6aQdrqIWalBtVkMxpruYos4kuEWkFsncZTYXpLmFL3XcxCDKp8wWHrO5S5wZuJGGkBZhMcUrHZxMZRw0GYs9lOFkG3XyHXXaZOSfM4mvEEkHEV9ihy3M8ByrarKDn3RwgjM0UUMVNTS/ju430L1DNGcXzdlB6RkbDKxvmG4LEQ+JZyOSfESQ3uJGN3hJnyjTkblBPFOZBE3urE065saasdYz39G3PqO0bl9xZ37F9i6JpEFW2KSFRZAOcMMufqwis/FzT2YjLL9B13zPtf7mhRv9LT3zA8rRxWtutC1Gzj6maDAW1S0aGO4hunOAMa1+f92rW6v2D3rmJl3j4ws94xN96wt/AKn60KykybbLAAAAAElFTkSuQmCC",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#2f6934",
+          "foreground": "#fff",
+          "population": 0,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#418f47",
+          "foreground": "#fff",
+          "population": 0.52,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#b7c586",
+          "foreground": "#000",
+          "population": 2.16,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#d4d4a8",
+          "foreground": "#000",
+          "population": 0.02,
+          "title": "#000"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#daf69b",
+          "foreground": "#000",
+          "population": 0.04,
+          "title": "#000"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#b7c586",
+          "foreground": "#000",
+          "population": 2.16,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#52ae76",
+          "foreground": "#fff",
+          "population": 0.93,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "9/gFC4AqdnVvmXiI1KD68tg="
+    },
+    "mimeType": "image/png",
+    "originalFilename": "pupuk5.png",
+    "path": "images/b1shmtql/production/dfc1070f02232e4af9141ba4a117897e3d9e4831-1912x917.png",
+    "sha1hash": "dfc1070f02232e4af9141ba4a117897e3d9e4831",
+    "size": 127371,
+    "uploadId": "830dbaefcd8c7195f323767a9f89c5ca29e5626b",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/dfc1070f02232e4af9141ba4a117897e3d9e4831-1912x917.png"
+  },
+  {
+    "_createdAt": "2026-09-03T04:09:13Z",
+    "_id": "image-e24fa3d22693feecd9ac0f981e3a1ebcf209f585-1887x915-png",
+    "_rev": "GNi82xCo1eRS3egKAinqCN",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:09:13Z",
+    "assetId": "e24fa3d22693feecd9ac0f981e3a1ebcf209f585",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "M6S6Vrxa00-;9D?p%2-@NH?JxtjEWGM{n.",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 2.0622950819672132,
+        "height": 915,
+        "width": 1887
+      },
+      "hasAlpha": true,
+      "isOpaque": true,
+      "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABJ0AAASdAHeZh94AAAB8klEQVQokT2P227UMBRF8/+fwQeAxBM8gARIgEShtKVFrVrNaNrM5OY4dnx3koWSVjwsb/v4ePvsImVL8BIpjwhR4ZwiZ8uUHfmFlAzea6xTWKexYUR7RWdbpBXbXY526y1Gu0cO99TNLW17jzYHnCtx7gm7UW5q7COjeUKbCm1bqvGJq/6K6/6aVj9izNqzp+iHC4T8i+j3KH3E+Qbna4wtGW2JcRU+NBvW1Yx2pUPYht24Y693CF0yqHt6eUHR9mf06o7RSmIK5Cli3YgcGpTpcGuUKZJywBjFoFtGp3Ep4LJHe42QNV1/Syt+UFTdN4S8QRtBiH5DaUnTHZG6wQVLmiIxeQbVI+QaWRKS3z4ybqRpS+r2D1X7leLYfKbufiOHEq0FeuzohxrRnxhNiw+amAwhjlgvMVbg/ECIZqv7oFH6RCMuKetPFIfqI6f2F/1wQmuF1gPD0KNHRQh2myzlNXIkTWGLnjfis04RHwZaecWh+kCxO77n2JwxqAbvPSEErHWEsJpkYkykPDFNKzN5mjd9ZmKaZ3wYqftLdsd3FDcPrzmcviNVvZmllP+brY/Wc84T8zwzzwvTvDAvL7zsfdRU4pyHx7cU389f8XD48mK4xpiI6dlsNVmnWHVZlo3VYAHWdauxEJLi1P3k7vCGf067+4J5Q3ZlAAAAAElFTkSuQmCC",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#417c52",
+          "foreground": "#fff",
+          "population": 0.49,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#7c5608",
+          "foreground": "#fff",
+          "population": 0,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#dce3be",
+          "foreground": "#000",
+          "population": 1.04,
+          "title": "#000"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#dce3be",
+          "foreground": "#000",
+          "population": 1.04,
+          "title": "#000"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#fceed1",
+          "foreground": "#000",
+          "population": 0.17,
+          "title": "#000"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#5fa879",
+          "foreground": "#fff",
+          "population": 0.41,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#efa60f",
+          "foreground": "#000",
+          "population": 0,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "e/gFC4AGODeWeot3+InXQGw="
+    },
+    "mimeType": "image/png",
+    "originalFilename": "pupuk3.png",
+    "path": "images/b1shmtql/production/e24fa3d22693feecd9ac0f981e3a1ebcf209f585-1887x915.png",
+    "sha1hash": "e24fa3d22693feecd9ac0f981e3a1ebcf209f585",
+    "size": 121566,
+    "uploadId": "2614bd6bafdb837df3f574ebe899d891899511a6",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/e24fa3d22693feecd9ac0f981e3a1ebcf209f585-1887x915.png"
+  },
+  {
+    "_createdAt": "2026-09-03T04:20:16Z",
+    "_id": "image-e430d1d50f26db7c44ddbdd5abd6f08c1baa4e70-1552x2240-jpg",
+    "_rev": "k5SsXVtg04B1Uu1lddaZ4a",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:20:16Z",
+    "assetId": "e430d1d50f26db7c44ddbdd5abd6f08c1baa4e70",
+    "extension": "jpg",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "d7Q0UA^+00Mx?c}ixu=p009FE3-:_2-Ot6tR00?H.9IV",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 0.6928571428571428,
+        "height": 2240,
+        "width": 1552
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAdABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAUHAwb/xAAnEAABAwQBAwMFAAAAAAAAAAABAgMEAAUGESEHEjFRYXEVIzRBsf/EABYBAQEBAAAAAAAAAAAAAAAAAAUBBP/EACARAAICAgEFAQAAAAAAAAAAAAECABEDEgQFExQhIjH/2gAMAwEAAhEDEQA/ALJhljtEuwwnJMVLkhadrUT5JronMRsagUqiI5HrWGAR0jFoTnklv+Vtf33BaVKSvtUoaJ9t1EAFV+ysbuRvPIosuROw4wWWgkKTocc0U0zTf1rk7+0jz8UUtj6hooUi6mFuIGJMofTuUuRicBbAC2VNgpPruns+2plxywSUpIPPoagfTvOrjYI71oYbbdjtnvbK97Tv9fFdmvqXcu38aPyPejuSvjvq01YD3k2WKc/SGsjcb7ge1tI2Piik1xkrusx2W4EtqUeUpGxRROTL9mjEExnUep//2Q==",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#323f64",
+          "foreground": "#fff",
+          "population": 2.29,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#362004",
+          "foreground": "#fff",
+          "population": 0.19,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#798192",
+          "foreground": "#fff",
+          "population": 2.89,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#abb8cf",
+          "foreground": "#000",
+          "population": 0.11,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#8ed0fb",
+          "foreground": "#000",
+          "population": 0.03,
+          "title": "#fff"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#798192",
+          "foreground": "#fff",
+          "population": 2.89,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#41a4e8",
+          "foreground": "#fff",
+          "population": 0.07,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "9fcJFQIINoiISHaIiIOISEj4hoVv"
+    },
+    "mimeType": "image/jpeg",
+    "originalFilename": "Sertif-Speaker-SekolahKastrat.jpg",
+    "path": "images/b1shmtql/production/e430d1d50f26db7c44ddbdd5abd6f08c1baa4e70-1552x2240.jpg",
+    "sha1hash": "e430d1d50f26db7c44ddbdd5abd6f08c1baa4e70",
+    "size": 1331282,
+    "uploadId": "095092580e9fd80d9d1276b8dbca9e4176892f43",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/e430d1d50f26db7c44ddbdd5abd6f08c1baa4e70-1552x2240.jpg"
+  },
+  {
+    "_createdAt": "2026-09-03T04:08:47Z",
+    "_id": "image-e52fb54dd7b8686c9d01b8f7d8bfec43b1561d74-738x1600-jpg",
+    "_rev": "0Kx6dhY4cG5xUskekUoKkj",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:08:47Z",
+    "assetId": "e52fb54dd7b8686c9d01b8f7d8bfec43b1561d74",
+    "extension": "jpg",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "c03SCg~qIU?H%Mj[8^Mx%ND#g0x]R5aMxb",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 0.46125,
+        "height": 1600,
+        "width": 738
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAArABQDASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAMFAgQI/8QAJBAAAQQCAgIBBQAAAAAAAAAAAQACAxEEEiExE0FRIjJhgZH/xAAXAQEBAQEAAAAAAAAAAAAAAAABAAMC/8QAGxEBAQEAAgMAAAAAAAAAAAAAAAERAhITITH/2gAMAwEAAhEDEQA/APO8jGzY8bGwNa1o+e1y6MicQI6PSuYcOS7FjLPFqRxZFpeZiT6mR4jv3TlvIz1J1Y/lzOuEJ7rvmihOQOrGMXhZtM8GugkzE3zLY9JkGS9kLW6NoD2EjJyzI4WwcfCJ9WkTUH/STVIWZJC51kekJTtJlbGBYI1sj8LHglkB1YOG7fpQxLJ43Hd19drZmkBbT3CxzyuO8N43PSnLDIHC65FoUd00l/e7+oV5Ier/2Q==",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#2c5a4c",
+          "foreground": "#fff",
+          "population": 0.26,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#255d5e",
+          "foreground": "#fff",
+          "population": 0.05,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#2c5a4c",
+          "foreground": "#fff",
+          "population": 0.26,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#c7d2dc",
+          "foreground": "#000",
+          "population": 0.05,
+          "title": "#000"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#d8bda0",
+          "foreground": "#000",
+          "population": 0,
+          "title": "#fff"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#9c8454",
+          "foreground": "#fff",
+          "population": 0.01,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#9c6e3f",
+          "foreground": "#fff",
+          "population": 0.04,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "h/cBAwBcigimhHRZX4mv98g="
+    },
+    "mimeType": "image/jpeg",
+    "originalFilename": "spadaapp4.jpeg",
+    "path": "images/b1shmtql/production/e52fb54dd7b8686c9d01b8f7d8bfec43b1561d74-738x1600.jpg",
+    "sha1hash": "e52fb54dd7b8686c9d01b8f7d8bfec43b1561d74",
+    "size": 91613,
+    "uploadId": "d7df3a771f1cfae6861ee9605d742539def294b7",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/e52fb54dd7b8686c9d01b8f7d8bfec43b1561d74-738x1600.jpg"
+  },
+  {
+    "_createdAt": "2026-09-03T04:09:11Z",
+    "_id": "image-e724ecc4a83bbe449123ef29ae23a6740c76b509-1902x915-png",
+    "_rev": "GNi82xCo1eRS3egKAinq4I",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:09:11Z",
+    "assetId": "e724ecc4a83bbe449123ef29ae23a6740c76b509",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "MUMuB$GY?5#+s[?^$gewNdx9NEn%oOWCs:",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 2.078688524590164,
+        "height": 915,
+        "width": 1902
+      },
+      "hasAlpha": true,
+      "isOpaque": true,
+      "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABJ0AAASdAHeZh94AAACyklEQVQokR3M209TBwCA8fM/LDH7H/ai29O2h8UlJIsPGp3LZkxMZuJMjDMTcUydA6OEiApOkVHktgqloDTS2stKQ60BK6U9paUXC4fT0/a05/S0pcjF6Xj4Fnz4PXwvn/DfzjZb/9bQ6yqFWgF926DyvvaB8a76QfldFf2tgbZVRtvU0TbLlDZ0Shu7Xaa6VWH7/QY7O28R1rck0usidt3HaNHNmOZhVHdjLjoZLDylT7HRKz/hgTROd2aMe+lR/kyN0JV8RGfSzN2EGcvyJIlyiDebEoJWm+e54ea2auaSYqJZ/osL0n1+ft3JqaV2TkSvczzcwrH5q3wfvMzR2WaOvLjIocAFDj5v5LC/kcZgG9OyDb02j1AwAkSNGZ6VfTwuTzOue7AUHTzK2xnOTTGg2HgoT2BasWJaGac3Y6UnPUJ3ysz95Ag96TGsyzYiqhfVCCDkNC9KJUh2PUN2U0HeWEWqp1mtr6C8yZNdLyDVZKSqzOpanlw9S34tiVKJka8mUesZ1LUEhfIsuy9hRZ1CLLrwaj7s2gxPi15sOSdOxY9/dRlfUscdK+EUi3gWS0QzIppioSr3UJVM1KQ+dGmInDKBpE4hJBQrE1I/51I3+WGxlaMLVzkcbObH2Q4uuuY4N2pwerDCSZPBT6YifbbHLAeOYAT2UfJ9SsG9F3m6gUzsGumsFSEqDdOf6uK78K98OXeWz/1n+Mx7kgbXbxy3zPDtPYODt2p801blwA2V9v5h4vYvKDr2oEx+jGT5iPSTT0i8amRJGkKYi3czvnSbK5E/OBNs5vRsE6cCv3De30LrMxuXLGGa/hY5PyDSNPCK/smHRHzHyEzvJ+X+mrjjK6KeQ4jh3xEzJgTPy3ZmYnfwJDpxLN3CHu/AEe/AFevkH7EX98IQrtAwzvldg/gj3YQW24gsthKOtrAgthCKXieUuEP49QP+B16kevw0Cje6AAAAAElFTkSuQmCC",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#465782",
+          "foreground": "#fff",
+          "population": 0.03,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#13b053",
+          "foreground": "#fff",
+          "population": 0.38,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#daa910",
+          "foreground": "#000",
+          "population": 7.99,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#aad9ab",
+          "foreground": "#000",
+          "population": 0.56,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#f3d588",
+          "foreground": "#000",
+          "population": 0.07,
+          "title": "#000"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#51749c",
+          "foreground": "#fff",
+          "population": 0.22,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#daa910",
+          "foreground": "#000",
+          "population": 7.99,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "7rgFI4a4x6ifeVeH86QJTHw="
+    },
+    "mimeType": "image/png",
+    "originalFilename": "pupuk2.png",
+    "path": "images/b1shmtql/production/e724ecc4a83bbe449123ef29ae23a6740c76b509-1902x915.png",
+    "sha1hash": "e724ecc4a83bbe449123ef29ae23a6740c76b509",
+    "size": 428929,
+    "uploadId": "4d214730abc1362b469b213bdf2311e8e868eb9a",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/e724ecc4a83bbe449123ef29ae23a6740c76b509-1902x915.png"
+  },
+  {
+    "_createdAt": "2026-09-03T04:09:31Z",
+    "_id": "image-f00c20122fa8bc00fedf96138b83296eeb2d4431-1917x907-png",
+    "_rev": "k5SsXVtg04B1Uu1ldda7d8",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:09:31Z",
+    "assetId": "f00c20122fa8bc00fedf96138b83296eeb2d4431",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "M3RW6q^-D$_3M{00H@XRRPWA00DPx]IUt7",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 2.113561190738699,
+        "height": 907,
+        "width": 1917
+      },
+      "hasAlpha": true,
+      "isOpaque": true,
+      "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABJ0AAASdAHeZh94AAABkklEQVQokU2R62sTQRTF9+/XNGlCtJRqEb/6QCwqIohQKAjiF8Vi82iittm0kSSb3XkvP7mz05gPhzNz7rmz957NWs/atJ63uf+iw72XHVqvOuy93mfvpEv7pEfnTY/9tz267/p03/fpfXhA/+MBDz8dcnB6xOHZI44+H/P4yxOOvz4l+zb6wffxOefTC37+HjC4GjK4HnJx1WB4PWI4E4wZ5gnzEaP5mPHNhMvFhMliyuXfXxFZWSmMsXgfCKGmDnVk5zzWuqjXdb2FDwHrHM776K2THnt8IFNaR4M0ilkKws65bWNIurA0mVQTnw+ByiiW5Yp1tSHTxiJQ2mCsxTqPse4/jE1njzEOHdH4IyvN7fKWaT4hX87JxCyFSmkqMWkxJdaim9hcaUelBKbxVppNWVGsC5b5jMWfKav1ikwmustLHm9YJnVbPWpOsquxMmnStDaoTYmZ32BmOVYpMllDTNsH0gcivGS5c/bysxrN+zSIsbiixBYFVhuyu/WaLF1cM+YkvHuW+q6Wst+9SzT/ADFppHUKxk1BAAAAAElFTkSuQmCC",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#3c653a",
+          "foreground": "#fff",
+          "population": 0.15,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#12611f",
+          "foreground": "#fff",
+          "population": 0.1,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#3c653a",
+          "foreground": "#fff",
+          "population": 0.15,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#acb4cc",
+          "foreground": "#000",
+          "population": 0,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#fc748c",
+          "foreground": "#000",
+          "population": 0,
+          "title": "#fff"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#a0a95d",
+          "foreground": "#000",
+          "population": 0.05,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#b51f24",
+          "foreground": "#fff",
+          "population": 0.03,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "OfgJC4R3eHhweAiHhn+OCBg="
+    },
+    "mimeType": "image/png",
+    "originalFilename": "tamukermahum2.png",
+    "path": "images/b1shmtql/production/f00c20122fa8bc00fedf96138b83296eeb2d4431-1917x907.png",
+    "sha1hash": "f00c20122fa8bc00fedf96138b83296eeb2d4431",
+    "size": 139544,
+    "uploadId": "9cfc734e1b0b860c85f0ebdb3f8833c73d015011",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/f00c20122fa8bc00fedf96138b83296eeb2d4431-1917x907.png"
+  },
+  {
+    "_createdAt": "2026-09-03T04:19:49Z",
+    "_id": "image-f3a70047b79a52014a381a8113a47dcedeb1bdbe-897x635-png",
+    "_rev": "0Kx6dhY4cG5xUskekUpYVC",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:19:49Z",
+    "assetId": "f3a70047b79a52014a381a8113a47dcedeb1bdbe",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "V7RpLF0JIR~W^e9@9sIos;?G9@t5RjR*ax^k-VxtR*S2",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 1.4125984251968504,
+        "height": 635,
+        "width": 897
+      },
+      "hasAlpha": true,
+      "isOpaque": true,
+      "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABJ0AAASdAHeZh94AAACf0lEQVQ4jXWS246rNhhG8/7vUrXq7mXVq/Zmt6o02p1kkgAhJCFgczRgDBhWZZI9ykVra8kHycuyv38TJTu8e8D+dmIfnx7jNeAQn/DFhahMuamCpGsRWhM3LX5W8ZHmBEXFpa651YpEKZJKsEnEnm104C9vx9fjlj+PW/72dryd9hzvIZnKaE1DPw0YO1Hpnt1F8PVwxU9y0rJE5AVVXdG2OZuLOPD76cCXjy0/vP+z8vPHO796e97iiKwpGUaNnSeWZWGcJmTVcpU1VaPptKZtW0zfMZqSTZT5/HEJ+RL4/Hg88pPn8Yvv8VsUsssSSq0wk8HOlsX1ZcHOM5OdmeeFeZ6x1jLbgWmo2Mgyws8TvomEt/TON5GylYJDLolViTIdwzSuknlZ/h87MpqKTVFEXEVMEN/w4itBEnMWKZFMSYoMpTtGa7Hzgl0WpnlhnGeGF0aHHRn6kk1VRJxvEbsg4N332AU+H+GJw+lEeL2Ql+X6T31v0MbQ9Ya2NzR9j9IOjep7WqPRumCjVUya3gmiiGMY4p3PK34YEkYRt/sdIQRZnj8pyIonz7m7VLWK3gmHNkXVBUJm3NOUeypIhCB9wYmUUjRNQ9u0a6qvdG3HYDSTS3nSEtM36PVZ/QNj1nXzPGCMeSTpgvkvrGPEupSdsNeP253Mpelw0rquqZVahe6gK5nX5tbLd+an0GpJ19RIKSmLgnF8lIgLIM9zpBC0Xfcp/OQp5FXoyka3KVVdkgiJyHIa9/RxWlNMs4z4nlAqRT9NDNauGMc40g/Dg9GN/SMUUdy45pKzzIicoKoRXUfStERZzlnKdU92Gqn7FdFpEtUQ1/UnSV0jq5R/AaHyKHTHlozbAAAAAElFTkSuQmCC",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#3e5363",
+          "foreground": "#fff",
+          "population": 0.38,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#25898c",
+          "foreground": "#fff",
+          "population": 2.16,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#c2d5d5",
+          "foreground": "#000",
+          "population": 2.79,
+          "title": "#000"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#c2d5d5",
+          "foreground": "#000",
+          "population": 2.79,
+          "title": "#000"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#facc7c",
+          "foreground": "#000",
+          "population": 0.74,
+          "title": "#000"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#6b8285",
+          "foreground": "#fff",
+          "population": 0.48,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#f6c969",
+          "foreground": "#000",
+          "population": 0.84,
+          "title": "#000"
+        }
+      },
+      "thumbHash": "+/cFBYJQqndShoqFd4eJkfZjIQgE"
+    },
+    "mimeType": "image/png",
+    "originalFilename": "Sertif-VirtualInternship-IDXPartners.png",
+    "path": "images/b1shmtql/production/f3a70047b79a52014a381a8113a47dcedeb1bdbe-897x635.png",
+    "sha1hash": "f3a70047b79a52014a381a8113a47dcedeb1bdbe",
+    "size": 200643,
+    "uploadId": "d9f2ed2d4dedb927d5263878f934697d2bcdb46c",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/f3a70047b79a52014a381a8113a47dcedeb1bdbe-897x635.png"
+  },
+  {
+    "_createdAt": "2026-09-03T04:08:34Z",
+    "_id": "image-f719115d98fb6072532a8c62509f2976e4626199-1068x1128-jpg",
+    "_rev": "0Kx6dhY4cG5xUskekUoBkX",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:08:35Z",
+    "assetId": "f719115d98fb6072532a8c62509f2976e4626199",
+    "extension": "jpg",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "eNN,}Lj=^+t8ogV|%2t5E1WVWYjZj@WBbFWTIUfm-pt6~Wt7D%adax",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 0.9468085106382979,
+        "height": 1128,
+        "width": 1068
+      },
+      "hasAlpha": false,
+      "isOpaque": true,
+      "lqip": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAVABQDASIAAhEBAxEB/8QAGgABAAIDAQAAAAAAAAAAAAAAAAQHAQMFBv/EACMQAAAGAgIBBQAAAAAAAAAAAAABAgMEEQUGEyESFBYxYYH/xAAVAQEBAAAAAAAAAAAAAAAAAAABA//EABoRAAMBAAMAAAAAAAAAAAAAAAABEQIDEiL/2gAMAwEAAhEDEQA/ALtmNy1zG1R5BNspK1oNN+X6K/XtWwe5TjNxXTic/GSuLrxv5seq2rcsTrMlpvKPLQt1FpJKbEvXs/B2SD67GqNbCVGizTR2HHJnLaapPftpJyHXbUZp7LsBkiPv7MAFCBksJjsm4lc+IzIUkqI3E3Q2wMbEx7HDBYQw1d+CCorAARB1VpMAACJ//9k=",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#5d6f79",
+          "foreground": "#fff",
+          "population": 0.56,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#335208",
+          "foreground": "#fff",
+          "population": 2.12,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#335208",
+          "foreground": "#fff",
+          "population": 2.12,
+          "title": "#fff"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#caaeb0",
+          "foreground": "#000",
+          "population": 0.46,
+          "title": "#fff"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#9adbb7",
+          "foreground": "#000",
+          "population": 0.14,
+          "title": "#fff"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#987162",
+          "foreground": "#fff",
+          "population": 0.02,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#448ac3",
+          "foreground": "#fff",
+          "population": 0.57,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "8fcJDwLWiImXSJd4d2iF+0l4xwtp+MkH"
+    },
+    "mimeType": "image/jpeg",
+    "originalFilename": "wiring.jpg",
+    "path": "images/b1shmtql/production/f719115d98fb6072532a8c62509f2976e4626199-1068x1128.jpg",
+    "sha1hash": "f719115d98fb6072532a8c62509f2976e4626199",
+    "size": 95275,
+    "uploadId": "fd7c3e4efdb9279b321a80eabf9b40d85b574e2d",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/f719115d98fb6072532a8c62509f2976e4626199-1068x1128.jpg"
+  },
+  {
+    "_createdAt": "2026-09-03T04:20:13Z",
+    "_id": "image-f7e31803c78647a315bb18fadd6b824d0dc9a25e-835x592-png",
+    "_rev": "GNi82xCo1eRS3egKAipFWP",
+    "_type": "sanity.imageAsset",
+    "_updatedAt": "2026-09-03T04:20:13Z",
+    "assetId": "f7e31803c78647a315bb18fadd6b824d0dc9a25e",
+    "extension": "png",
+    "metadata": {
+      "_type": "sanity.imageMetadata",
+      "blurHash": "V46+UupH00WUX5_MnPEJWBRj8{b]%zo|t64nb[%3kW%3",
+      "dimensions": {
+        "_type": "sanity.imageDimensions",
+        "aspectRatio": 1.410472972972973,
+        "height": 592,
+        "width": 835
+      },
+      "hasAlpha": true,
+      "isOpaque": true,
+      "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAABJ0AAASdAHeZh94AAADWElEQVQ4jT3RWVPiCBSG4Vxpq7gCAVxYDQQIkLBkIRASQHYREXHXabvHnh7b6pr/f/FO4VTNxVfP3XfOqSME34YcvPQI3LsEFxZ7gzI+p8h+U+WkVSXr1JCbBrGWTrxtkezUEa0SW6UU21qC/Vqc3UocXznOrp5ECF5b7E8N9gYV/H0V8axI0C0iOhoxr0bONZAdg5ijE2ubpLoWR45GwMjg11PsVRNsa3F2jRSRvowgdjL4Wxl2rTRiU0EeW2hzF/XSQ521KU/bqBMPZeJ+pjBxKJ03KU0bpPs1AmaG7WqSgJshtlARgvU4q/jNJMluFe95xtXHC8vfX5n/emb2/sTl+zOXv56Z/HVH/9sV47cl058PdF8XnI5M/G6O0LjE8a2BsK8n8BsxxHqSzKBG52XG5fsLVx9fufj5xOzvJ5a/X7n55zvzjxdGb7cM/7xl+OOO3o8blBuX8LlGaGEQum8iHBgJVqUBK8FRS0YalMlPTAqrsy5caose9dsRjbvJp+V5h+zEJj3WSU8NopMyoYlGcK4TurERgo0U/nqKA+s/j7ws6VGFwrSONnfQl12M5dn/VhYeyoXF6UAj4uUIuDKBbh5xVCI81RCCjoTYShNsSQScDNEzleLcobJso992aDwOcJ5G2A996vc9zNsu1WuP/NTi2FMINCSCrVNC3koJYddefVkmcpbnZFAiPipzem6QndmUl23qj0OaT2PshyHmXZ/ylUt2YnLa04h1FI5dmbCd4qAaZbtwjLBZz7PdzBPqqiTODaQLA2lqkL9qYD728V6ndL9f0v02w/vjnNrSIzeuIfVUpLMSCVdBrKbYko9YT4URfJ7KZrPITqOIv6US8koctovEeir5izr6TZvGqvh5jH3XIzuoctKQCRsSYiXFQTGBL3PCejLMWiKMsDfQ2GwW2DByfNFlNqoZNqsSe3qGw2aR006VbN+kOLCROzqRmsxOLsqGFPncaC0ZYT0Z+XQtFUHwDytstzW22mU222U2WiU2rDw7Ro6AqRAxC5xYReL1IlFTQdTS7Obi+DJRfHIUXzaOL5dgK59gS0kgHM5biNdtAvc9/A89DhYe+0OT/ZaK31KIWApJp4TslZFaKjFL4dhQiK4G2CrHtkbE1hDtEkGzwL/nwsK4Z1PILAAAAABJRU5ErkJggg==",
+      "palette": {
+        "_type": "sanity.imagePalette",
+        "darkMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#244531",
+          "foreground": "#fff",
+          "population": 1.5,
+          "title": "#fff"
+        },
+        "darkVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#044530",
+          "foreground": "#fff",
+          "population": 0.24,
+          "title": "#fff"
+        },
+        "dominant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#c4d2c9",
+          "foreground": "#000",
+          "population": 6.13,
+          "title": "#000"
+        },
+        "lightMuted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#c4d2c9",
+          "foreground": "#000",
+          "population": 6.13,
+          "title": "#000"
+        },
+        "lightVibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#81f7d1",
+          "foreground": "#000",
+          "population": 0,
+          "title": "#000"
+        },
+        "muted": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#618470",
+          "foreground": "#fff",
+          "population": 3.84,
+          "title": "#fff"
+        },
+        "vibrant": {
+          "_type": "sanity.imagePaletteSwatch",
+          "background": "#0df1a7",
+          "foreground": "#000",
+          "population": 0,
+          "title": "#fff"
+        }
+      },
+      "thumbHash": "zbcFDYIJl4d7d3eTi0iJhWWJMHBq"
+    },
+    "mimeType": "image/png",
+    "originalFilename": "Sertif-Peserta-KonferensiInternasional.png",
+    "path": "images/b1shmtql/production/f7e31803c78647a315bb18fadd6b824d0dc9a25e-835x592.png",
+    "sha1hash": "f7e31803c78647a315bb18fadd6b824d0dc9a25e",
+    "size": 389334,
+    "uploadId": "33460df0130149c3e6a9c4cd9cc1fdd79ed5c7c4",
+    "url": "https://cdn.sanity.io/images/b1shmtql/production/f7e31803c78647a315bb18fadd6b824d0dc9a25e-835x592.png"
+  },
+  {
+    "_createdAt": "2026-09-03T04:08:50Z",
+    "_id": "k5SsXVtg04B1Uu1lddZz0D",
+    "_rev": "6EJ87NIp0Kc4fxPT5astOD",
+    "_system": {
+      "base": {
+        "id": "k5SsXVtg04B1Uu1lddZz0D",
+        "rev": "k5SsXVtg04B1Uu1lddZyzK"
+      }
+    },
+    "_type": "project",
+    "_updatedAt": "2026-09-06T17:09:56Z",
+    "collages": [
+      {
+        "_key": "GNi82xCo1eRS3egKAip30f",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-18c42f3d0d9bd272257bcff82c1a44a28b7abdd2-738x1600-jpg",
+          "_type": "reference"
+        }
+      },
+      {
+        "_key": "GNi82xCo1eRS3egKAip33M",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-d30f3ceeaa0dbc19aaede793d9f5fdf18e4cee2a-738x1600-jpg",
+          "_type": "reference"
+        }
+      },
+      {
+        "_key": "GNi82xCo1eRS3egKAip363",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-025df022f6b1aa211ebe1ec4ec82b97fb56e1f2f-738x1600-jpg",
+          "_type": "reference"
+        }
+      },
+      {
+        "_key": "GNi82xCo1eRS3egKAip38k",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-e52fb54dd7b8686c9d01b8f7d8bfec43b1561d74-738x1600-jpg",
+          "_type": "reference"
+        }
+      },
+      {
+        "_key": "GNi82xCo1eRS3egKAip3BR",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-700f967903f1f2abccd2d6521ffa37de147f6189-738x1600-jpg",
+          "_type": "reference"
+        }
+      }
+    ],
+    "desc": "Aplikasi mobile unofficial berbasis WebView pintar untuk mengakses SPADA UPN Veteran Yogyakarta secara lebih cepat, modern, dan responsif.",
+    "desc_en": "An unofficial smart WebView-based mobile application to access SPADA UPN Veteran Yogyakarta faster, more modernly, and responsively.",
+    "features": [
+      "Dashboard ringkasan SKS, mata kuliah, dan tugas aktif",
+      "Auto-Login dan manajemen sesi cepat",
+      "Smart Assignment dengan sorting deadline otomatis",
+      "Sistem absensi sekali klik langsung dari aplikasi",
+      "Push Notifications pengingat deadline dan kehadiran",
+      "Desain UI gelap modern bertema kosmik/astronomi"
+    ],
+    "features_en": [
+      "Dashboard summarizing credits, courses, and active assignments",
+      "Auto-Login and fast session management",
+      "Smart Assignment with automatic deadline sorting",
+      "One-click attendance system directly from the app",
+      "Push Notifications for deadline and attendance reminders",
+      "Modern dark UI design with cosmic/astronomy theme"
+    ],
+    "github": "https://github.com/Dhani2612/spadaupn-app",
+    "img": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-18c42f3d0d9bd272257bcff82c1a44a28b7abdd2-738x1600-jpg",
+        "_type": "reference"
+      }
+    },
+    "longDesc": "Aplikasi mobile unofficial yang dibangun dengan framework Capacitor, Vite, dan murni HTML/CSS/Vanilla JS untuk mengakses platform SPADA UPN \"Veteran\" Yogyakarta secara lebih cepat dan modern dibanding akses browser biasa.\n\nAplikasi ini menghadirkan Dashboard dan Statistik Terpusat yang menampilkan ringkasan SKS, jumlah mata kuliah, serta tugas aktif dalam satu layar. Dilengkapi fitur Auto-Login sehingga pengguna cukup login sekali dan bisa mengakses berulang kali tanpa memasukkan kredensial Moodle lagi.\n\nFitur Smart Assignment mengurutkan tugas otomatis berdasarkan deadline terdekat dan mendukung pengumpulan tugas langsung dari dalam aplikasi. Sistem Absensi Sekali Klik memungkinkan mahasiswa melihat seluruh jadwal absensi satu semester dan melakukan absen langsung tanpa membuka browser. Tersedia juga Push Notifications yang memunculkan pengingat otomatis ketika deadline tugas kurang dari 24 jam atau sesi absen sedang dibuka.",
+    "longDesc_en": "An unofficial mobile application built with Capacitor, Vite, and pure HTML/CSS/Vanilla JS to access the SPADA platform of UPN \"Veteran\" Yogyakarta faster and more modernly compared to standard browser access.\n\nThis app presents a Centralized Dashboard and Statistics displaying a summary of credits, number of courses, and active assignments in one screen. Equipped with an Auto-Login feature so users only need to log in once and can access repeatedly without entering Moodle credentials again.\n\nThe Smart Assignment feature automatically sorts assignments based on the closest deadline and supports assignment submission directly from within the app. The One-Click Attendance system allows students to view their entire semester's attendance schedule and submit attendance directly without opening a browser. Push Notifications are also available, bringing up automatic reminders when an assignment deadline is under 24 hours or an attendance session is open.",
+    "tags": [
+      "Capacitor",
+      "Vite",
+      "JavaScript",
+      "Mobile"
+    ],
+    "title": "SPADA UPNYK Mobile App",
+    "title_en": "SPADA UPNYK Mobile App"
+  },
+  {
+    "_createdAt": "2026-09-03T04:09:05Z",
+    "_id": "k5SsXVtg04B1Uu1ldda2YD",
+    "_rev": "dFAVSasokFbCybtJSe775O",
+    "_system": {
+      "base": {
+        "id": "k5SsXVtg04B1Uu1ldda2YD",
+        "rev": "k5SsXVtg04B1Uu1ldda2XK"
+      }
+    },
+    "_type": "project",
+    "_updatedAt": "2026-09-06T17:09:58Z",
+    "collages": [
+      {
+        "_key": "k5SsXVtg04B1Uu1lddaVnR",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-7af2072b0b171faeeba29fbdf03b142d1915633c-738x1600-jpg",
+          "_type": "reference"
+        }
+      },
+      {
+        "_key": "k5SsXVtg04B1Uu1lddaVoK",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-b6ba019a4710809299e10d1264bffbbf0a261f48-738x1600-jpg",
+          "_type": "reference"
+        }
+      },
+      {
+        "_key": "k5SsXVtg04B1Uu1lddaVpD",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-17438f11d8e1d485f2bacf5accbb2afc231d65cc-738x1600-jpg",
+          "_type": "reference"
+        }
+      }
+    ],
+    "desc": "Aplikasi mobile pencatatan arus kas yang dibangun dengan Flutter, menawarkan manajemen finansial terpusat dengan penyimpanan data lokal SQLite yang aman.",
+    "desc_en": "A cash flow recording mobile app built with Flutter, offering centralized financial management with secure local SQLite data storage.",
+    "features": [
+      "Pengembangan lintas platform (Cross-platform) menggunakan framework Flutter & Dart",
+      "Arsitektur offline-first dan manajemen basis data lokal dengan SQLite",
+      "Modul antarmuka untuk pencatatan entri pemasukan dan pengeluaran yang terstruktur (Transaction Page)",
+      "Sistem pelaporan analitik (Report Page) untuk memantau kesehatan finansial",
+      "Audit riwayat transaksi secara menyeluruh dan berurut (History Page)"
+    ],
+    "features_en": [
+      "Cross-platform development using Flutter & Dart framework",
+      "Offline-first architecture and local database management with SQLite",
+      "Interface module for structured income and expense entries (Transaction Page)",
+      "Analytic reporting system (Report Page) to monitor financial health",
+      "Comprehensive and sequential transaction history audit (History Page)"
+    ],
+    "github": "https://github.com/Dhani2612/catatan-keuangan.git",
+    "img": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-7af2072b0b171faeeba29fbdf03b142d1915633c-738x1600-jpg",
+        "_type": "reference"
+      }
+    },
+    "longDesc": "Proyek \"Catatan Keuangan\" adalah aplikasi mobile yang dikembangkan menggunakan framework Flutter untuk memfasilitasi manajemen arus kas pribadi secara praktis. Aplikasi ini dirancang agar pengguna dapat mencatat pemasukan dan pengeluaran harian dengan antarmuka yang intuitif dan berfokus pada kecepatan entri data.\n    \nDi balik layar, sistem ini memanfaatkan SQLite sebagai mesin basis data relasional lokal (offline-first). Pendekatan arsitektur ini menjamin bahwa seluruh data riwayat finansial pengguna tersimpan secara aman langsung di dalam ruang penyimpanan perangkat (device storage). Hal ini memungkinkan aplikasi beroperasi dengan performa penuh tanpa memerlukan sinkronisasi ke server eksternal, sehingga menjamin privasi absolut dan aksesibilitas tanpa konektivitas internet.\n    \nStruktur aplikasi ini dipecah menjadi beberapa modul fungsional: Dasbor (Home Page) untuk visibilitas saldo instan, Form Transaksi (Transaction Page) untuk pencatatan debit/kredit, Log Riwayat (History Page) untuk penelusuran transaksi masa lalu, dan Dasbor Laporan (Report Page) yang menyajikan rekapitulasi analitik dari pola pengeluaran.",
+    "longDesc_en": "The \"Mobile Financial Notes\" project is a mobile application developed using the Flutter framework to facilitate practical personal cash flow management. The app is designed so users can record daily income and expenses with an intuitive interface focused on data entry speed.\n\nBehind the scenes, this system utilizes SQLite as a local relational database engine (offline-first). This architectural approach ensures that all user financial history data is securely stored directly within the device storage. This allows the app to operate at full performance without requiring external server synchronization, guaranteeing absolute privacy and accessibility without internet connectivity.\n\nThe application structure is broken down into several functional modules: Dashboard (Home Page) for instant balance visibility, Transaction Form (Transaction Page) for debit/credit recording, History Log (History Page) for past transaction tracing, and Report Dashboard (Report Page) presenting analytic recapitulation of spending patterns.",
+    "tags": [
+      "Flutter",
+      "Dart",
+      "SQLite",
+      "Mobile"
+    ],
+    "title": "Catatan Keuangan Mobile",
+    "title_en": "Mobile Financial Notes"
+  },
+  {
+    "_createdAt": "2026-09-03T04:09:18Z",
+    "_id": "k5SsXVtg04B1Uu1ldda5j9",
+    "_rev": "nXfR47JxO13AdXevw1wcYp",
+    "_system": {
+      "base": {
+        "id": "k5SsXVtg04B1Uu1ldda5j9",
+        "rev": "k5SsXVtg04B1Uu1ldda5iG"
+      }
+    },
+    "_type": "project",
+    "_updatedAt": "2026-09-06T17:10:00Z",
+    "collages": [
+      {
+        "_key": "GNi82xCo1eRS3egKAip58e",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-169b924a3224ff401c9b71e3d3a278827d8aa0f7-1906x917-png",
+          "_type": "reference"
+        }
+      },
+      {
+        "_key": "GNi82xCo1eRS3egKAip5BL",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-e724ecc4a83bbe449123ef29ae23a6740c76b509-1902x915-png",
+          "_type": "reference"
+        }
+      },
+      {
+        "_key": "GNi82xCo1eRS3egKAip5E2",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-e24fa3d22693feecd9ac0f981e3a1ebcf209f585-1887x915-png",
+          "_type": "reference"
+        }
+      },
+      {
+        "_key": "GNi82xCo1eRS3egKAip5Gj",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-b7d54c93aa20d2e9903828829173370ffa68e78f-1887x917-png",
+          "_type": "reference"
+        }
+      },
+      {
+        "_key": "GNi82xCo1eRS3egKAip5JQ",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-dfc1070f02232e4af9141ba4a117897e3d9e4831-1912x917-png",
+          "_type": "reference"
+        }
+      }
+    ],
+    "desc": "Sistem manajemen web terpadu dengan arsitektur multi-peran untuk melacak distribusi, alokasi kuota, dan pendataan pelanggan pupuk secara real-time.",
+    "desc_en": "An integrated web management system with a multi-role architecture to track fertilizer distribution, quota allocation, and customer data collection in real-time.",
+    "features": [
+      "Portal otorisasi multi-peran (Admin & Customer) dengan proteksi rute API",
+      "Arsitektur Full-Stack modern dengan Next.js App Router dan Server Components",
+      "Manajemen basis data relasional yang type-safe menggunakan Prisma ORM dan Supabase",
+      "Dasbor operasional terpusat untuk CRUD data pelanggan, distributor, dan riwayat distribusi",
+      "Modul spesifik untuk penetapan dan pelacakan 'Jatah Pupuk' (kuota individu)",
+      "Antarmuka responsif dan teraksesibilitas baik menggunakan Tailwind CSS"
+    ],
+    "features_en": [
+      "Multi-role authorization portal (Admin & Customer) with API route protection",
+      "Modern Full-Stack architecture with Next.js App Router and Server Components",
+      "Type-safe relational database management using Prisma ORM and Supabase",
+      "Centralized operational dashboard for Customer, Distributor, and Distribution history CRUD",
+      "Specific module for setting and tracking 'Fertilizer Quota' (individual allocation)",
+      "Responsive interface with good accessibility using Tailwind CSS"
+    ],
+    "github": "https://github.com/Dhani2612/rpl_pupukku",
+    "img": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-169b924a3224ff401c9b71e3d3a278827d8aa0f7-1906x917-png",
+        "_type": "reference"
+      }
+    },
+    "longDesc": "Proyek \"PupukKu\" adalah sebuah platform web full-stack yang dirancang untuk mendigitalisasi, memantau, dan mengelola rantai pasok distribusi pupuk komersial. Dibangun dengan standar arsitektur web modern menggunakan kerangka kerja Next.js (App Router) dan TypeScript, sistem ini memastikan performa tinggi dan keamanan tipe data (type-safety) dari ujung ke ujung (end-to-end).\n    \nSistem ini memisahkan logika bisnis ke dalam dua portal antarmuka otorisasi utama: Dasbor Administrator untuk manajemen operasional (meliputi pengelolaan data pelanggan, penetapan kuota/jatah pupuk, dan pencatatan distribusi aktual) serta Dasbor Customer yang memungkinkan pelanggan melacak profil dan hak alokasi mereka sendiri.\n    \nDi sisi kapabilitas backend, aplikasi ini meninggalkan pendekatan konvensional dengan mengimplementasikan Prisma ORM untuk menjembatani interaksi basis data secara elegan, dipadukan dengan keandalan Supabase (PostgreSQL) sebagai solusi penyimpanan data utama. Antarmuka pengguna (UI) dirancang menggunakan Tailwind CSS dan komponen berbasis shadcn/ui, menghadirkan pengalaman visual yang bersih, profesional, dan sepenuhnya responsif.",
+    "longDesc_en": "The \"PupukKu\" project is a full-stack web platform designed to digitalize, monitor, and manage the commercial fertilizer distribution supply chain. Built with modern web architecture standards using Next.js (App Router) and TypeScript, this system ensures high performance and type-safety from end to end.\n\nThe system separates business logic into two main authorization interface portals: Administrator Dashboard for operational management (including customer data management, fertilizer quota allocation, and actual distribution recording) and Customer Dashboard allowing customers to track their own profiles and allocation rights.\n\nOn the backend capability side, this application leaves the conventional approach by implementing Prisma ORM to bridge database interactions elegantly, paired with the reliability of Supabase (PostgreSQL) as the primary data storage solution. The user interface (UI) is designed using Tailwind CSS and shadcn/ui based components, presenting a clean, professional, and fully responsive visual experience.",
+    "tags": [
+      "Next.js",
+      "TypeScript",
+      "Prisma",
+      "Supabase",
+      "Tailwind"
+    ],
+    "title": "PupukKu ΓÇô Integrated Distribution Web App",
+    "title_en": "PupukKu ΓÇô Integrated Distribution Web App"
+  },
+  {
+    "_createdAt": "2026-09-03T04:09:25Z",
+    "_id": "k5SsXVtg04B1Uu1ldda60t",
+    "_rev": "6EJ87NIp0Kc4fxPT5astak",
+    "_system": {
+      "base": {
+        "id": "k5SsXVtg04B1Uu1ldda60t",
+        "rev": "k5SsXVtg04B1Uu1ldda600"
+      }
+    },
+    "_type": "project",
+    "_updatedAt": "2026-09-06T17:10:02Z",
+    "collages": [
+      {
+        "_key": "GNi82xCo1eRS3egKAip5Wt",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-371c24c86c5d9edfbe681718b7e65aa58695ff07-1897x840-png",
+          "_type": "reference"
+        }
+      },
+      {
+        "_key": "GNi82xCo1eRS3egKAip5Za",
+        "_type": "image",
+        "asset": {
+          "_ref": "image-b6ae9a7f5e775a8fe0f1720de64a060f424aeff2-1900x912-png",
+          "_type": "reference"
+        }
+      }
+    ],
+    "demo": "https://padukuhankarang.vercel.app/",
+    "desc": "Portal informasi resmi dan profil digital untuk Padukuhan Karang, menonjolkan potensi UMKM warga dan galeri kegiatan KKN.",
+    "desc_en": "The official information portal and digital profile for Padukuhan Karang, highlighting local MSME potential and KKN activity galleries.",
+    "features": [
+      "Katalog promosi UMKM unggulan warga lokal",
+      "Profil sejarah, demografi, dan struktur organisasi padukuhan",
+      "Galeri arsip dokumentasi program kerja KKN UPNVY",
+      "Desain responsif yang sangat ringan diakses lewat perangkat mobile"
+    ],
+    "features_en": [
+      "Promotional catalog of local MSME highlights",
+      "Village profile covering history, demographics, and organizational structure",
+      "Archive gallery of UPNVY KKN work program documentation",
+      "Highly responsive design optimized for mobile devices"
+    ],
+    "img": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-371c24c86c5d9edfbe681718b7e65aa58695ff07-1897x840-png",
+        "_type": "reference"
+      }
+    },
+    "longDesc": "Proyek \"Portal Desa Padukuhan Karang\" ini saya rancang sebagai bentuk digitalisasi dan wujud pengabdian masyarakat saat menjalankan Kuliah Kerja Nyata (KKN) dari UPN \"Veteran\" Yogyakarta. Tujuan utamanya adalah untuk mengangkat potensi lokal desa ke ranah internet agar lebih mudah dijangkau dan dikenal publik luas.\n\nLewat platform website ini, pengunjung dapat menjelajahi profil wilayah, melihat peta katalog UMKM unggulan milik warga (seperti kerajinan tangan dan kuliner lokal), serta menelusuri galeri dokumentasi program kerja yang telah kami jalankan bersama warga desa.\n\nWebsite ini saya kembangkan secara penuh menggunakan ekosistem React dan Vite, dipadukan dengan Tailwind CSS. Pendekatan ini memastikan tampilan antarmuka yang bersih, responsif di berbagai perangkat smartphone warga, serta memiliki performa muat halaman yang sangat gesit.",
+    "longDesc_en": "I designed the \"Padukuhan Karang Village Portal\" project as a form of digitalization and community service during my Student Study Service (KKN) from UPN \"Veteran\" Yogyakarta. Its main objective is to bring local village potential to the internet realm to be more easily reached and known by the wider public.\n\nThrough this website platform, visitors can explore the regional profile, view a map catalog of local residents' featured MSMEs (such as handicrafts and local culinary), and browse documentation galleries of work programs we have carried out with the villagers.\n\nI developed this website entirely using the React and Vite ecosystem, combined with Tailwind CSS. This approach ensures a clean user interface, responsive across residents' smartphones, and has extremely agile page load performance.",
+    "tags": [
+      "React",
+      "Tailwind CSS",
+      "Vite",
+      "Web"
+    ],
+    "title": "Portal Desa | Padukuhan Karang",
+    "title_en": "Village Portal | Padukuhan Karang"
+  },
+  {
+    "_createdAt": "2026-09-03T04:19:49Z",
+    "_id": "k5SsXVtg04B1Uu1lddaYO0",
+    "_rev": "nXfR47JxO13AdXevw1wQqR",
+    "_type": "certificate",
+    "_updatedAt": "2026-09-06T17:05:49Z",
+    "img": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-f3a70047b79a52014a381a8113a47dcedeb1bdbe-897x635-png",
+        "_type": "reference"
+      }
+    },
+    "link": "https://drive.google.com/file/d/1AWT95tO7BDkkWdliDRkO8hkAKpZUPuFR/view?usp=sharing",
+    "order": 98,
+    "org": "Rakamin x ID/X Partners",
+    "org_en": "Rakamin x ID/X Partners",
+    "title": "Virtual Internship: Data Scientist",
+    "title_en": "Virtual Internship: Data Scientist"
+  },
+  {
+    "_createdAt": "2026-09-03T04:20:05Z",
+    "_id": "k5SsXVtg04B1Uu1lddaYlx",
+    "_rev": "dFAVSasokFbCybtJSe6u1C",
+    "_type": "certificate",
+    "_updatedAt": "2026-09-06T17:05:51Z",
+    "img": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-c7f758aeccf4e62677f0725a5dd1732f9c93b1d6-2000x1414-png",
+        "_type": "reference"
+      }
+    },
+    "link": "https://drive.google.com/file/d/1wRSdM5IuY_t4HQt4ltcPC8ea0b9Fke9T/view?usp=sharing",
+    "order": 93,
+    "org": "BEM FTI UPN Veteran Yogyakarta",
+    "org_en": "BEM FTI UPN Veteran Yogyakarta",
+    "title": "Wakil Kepala Divisi Advokasi",
+    "title_en": "Vice Head of Advocacy Division"
+  },
+  {
+    "_createdAt": "2026-09-03T04:20:14Z",
+    "_id": "k5SsXVtg04B1Uu1lddaYwb",
+    "_rev": "nXfR47JxO13AdXevw1wRHL",
+    "_type": "certificate",
+    "_updatedAt": "2026-09-06T17:05:52Z",
+    "img": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-f7e31803c78647a315bb18fadd6b824d0dc9a25e-835x592-png",
+        "_type": "reference"
+      }
+    },
+    "link": "https://drive.google.com/file/d/1dxnu_HBtIPmE-6ceEiyYsAnRPqvM8UAK/view?usp=sharing",
+    "order": 90,
+    "org": "Konferensi Internasional",
+    "org_en": "International Conference",
+    "title": "Peserta Konferensi Internasional",
+    "title_en": "International Conference Participant"
+  },
+  {
+    "_createdAt": "2026-09-03T04:20:20Z",
+    "_id": "k5SsXVtg04B1Uu1lddaZDS",
+    "_rev": "nXfR47JxO13AdXevw1wRUn",
+    "_type": "experience",
+    "_updatedAt": "2026-09-06T17:05:54Z",
+    "company": "Divisi Humas UPN \"Veteran\" Yogyakarta",
+    "company_en": "Public Relations Div. UPN \"Veteran\" Yogyakarta",
+    "desc": [
+      "Mengelola dan memelihara sistem web Hubungan Masyarakat (Humas) UPN \"Veteran\" Yogyakarta.",
+      "Bertanggung jawab atas Content Management System (CMS) untuk publikasi berita resmi kampus.",
+      "Mengoptimalkan UI/UX situs web secara berkala agar lebih responsif dan mudah diakses oleh sivitas akademika."
+    ],
+    "desc_en": [
+      "Manage and maintain the Public Relations web system of UPN \"Veteran\" Yogyakarta.",
+      "Responsible for the Content Management System (CMS) for official campus news publications.",
+      "Optimize website UI/UX periodically to be more responsive and accessible for the academic community."
+    ],
+    "logo": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-93cb794a0d85fd06ce2397709f2b6cde3e7273e8-977x974-png",
+        "_type": "reference"
+      }
+    },
+    "order": 100,
+    "period": "Agustus 2026 - November 2026",
+    "period_en": "August 2026 - November 2026",
+    "role": "Web & CMS Administrator",
+    "role_en": "Web & CMS Administrator",
+    "type": "professional"
+  },
+  {
+    "_createdAt": "2026-09-03T04:20:23Z",
+    "_id": "k5SsXVtg04B1Uu1lddaZMK",
+    "_rev": "nXfR47JxO13AdXevw1wRiF",
+    "_type": "experience",
+    "_updatedAt": "2026-09-06T17:05:55Z",
+    "company": "PIDI - DIGDAYA X Hackathon 2026 by Bank Indonesia",
+    "company_en": "PIDI - DIGDAYA X Hackathon 2026 by Bank Indonesia",
+    "desc": [
+      "Memimpin tim merancang prototipe \"NusaLink AI\", platform remote-work bagi talenta IT lokal.",
+      "Mengonsep arsitektur yang memanfaatkan Local Language Model (LLM) untuk penerjemahan real-time.",
+      "Mengintegrasikan konsep Smart Contract untuk mengefisiensikan biaya transaksi lintas negara."
+    ],
+    "desc_en": [
+      "Led the team in designing the \"NusaLink AI\" prototype, a remote-work platform for local IT talents.",
+      "Conceptualized architecture utilizing Local Language Models (LLM) for real-time translation.",
+      "Integrated Smart Contract concepts to streamline cross-border transaction costs."
+    ],
+    "logo": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-a9267adf2f80ea677145048a102befb11ee3b781-2201x697-png",
+        "_type": "reference"
+      }
+    },
+    "order": 99,
+    "period": "April 2026",
+    "period_en": "April 2026",
+    "role": "TOP 800 Proposalist, Ketua Tim",
+    "role_en": "TOP 800 Proposalist, Team Leader",
+    "type": "professional"
+  },
+  {
+    "_createdAt": "2026-09-03T04:20:25Z",
+    "_id": "k5SsXVtg04B1Uu1lddaZVC",
+    "_rev": "dFAVSasokFbCybtJSe6uIo",
+    "_type": "experience",
+    "_updatedAt": "2026-09-06T17:05:57Z",
+    "company": "PT. Kereta Api Indonesia (KAI) Daop 6 Yogyakarta",
+    "company_en": "PT. Kereta Api Indonesia (KAI) Daop 6 Yogyakarta",
+    "desc": [
+      "Berkolaborasi dengan tim IT mengembangkan website manajemen arsip digital untuk Unit SDM.",
+      "Mendigitalisasi dan memvalidasi 5.000+ dokumen kontrak pegawai ke dalam sistem terpusat.",
+      "Mempercepat proses pencarian dan akses data pegawai secara signifikan."
+    ],
+    "desc_en": [
+      "Collaborated with the IT team to develop a digital archive management website for the HR Unit.",
+      "Digitalized and validated 5,000+ employee contract documents into a centralized system.",
+      "Significantly accelerated the search process and employee data access."
+    ],
+    "logo": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-5aa59ac9132def94a68083e082b13952836d8402-960x405-png",
+        "_type": "reference"
+      }
+    },
+    "order": 98,
+    "period": "Januari 2026 ΓÇô Februari 2026",
+    "period_en": "January 2026 - February 2026",
+    "role": "Software Development Intern",
+    "role_en": "Software Development Intern",
+    "type": "professional"
+  },
+  {
+    "_createdAt": "2026-09-03T04:20:37Z",
+    "_id": "k5SsXVtg04B1Uu1lddaZfq",
+    "_rev": "dFAVSasokFbCybtJSe6uwR",
+    "_type": "experience",
+    "_updatedAt": "2026-09-06T17:05:58Z",
+    "company": "BEM FTI UPN \"Veteran\" Yogyakarta",
+    "company_en": "BEM FTI UPN \"Veteran\" Yogyakarta",
+    "desc": [
+      "Menjembatani aspirasi mahasiswa dengan pihak fakultas melalui program advokasi.",
+      "Aktif menangani dan mencari solusi untuk berbagai keluhan mahasiswa terkait kendala akademik maupun non-akademik."
+    ],
+    "desc_en": [
+      "Bridged student aspirations with the faculty through advocacy programs.",
+      "Actively handled and sought solutions for various student complaints regarding academic and non-academic issues."
+    ],
+    "logo": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-8cc917c9552ffc6e2e30dd17ad5f9260e214659e-853x973-png",
+        "_type": "reference"
+      }
+    },
+    "order": 94,
+    "period": "Feb 2025 - Des 2025",
+    "period_en": "Feb 2025 - Dec 2025",
+    "role": "Wakil Kepala Divisi Advokasi & Kesejahteraan Mahasiswa",
+    "role_en": "Vice Head of Advocacy & Student Welfare",
+    "type": "organization"
+  },
+  {
+    "_createdAt": "2026-09-03T04:20:47Z",
+    "_id": "k5SsXVtg04B1Uu1lddaa18",
+    "_rev": "nXfR47JxO13AdXevw1wSMb",
+    "_type": "achievement",
+    "_updatedAt": "2026-09-06T17:05:59Z",
+    "desc": "Terpilih sebagai penerima beasiswa Bank Indonesia melalui tahapan seleksi ketat berdasarkan rekam jejak akademis, keaktifan organisasi, serta potensi kepemimpinan.",
+    "desc_en": "Selected as a Bank Indonesia scholarship recipient through a rigorous selection process based on academic track record, organizational activity, and leadership potential.",
+    "order": 100,
+    "org": "Bank Indonesia",
+    "org_en": "Bank Indonesia",
+    "period": "2025",
+    "period_en": "2025",
+    "title": "Awardee Beasiswa Bank Indonesia",
+    "title_en": "Bank Indonesia Scholarship Awardee"
+  },
+  {
+    "_createdAt": "2026-09-03T04:20:48Z",
+    "_id": "k5SsXVtg04B1Uu1lddaa4g",
+    "_rev": "nXfR47JxO13AdXevw1wSeX",
+    "_type": "achievement",
+    "_updatedAt": "2026-09-06T17:06:01Z",
+    "desc": "Mendapatkan penghargaan atas kinerja yang konsisten dan tanggung jawab penuh dalam menyelesaikan setiap target program kerja kementerian, serta mampu menjalin kolaborasi tim yang baik.",
+    "desc_en": "Received an award for consistent performance and full responsibility in completing every ministry work program target, as well as the ability to foster good team collaboration.",
+    "order": 99,
+    "org": "BEM KM UPN \"Veteran\" Yogyakarta",
+    "org_en": "BEM KM UPN \"Veteran\" Yogyakarta",
+    "period": "Maret - Mei 2024",
+    "period_en": "March - May 2024",
+    "title": "Staff Of The Month",
+    "title_en": "Staff Of The Month"
+  }
+]

@@ -10,10 +10,20 @@ export default {
       validation: Rule => Rule.required()
     },
     {
+      name: 'role_en',
+      title: 'Role (EN)',
+      type: 'string'
+    },
+    {
       name: 'company',
       title: 'Company / Organization',
       type: 'string',
       validation: Rule => Rule.required()
+    },
+    {
+      name: 'company_en',
+      title: 'Company (EN)',
+      type: 'string'
     },
     {
       name: 'period',
@@ -21,8 +31,19 @@ export default {
       type: 'string',
     },
     {
+      name: 'period_en',
+      title: 'Period (EN)',
+      type: 'string'
+    },
+    {
       name: 'desc',
       title: 'Description (Bullet points)',
+      type: 'array',
+      of: [{ type: 'string' }]
+    },
+    {
+      name: 'desc_en',
+      title: 'Description (EN)',
       type: 'array',
       of: [{ type: 'string' }]
     },
