@@ -207,7 +207,7 @@
   font-size: 0.7rem;
   color: var(--text-muted);
   padding-top: 1rem;
-  border-top: 1px solid var(--card-border);
+  border-top: 1px dotted var(--card-border);
   letter-spacing: 0.02em;
 }
 /* Tab Certificates */
@@ -265,8 +265,8 @@
   white-space: nowrap;
 }
 .tab-cert-link:hover {
-  background-color: var(--foreground);
-  color: var(--bg-color);
+  background-color: var(--accent-color);
+  color: #fff;
 }
 /* Tab Achievements */
 .tab-achievements-list {

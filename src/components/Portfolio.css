@@ -2,7 +2,7 @@
 
 .portfolio-section {
   padding: 3rem 0;
-  border-top: 1px solid var(--card-border);
+  border-top: 1px dotted var(--card-border);
   min-height: auto;
   margin-bottom: 0;
   display: block;
@@ -15,7 +15,7 @@
 .section-header {
   margin-bottom: 1.5rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid var(--card-border);
+  border-bottom: 1px dotted var(--card-border);
 }
 
 .section-label {
@@ -137,14 +137,14 @@
   font-size: 0.7rem;
   color: var(--text-muted);
   padding-top: 1rem;
-  border-top: 1px solid var(--card-border);
+  border-top: 1px dotted var(--card-border);
   letter-spacing: 0.02em;
 }
 
 /* Certificates Section */
 .certificates-section {
   margin-top: 3rem;
-  border-top: 1px solid var(--card-border);
+  border-top: 1px dotted var(--card-border);
   padding-top: 3rem;
 }
 
@@ -207,6 +207,6 @@
 }
 
 .cert-link:hover {
-  background-color: var(--foreground);
-  color: var(--bg-color);
+  background-color: var(--accent-color);
+  color: #fff;
 }
