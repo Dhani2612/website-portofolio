@@ -114,6 +114,9 @@
   color: var(--text-color);
   font-size: 1.05rem;
   line-height: 1.8;
+  min-width: 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .pd-content-h2 {
@@ -167,6 +170,8 @@
 
 .pd-code-block {
   margin: 2rem 0;
+  max-width: 100%;
+  overflow-x: auto;
 }
 
 /* Sidebar Styles */
