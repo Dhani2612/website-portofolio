@@ -8,7 +8,9 @@ import './TabbedContent.css';
 
 const TabbedContent = () => {
   const { lang, t } = useLanguage();
-  const [activeTab, setActiveTab] = useState('profesional');
+  const [activeTab, setActiveTab] = useState(() => {
+    return sessionStorage.getItem('activePortfolioTab') || 'profesional';
+  });
   const [data, setData] = useState({
     professional: [],
     organization: [],
@@ -43,6 +45,10 @@ const TabbedContent = () => {
     };
     fetchData();
   }, []);
+
+  useEffect(() => {
+    sessionStorage.setItem('activePortfolioTab', activeTab);
+  }, [activeTab]);
 
   const tabs = [
     { id: 'profesional', label: t('tabs', 'prof') },
