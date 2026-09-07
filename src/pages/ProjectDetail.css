@@ -97,13 +97,14 @@
 
 /* Two-column layout */
 .pd-body-layout {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column-reverse;
   gap: 4rem;
 }
 
 @media (min-width: 992px) {
   .pd-body-layout {
+    display: grid;
     grid-template-columns: 1fr 320px;
     align-items: start;
   }
