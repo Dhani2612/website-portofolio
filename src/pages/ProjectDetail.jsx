@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { FiArrowLeft, FiGithub, FiExternalLink, FiList } from 'react-icons/fi';
@@ -150,6 +151,14 @@ const ProjectDetail = () => {
       exit={{ opacity: 0 }}
       transition={{ duration: 0.4 }}
     >
+      <Helmet>
+        <title>{tf(project, 'title')} | Dhani Kartika</title>
+        <meta name="description" content={tf(project, 'desc')} />
+        <meta property="og:title" content={tf(project, 'title')} />
+        <meta property="og:description" content={tf(project, 'desc')} />
+        <meta property="og:type" content="website" />
+      </Helmet>
+
       <div className="container">
         <button onClick={() => navigate('/')} className="back-btn">
           <FiArrowLeft /> {t('projectDetail', 'backHome')}

@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import Hero from '../components/Hero';
@@ -30,6 +31,10 @@ const Home = () => {
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5 }}
     >
+      <Helmet>
+        <title>Dhani Kartika | Software Developer</title>
+        <meta name="description" content="Dhani Kartika Prihantyo — Software Developer & Data Science Enthusiast. Building efficient tech solutions." />
+      </Helmet>
       <LanguageSwitcher />
       <main className="page-container">
         <div className="top-layout">
