@@ -125,7 +125,7 @@
   color: var(--foreground);
   margin: 3rem 0 1.5rem;
   padding-bottom: 0.5rem;
-  border-bottom: 1px dashed var(--card-border);
+  border-bottom: 1px solid var(--card-border);
 }
 
 .pd-content-h2:first-child {
@@ -198,7 +198,7 @@
   color: var(--foreground);
   margin: 0 0 1.5rem 0;
   padding-bottom: 1rem;
-  border-bottom: 1px dotted var(--card-border);
+  border-bottom: 1px solid var(--card-border);
 }
 
 .pd-toc-list {

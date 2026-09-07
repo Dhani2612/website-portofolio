@@ -2,15 +2,15 @@
 
 :root {
   /* Dark Minimalist Theme */
-  --bg-color: #0f0f10;
-  --bg-secondary: #161618;
-  --text-color: #e4e4e7;       /* Zinc 200 */
-  --text-muted: #71717a;        /* Zinc 500 */
-  --accent-color: #3b82f6;      /* Blue 500 */
-  --accent-hover: #60a5fa;      /* Blue 400 */
-  --card-bg: #18181b;           /* Zinc 900 */
-  --card-border: #27272a;       /* Zinc 800 */
-  --foreground: #fafafa;        /* Zinc 50 - for inverted badges */
+  --bg-color: #000000;
+  --bg-secondary: #0a0a0a;
+  --text-color: #a1a1aa;       /* Zinc 200 */
+  --text-muted: #52525b;        /* Zinc 500 */
+  --accent-color: #ffffff;      /* Blue 500 */
+  --accent-hover: #e4e4e7;      /* Blue 400 */
+  --card-bg: #000000;           /* Zinc 900 */
+  --card-border: rgba(255, 255, 255, 0.1);       /* Zinc 800 */
+  --foreground: #ffffff;        /* Zinc 50 - for inverted badges */
   --transition-speed: 0.3s;
 
   --font-heading: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -125,7 +125,7 @@ button {
 .section-header {
   margin-bottom: 1.5rem;
   padding-bottom: 1rem;
-  border-bottom: 1px dotted var(--card-border);
+  border-bottom: 1px solid var(--card-border);
 }
 
 /* --- Buttons --- */
@@ -152,9 +152,9 @@ button {
 }
 
 .btn-primary:hover {
-  background-color: var(--accent-color);
-  border-color: var(--accent-color);
-  color: #fff;
+  background-color: var(--bg-color);
+  border-color: var(--foreground);
+  color: var(--foreground);
 }
 
 .btn-secondary {
@@ -164,8 +164,9 @@ button {
 }
 
 .btn-secondary:hover {
-  border-color: var(--accent-color);
-  color: var(--accent-color);
+  border-color: var(--foreground);
+  color: var(--foreground);
+  background-color: rgba(255,255,255,0.05);
 }
 
 /* --- Utility --- */
