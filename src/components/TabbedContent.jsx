@@ -25,7 +25,7 @@ const TabbedContent = () => {
       try {
         const [expData, projData, certData, achData] = await Promise.all([
           client.fetch(`*[_type == "experience"] | order(order desc)`),
-          client.fetch(`*[_type == "project"] | order(_createdAt asc)`),
+          client.fetch(`*[_type == "project"] | order(order desc, _createdAt desc)`),
           client.fetch(`*[_type == "certificate"] | order(order desc)`),
           client.fetch(`*[_type == "achievement"] | order(order desc)`)
         ]);

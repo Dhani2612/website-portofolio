@@ -40,7 +40,7 @@ const Portfolio = () => {
     const fetchData = async () => {
       try {
         const [projectData, certData] = await Promise.all([
-          client.fetch('*[_type == "project"] | order(_createdAt asc)'),
+          client.fetch('*[_type == "project"] | order(order desc, _createdAt desc)'),
           client.fetch('*[_type == "certificate"] | order(order desc)')
         ]);
         setProjects(projectData);

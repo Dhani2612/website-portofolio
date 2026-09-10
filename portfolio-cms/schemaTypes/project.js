@@ -80,6 +80,13 @@ export default {
         {type: 'image', options: {hotspot: true}},
         {type: 'code', title: 'Code Snippet'}
       ]
+    },
+    {
+      name: 'order',
+      title: 'Order',
+      type: 'number',
+      description: 'Used for sorting. Higher number means it appears first/higher.',
+      initialValue: 0
     }
   ],
 }
