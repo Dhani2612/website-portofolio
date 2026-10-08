@@ -7,8 +7,8 @@ const translations = {
     hero: {
       profile: "PROFIL",
       heading: "Pengenalan Singkat",
-      bio1: "Saya seorang mahasiswa Informatika yang memiliki ketertarikan mendalam pada rekayasa perangkat lunak lintas platform dan sistem tertanam (embedded systems).",
-      bio2: "Selama perjalanan akademis dan profesional, saya telah merancang berbagai arsitektur sistem—mulai dari otomasi IoT berbasis Arduino (C++), pengembangan backend serverless menggunakan Google Apps Script dan Python (Flask), hingga memformulasikan antarmuka mobile yang kompleks dengan Flutter dan ekosistem React. Saya berfokus pada penyelesaian masalah nyata melalui kode yang modular dan performan.",
+      bio1: "Saya mahasiswa Informatika di UPN \"Veteran\" Yogyakarta yang berfokus pada pengembangan perangkat lunak, sistem web, dan teknologi IoT.",
+      bio2: "Saya terbiasa membangun aplikasi dari tahap perancangan sampai implementasi, baik untuk web, mobile, maupun pengolahan data. Sebagian besar proyek saya berangkat dari kebutuhan praktis selama perkuliahan, kegiatan organisasi, dan pengalaman magang.",
       downloadCv: "Unduh CV",
       exploreWork: "Lihat Karya",
       connect: "HUBUNGI SAYA"
@@ -49,8 +49,8 @@ const translations = {
     hero: {
       profile: "PROFILE",
       heading: "Short Introduction",
-      bio1: "I am an Informatics student with a deep interest in cross-platform software engineering and embedded systems.",
-      bio2: "Throughout my academic and professional journey, I have designed various system architectures—ranging from Arduino-based IoT automation (C++) and serverless backend development using Google Apps Script and Python (Flask), to formulating complex mobile interfaces with Flutter and the React ecosystem. I focus on solving real-world problems through modular and performant code.",
+      bio1: "I am an Informatics student at UPN \"Veteran\" Yogyakarta focusing on software development, web systems, and IoT.",
+      bio2: "I build applications from design to implementation across web, mobile, and data-driven projects. Most of my work stems from practical needs in coursework, student organizations, and internships.",
       downloadCv: "Download CV",
       exploreWork: "Explore Work",
       connect: "CONNECT"
