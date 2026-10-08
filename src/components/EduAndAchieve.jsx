@@ -54,7 +54,7 @@ const EduAndAchieve = () => {
           </div>
           <div className="info-item">
             <span className="info-label">{t('edu', 'focusLabel')}</span>
-            <span className="info-value">Software Dev, Data Science</span>
+            <span className="info-value">{t('edu', 'focusValue')}</span>
           </div>
         </div>
       </motion.div>

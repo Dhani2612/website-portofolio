@@ -19,7 +19,8 @@ const translations = {
       statusBadge: "Status: Mahasiswa Aktif",
       now: "Sekarang",
       locationLabel: "Lokasi Saat Ini",
-      focusLabel: "Fokus & Minat"
+      focusLabel: "Fokus & Minat",
+      focusValue: "Rekayasa Perangkat Lunak"
     },
     tabs: {
       prof: "Profesional",
@@ -61,7 +62,8 @@ const translations = {
       statusBadge: "Status: Active Student",
       now: "Present",
       locationLabel: "Current Location",
-      focusLabel: "Focus & Interest"
+      focusLabel: "Focus & Interest",
+      focusValue: "Software Engineering"
     },
     tabs: {
       prof: "Professional",
