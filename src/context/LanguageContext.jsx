@@ -10,6 +10,8 @@ const translations = {
       bio1: "Saya mahasiswa Informatika di UPN \"Veteran\" Yogyakarta yang berfokus pada pengembangan perangkat lunak, sistem web, dan teknologi IoT.",
       bio2: "Saya terbiasa membangun aplikasi dari tahap perancangan sampai implementasi, baik untuk web, mobile, maupun pengolahan data. Sebagian besar proyek saya berangkat dari kebutuhan praktis selama perkuliahan, kegiatan organisasi, dan pengalaman magang.",
       downloadCv: "Unduh CV",
+      cvId: "Bahasa Indonesia (ID)",
+      cvEn: "English (EN)",
       exploreWork: "Lihat Karya",
       connect: "HUBUNGI SAYA"
     },
@@ -53,6 +55,8 @@ const translations = {
       bio1: "I am an Informatics student at UPN \"Veteran\" Yogyakarta focusing on software development, web systems, and IoT.",
       bio2: "I build applications from design to implementation across web, mobile, and data-driven projects. Most of my work stems from practical needs in coursework, student organizations, and internships.",
       downloadCv: "Download CV",
+      cvId: "Indonesian (ID)",
+      cvEn: "English (EN)",
       exploreWork: "Explore Work",
       connect: "CONNECT"
     },

@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
-import { FiDownload } from 'react-icons/fi';
+import { FiDownload, FiChevronDown } from 'react-icons/fi';
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 import { FiMail } from 'react-icons/fi';
 import { useLanguage } from '../context/LanguageContext';
@@ -10,6 +10,15 @@ const Hero = () => {
   const [greeting, setGreeting] = useState('Halo');
   const { lang, t } = useLanguage();
 
+  const [isCvDropdownOpen, setIsCvDropdownOpen] = useState(false);
+  const cvDropdownRef = useRef(null);
+
+  // Link CV: id sudah terisi, en menunggu link dari user
+  const cvLinks = {
+    id: "https://drive.google.com/file/d/1K7j0Fic4KfvVf_ixWRDtRVLCAthF8DaN/view?usp=sharing",
+    en: "#"
+  };
+
   useEffect(() => {
     const hour = new Date().getHours();
     if (hour < 12) setGreeting(lang === 'id' ? 'Selamat Pagi' : 'Good Morning');
@@ -17,6 +26,16 @@ const Hero = () => {
     else if (hour < 20) setGreeting(lang === 'id' ? 'Selamat Sore' : 'Good Evening');
     else setGreeting(lang === 'id' ? 'Selamat Malam' : 'Good Night');
   }, [lang]);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (cvDropdownRef.current && !cvDropdownRef.current.contains(event.target)) {
+        setIsCvDropdownOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
 
   return (
     <section id="home" className="hero-section">
@@ -47,14 +66,52 @@ const Hero = () => {
 
         {/* CTA Buttons */}
         <div className="hero-actions">
-          <a 
-            href="https://drive.google.com/file/d/1K7j0Fic4KfvVf_ixWRDtRVLCAthF8DaN/view?usp=sharing" 
-            className="btn btn-primary"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FiDownload size={14} /> {t('hero', 'downloadCv')}
-          </a>
+          <div className="cv-dropdown-wrapper" ref={cvDropdownRef}>
+            <button 
+              type="button"
+              className="btn btn-primary cv-dropdown-toggle"
+              onClick={() => setIsCvDropdownOpen(prev => !prev)}
+              aria-haspopup="true"
+              aria-expanded={isCvDropdownOpen}
+            >
+              <FiDownload size={14} /> 
+              <span>{t('hero', 'downloadCv')}</span>
+              <FiChevronDown size={14} className={`chevron-icon ${isCvDropdownOpen ? 'open' : ''}`} />
+            </button>
+
+            {isCvDropdownOpen && (
+              <div className="cv-dropdown-menu">
+                <a 
+                  href={cvLinks.id} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="cv-dropdown-item"
+                  onClick={() => setIsCvDropdownOpen(false)}
+                >
+                  <span className="cv-item-badge">ID</span>
+                  <span className="cv-item-label">{t('hero', 'cvId')}</span>
+                </a>
+                <a 
+                  href={cvLinks.en !== '#' ? cvLinks.en : undefined} 
+                  target={cvLinks.en !== '#' ? "_blank" : undefined}
+                  rel={cvLinks.en !== '#' ? "noopener noreferrer" : undefined}
+                  className={`cv-dropdown-item ${cvLinks.en === '#' ? 'coming-soon' : ''}`}
+                  onClick={(e) => {
+                    if (cvLinks.en === '#') {
+                      e.preventDefault();
+                      alert(lang === 'id' ? 'Link CV Bahasa Inggris akan segera tersedia.' : 'English CV link will be available soon.');
+                    }
+                    setIsCvDropdownOpen(false);
+                  }}
+                >
+                  <span className="cv-item-badge">EN</span>
+                  <span className="cv-item-label">{t('hero', 'cvEn')}</span>
+                  {cvLinks.en === '#' && <span className="cv-item-hint">Soon</span>}
+                </a>
+              </div>
+            )}
+          </div>
+
           <a href="#portfolio" className="btn btn-secondary">
             {t('hero', 'exploreWork')}
           </a>
