@@ -18,7 +18,6 @@ const translations = {
     edu: {
       title: "PENDIDIKAN",
       heading: "Pendidikan",
-      statusBadge: "Status: Mahasiswa Aktif",
       now: "Sekarang",
       locationLabel: "Lokasi Saat Ini",
       focusLabel: "Fokus & Minat",
@@ -63,7 +62,6 @@ const translations = {
     edu: {
       title: "EDUCATION",
       heading: "Education",
-      statusBadge: "Status: Active Student",
       now: "Present",
       locationLabel: "Current Location",
       focusLabel: "Focus & Interest",

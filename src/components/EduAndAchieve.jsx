@@ -30,9 +30,6 @@ const EduAndAchieve = () => {
         viewport={{ once: true }}
         variants={fadeUp}
       >
-        <div className="education-header">
-          <span className="status-badge">{t('edu', 'statusBadge')}</span>
-        </div>
         <div className="education-info">
           <h3>Informatika</h3>
           <h4>UPN "Veteran" Yogyakarta</h4>
