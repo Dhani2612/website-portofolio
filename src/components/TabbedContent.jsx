@@ -90,23 +90,39 @@ const TabbedContent = () => {
     </div>
   );
 
+  const renderSkeleton = () => (
+    <div className="tab-skeleton-grid" aria-busy="true" aria-label="Loading content">
+      {[1, 2, 3, 4].map(n => (
+        <div key={n} className="tab-skeleton-card">
+          <div className="tab-skeleton-line short shimmer" />
+          <div className="tab-skeleton-line medium shimmer" />
+          <div className="tab-skeleton-line shimmer" />
+          <div className="tab-skeleton-line wide shimmer" />
+          <div className="tab-skeleton-line foot shimmer" />
+        </div>
+      ))}
+    </div>
+  );
+
   const renderProjects = (items) => (
     <div className="tab-projects-grid">
       {items.length === 0 ? <div className="empty-state">{t('tabs', 'empty')}</div> : items.map(proj => (
-        <div key={proj._id} className="tab-project-card">
+        <Link to={`/project/${proj._id}`} key={proj._id} className="tab-project-card">
           <div className="tab-project-category">
             {proj.tags && proj.tags.length > 0 ? proj.tags[0] : 'PROJECT'}
           </div>
-          <Link to={`/project/${proj._id}`} className="tab-project-title-link">
-            <h3>{tf(proj, 'title')} <FiArrowRight className="inline-icon" /></h3>
-          </Link>
+          <div className="tab-project-header">
+            <h3 className="tab-project-title">
+              {tf(proj, 'title')} <FiArrowRight className="inline-icon" />
+            </h3>
+          </div>
           <p className="tab-project-desc">{tf(proj, 'desc')}</p>
           {proj.tags && proj.tags.length > 0 && (
             <div className="tab-project-stack">
               {proj.tags.join(' · ')}
             </div>
           )}
-        </div>
+        </Link>
       ))}
     </div>
   );
@@ -145,7 +161,7 @@ const TabbedContent = () => {
   );
 
   const renderContent = () => {
-    if (isLoading) return <div className="loading-state">{t('tabs', 'loading')}</div>;
+    if (isLoading) return renderSkeleton();
 
     switch (activeTab) {
       case 'profesional':
@@ -172,7 +188,14 @@ const TabbedContent = () => {
             onClick={() => setActiveTab(tab.id)}
             className={`tab-btn ${activeTab === tab.id ? 'active' : ''}`}
           >
-            {tab.label}
+            <span>{tab.label}</span>
+            {activeTab === tab.id && (
+              <motion.div
+                layoutId="activeTabUnderline"
+                className="tab-active-indicator"
+                transition={{ type: "spring", stiffness: 380, damping: 30 }}
+              />
+            )}
           </button>
         ))}
       </div>
