@@ -1,8 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { FiDownload, FiChevronDown } from 'react-icons/fi';
-import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
-import { FiMail } from 'react-icons/fi';
 import { useLanguage } from '../context/LanguageContext';
 import './Hero.css';
 
@@ -102,29 +100,6 @@ const Hero = () => {
                 </a>
               </div>
             )}
-          </div>
-
-          <a href="#portfolio" className="btn btn-secondary">
-            {t('hero', 'exploreWork')}
-          </a>
-        </div>
-
-        {/* Social Links */}
-        <div className="hero-connect">
-          <span className="connect-label">{t('hero', 'connect')}</span>
-          <div className="social-icons">
-            <a href="https://github.com/Dhani2612" target="_blank" rel="noreferrer" className="social-link" aria-label="GitHub">
-              <FaGithub />
-            </a>
-            <a href="https://www.linkedin.com/in/dhanikp/" target="_blank" rel="noreferrer" className="social-link" aria-label="LinkedIn">
-              <FaLinkedin />
-            </a>
-            <a href="https://www.instagram.com/dhann.kp/" target="_blank" rel="noreferrer" className="social-link" aria-label="Instagram">
-              <FaInstagram />
-            </a>
-            <a href="mailto:kartikadani0@gmail.com" className="social-link" aria-label="Email">
-              <FiMail />
-            </a>
           </div>
         </div>
       </motion.div>

@@ -1,5 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import { FiMail } from 'react-icons/fi';
 import { useLanguage } from '../context/LanguageContext';
 import './EduAndAchieve.css';
 
@@ -37,21 +39,26 @@ const EduAndAchieve = () => {
       </motion.div>
 
       <motion.div 
-        className="quick-info-section"
+        className="edu-connect-section"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
         variants={fadeUp}
       >
-        <div className="info-list">
-          <div className="info-item">
-            <span className="info-label">{t('edu', 'locationLabel')}</span>
-            <span className="info-value">Sleman, DI Yogyakarta</span>
-          </div>
-          <div className="info-item">
-            <span className="info-label">{t('edu', 'focusLabel')}</span>
-            <span className="info-value">{t('edu', 'focusValue')}</span>
-          </div>
+        <span className="connect-label">{t('hero', 'connect')}</span>
+        <div className="social-icons">
+          <a href="https://github.com/Dhani2612" target="_blank" rel="noreferrer" className="social-link" aria-label="GitHub">
+            <FaGithub />
+          </a>
+          <a href="https://www.linkedin.com/in/dhanikp/" target="_blank" rel="noreferrer" className="social-link" aria-label="LinkedIn">
+            <FaLinkedin />
+          </a>
+          <a href="https://www.instagram.com/dhann.kp/" target="_blank" rel="noreferrer" className="social-link" aria-label="Instagram">
+            <FaInstagram />
+          </a>
+          <a href="mailto:kartikadani0@gmail.com" className="social-link" aria-label="Email">
+            <FiMail />
+          </a>
         </div>
       </motion.div>
     </div>
