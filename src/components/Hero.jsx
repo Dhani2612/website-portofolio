@@ -15,8 +15,8 @@ const Hero = () => {
 
   // Link CV: id sudah terisi, en menunggu link dari user
   const cvLinks = {
-    id: "https://drive.google.com/file/d/1K7j0Fic4KfvVf_ixWRDtRVLCAthF8DaN/view?usp=sharing",
-    en: "#"
+    id: "https://drive.google.com/file/d/1eYhrE_bVsMBHcl4F03hv6iraGJX-Ih-D/view?usp=sharing",
+    en: "https://drive.google.com/file/d/1_9gUiiEqTC4WLRuqj6opslTPmUPkFbzz/view?usp=sharing"
   };
 
   useEffect(() => {
@@ -92,21 +92,14 @@ const Hero = () => {
                   <span className="cv-item-label">{t('hero', 'cvId')}</span>
                 </a>
                 <a 
-                  href={cvLinks.en !== '#' ? cvLinks.en : undefined} 
-                  target={cvLinks.en !== '#' ? "_blank" : undefined}
-                  rel={cvLinks.en !== '#' ? "noopener noreferrer" : undefined}
-                  className={`cv-dropdown-item ${cvLinks.en === '#' ? 'coming-soon' : ''}`}
-                  onClick={(e) => {
-                    if (cvLinks.en === '#') {
-                      e.preventDefault();
-                      alert(lang === 'id' ? 'Link CV Bahasa Inggris akan segera tersedia.' : 'English CV link will be available soon.');
-                    }
-                    setIsCvDropdownOpen(false);
-                  }}
+                  href={cvLinks.en} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="cv-dropdown-item"
+                  onClick={() => setIsCvDropdownOpen(false)}
                 >
                   <span className="cv-item-badge">EN</span>
                   <span className="cv-item-label">{t('hero', 'cvEn')}</span>
-                  {cvLinks.en === '#' && <span className="cv-item-hint">Soon</span>}
                 </a>
               </div>
             )}
