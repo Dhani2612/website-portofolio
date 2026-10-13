@@ -45,7 +45,6 @@ const Hero = () => {
         transition={{ duration: 0.5, ease: "easeOut" }}
       >
         <div className="section-header">
-          <span className="section-label">{t('hero', 'profile')}</span>
           <h2 className="section-heading">{t('hero', 'heading')}</h2>
         </div>
 

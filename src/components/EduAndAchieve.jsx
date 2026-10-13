@@ -19,7 +19,6 @@ const EduAndAchieve = () => {
         viewport={{ once: true }}
         variants={fadeUp}
       >
-        <span className="section-label">{t('edu', 'title')}</span>
         <h2 className="section-heading">{t('edu', 'heading')}</h2>
       </motion.div>
 
